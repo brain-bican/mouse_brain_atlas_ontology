@@ -19,9 +19,9 @@
         "val" : "Mouse Brain Atlas Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-02-10"
+        "val" : "2025-04-17"
       } ],
-      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2025-02-10/mbao-base.json"
+      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2025-04-17/mbao-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000050",

@@ -11,12 +11,12 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://purl.brain-bican.org/ontology/mbao/mbao-simple-non-classified.owl">
-        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2025-02-10/mbao-simple-non-classified.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2025-04-17/mbao-simple-non-classified.owl"/>
         <obo:IAO_0000700 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_997"/>
         <terms:description>An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon.</terms:description>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Mouse Brain Atlas Ontology</terms:title>
-        <owl:versionInfo>2025-02-10</owl:versionInfo>
+        <owl:versionInfo>2025-04-17</owl:versionInfo>
     </owl:Ontology>
     
 
