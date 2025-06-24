@@ -21,6 +21,10 @@ https://purl.brain-bican.org/ontology/mbao/mbao.owl
 
 Editors of this ontology should use the edit version, [src/ontology/mbao-edit.owl](src/ontology/mbao-edit.owl)
 
+## Workflow
+
+See the [pipeline workflow](docs/main_flow.md) for details on how the ontology is generated.
+
 ## Contact
 
 Please use this GitHub repository's [Issue tracker](https://github.com/brain-bican/mouse_brain_atlas_ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
