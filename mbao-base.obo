@@ -16456,8 +16456,8 @@ synonym: "XIn" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=717
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=717
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=717
-is_a: UBERON:0002019
-intersection_of: UBERON:0002019
+is_a: UBERON:0014615
+intersection_of: UBERON:0014615
 intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:967 ! part of cranial nerves
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
@@ -17773,8 +17773,8 @@ synonym: "VIIn" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=798
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=798
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=798
-is_a: UBERON:0001647
-intersection_of: UBERON:0001647
+is_a: UBERON:0004674
+intersection_of: UBERON:0004674
 intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:967 ! part of cranial nerves
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
@@ -17953,8 +17953,8 @@ synonym: "IXn" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=808
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=808
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=808
-is_a: UBERON:0001649
-intersection_of: UBERON:0001649
+is_a: UBERON:0019310
+intersection_of: UBERON:0019310
 intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:967 ! part of cranial nerves
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
@@ -18047,8 +18047,8 @@ synonym: "XIIn" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=813
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=813
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=813
-is_a: UBERON:0001650
-intersection_of: UBERON:0001650
+is_a: UBERON:0004675
+intersection_of: UBERON:0004675
 intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:967 ! part of cranial nerves
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
@@ -19569,8 +19569,8 @@ synonym: "Vn" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=901
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=901
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=901
-is_a: UBERON:0001645
-intersection_of: UBERON:0001645
+is_a: UBERON:0004673
+intersection_of: UBERON:0004673
 intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:967 ! part of cranial nerves
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
@@ -19838,8 +19838,8 @@ synonym: "Xn" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=917
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=917
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=917
-is_a: UBERON:0001759
-intersection_of: UBERON:0001759
+is_a: UBERON:0011213
+intersection_of: UBERON:0011213
 intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:967 ! part of cranial nerves
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
@@ -20340,6 +20340,7 @@ intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:467 ! part of Hypothalamic medial zone
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
 property_value: IAO:0000028 "PH" xsd:string
+property_value: IAO:0000589 "posterior hyfpothalamic nucleus" xsd:string
 property_value: IAO:0000589 "posterior hypothalamic nucleus" xsd:string
 property_value: prefLabel "Posterior hypothalamic nucleus  ( mouse )" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
@@ -23259,6 +23260,10 @@ property_value: prefLabel "mesencephalic tract of trigeminal nerve" xsd:string
 [Term]
 id: UBERON:0002667
 property_value: prefLabel "lateral septal nucleus" xsd:string
+
+[Term]
+id: UBERON:0002668
+property_value: prefLabel "oculomotor nerve root" xsd:string
 
 [Term]
 id: UBERON:0002671
@@ -26751,6 +26756,10 @@ property_value: prefLabel "sensory organ epithelium" xsd:string
 [Term]
 id: UBERON:0019306
 property_value: prefLabel "nose epithelium" xsd:string
+
+[Term]
+id: UBERON:0019311
+property_value: prefLabel "root of olfactory nerve" xsd:string
 
 [Term]
 id: UBERON:0020358

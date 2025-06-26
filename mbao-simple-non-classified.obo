@@ -16053,6 +16053,7 @@ xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=946
 relationship: BFO:0000050 MBA:467 ! part of
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
 property_value: IAO:0000028 "PH" xsd:string
+property_value: IAO:0000589 "posterior hyfpothalamic nucleus" xsd:string
 property_value: IAO:0000589 "posterior hypothalamic nucleus" xsd:string
 property_value: prefLabel "Posterior hypothalamic nucleus  ( mouse )" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
@@ -16819,6 +16820,314 @@ id: MBA:ENTITY
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
 property_value: IAO:0000589 "MBA entity" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
+
+[Term]
+id: NCBITaxon:10090
+property_value: prefLabel "Mus musculus" xsd:string
+
+[Term]
+id: UBERON:0000411
+property_value: prefLabel "visual cortex" xsd:string
+
+[Term]
+id: UBERON:0000908
+property_value: prefLabel "hippocampal commissure" xsd:string
+
+[Term]
+id: UBERON:0000935
+property_value: prefLabel "anterior commissure" xsd:string
+
+[Term]
+id: UBERON:0000988
+property_value: prefLabel "pons" xsd:string
+
+[Term]
+id: UBERON:0001384
+property_value: prefLabel "primary motor cortex" xsd:string
+
+[Term]
+id: UBERON:0001393
+property_value: prefLabel "auditory cortex" xsd:string
+
+[Term]
+id: UBERON:0001648
+property_value: prefLabel "vestibulocochlear nerve" xsd:string
+
+[Term]
+id: UBERON:0001719
+property_value: prefLabel "nucleus ambiguus" xsd:string
+
+[Term]
+id: UBERON:0001720
+property_value: prefLabel "cochlear nucleus" xsd:string
+
+[Term]
+id: UBERON:0001880
+property_value: prefLabel "bed nucleus of stria terminalis" xsd:string
+
+[Term]
+id: UBERON:0001883
+property_value: prefLabel "olfactory tubercle" xsd:string
+
+[Term]
+id: UBERON:0001885
+property_value: prefLabel "dentate gyrus of hippocampal formation" xsd:string
+
+[Term]
+id: UBERON:0001945
+property_value: prefLabel "superior colliculus" xsd:string
+
+[Term]
+id: UBERON:0001950
+property_value: prefLabel "neocortex" xsd:string
+
+[Term]
+id: UBERON:0001953
+property_value: prefLabel "presubiculum" xsd:string
+
+[Term]
+id: UBERON:0002154
+property_value: prefLabel "lateral reticular nucleus" xsd:string
+
+[Term]
+id: UBERON:0002191
+property_value: prefLabel "subiculum" xsd:string
+
+[Term]
+id: UBERON:0002266
+property_value: prefLabel "anterior olfactory nucleus" xsd:string
+
+[Term]
+id: UBERON:0002285
+property_value: prefLabel "telencephalic ventricle" xsd:string
+
+[Term]
+id: UBERON:0002421
+property_value: prefLabel "hippocampal formation" xsd:string
+
+[Term]
+id: UBERON:0002436
+property_value: prefLabel "primary visual cortex" xsd:string
+
+[Term]
+id: UBERON:0002559
+property_value: prefLabel "medullary reticular formation" xsd:string
+
+[Term]
+id: UBERON:0002591
+property_value: prefLabel "oral part of spinal trigeminal nucleus" xsd:string
+
+[Term]
+id: UBERON:0002667
+property_value: prefLabel "lateral septal nucleus" xsd:string
+
+[Term]
+id: UBERON:0002687
+property_value: prefLabel "area X of ventral lateral nucleus" xsd:string
+
+[Term]
+id: UBERON:0002728
+property_value: prefLabel "entorhinal cortex" xsd:string
+
+[Term]
+id: UBERON:0002775
+property_value: prefLabel "olivocochlear bundle" xsd:string
+
+[Term]
+id: UBERON:0002795
+property_value: prefLabel "frontal pole" xsd:string
+
+[Term]
+id: UBERON:0002869
+property_value: prefLabel "diffuse reticular nucleus" xsd:string
+
+[Term]
+id: UBERON:0002883
+property_value: prefLabel "central amygdaloid nucleus" xsd:string
+
+[Term]
+id: UBERON:0002887
+property_value: prefLabel "basal amygdaloid nucleus" xsd:string
+
+[Term]
+id: UBERON:0002889
+property_value: prefLabel "medial part of basal amygdaloid nucleus" xsd:string
+
+[Term]
+id: UBERON:0002891
+property_value: prefLabel "cortical amygdaloid nucleus" xsd:string
+
+[Term]
+id: UBERON:0002892
+property_value: prefLabel "medial amygdaloid nucleus" xsd:string
+
+[Term]
+id: UBERON:0002893
+property_value: prefLabel "nucleus of lateral olfactory tract" xsd:string
+
+[Term]
+id: UBERON:0002918
+property_value: prefLabel "medial parabrachial nucleus" xsd:string
+
+[Term]
+id: UBERON:0002928
+property_value: prefLabel "dentate gyrus polymorphic layer" xsd:string
+
+[Term]
+id: UBERON:0003004
+property_value: prefLabel "median raphe nucleus" xsd:string
+
+[Term]
+id: UBERON:0003007
+property_value: prefLabel "lateral parabrachial nucleus" xsd:string
+
+[Term]
+id: UBERON:0004077
+property_value: prefLabel "cerebellum vermis lobule IV" xsd:string
+
+[Term]
+id: UBERON:0004167
+property_value: prefLabel "orbitofrontal cortex" xsd:string
+
+[Term]
+id: UBERON:0004679
+property_value: prefLabel "dentate gyrus molecular layer" xsd:string
+
+[Term]
+id: UBERON:0004683
+property_value: prefLabel "parasubiculum" xsd:string
+
+[Term]
+id: UBERON:0004725
+property_value: prefLabel "piriform cortex" xsd:string
+
+[Term]
+id: UBERON:0004922
+property_value: prefLabel "postnatal subventricular zone" xsd:string
+
+[Term]
+id: UBERON:0005290
+property_value: prefLabel "myelencephalon" xsd:string
+
+[Term]
+id: UBERON:0005376
+property_value: prefLabel "olfactory bulb external plexiform layer" xsd:string
+
+[Term]
+id: UBERON:0006083
+property_value: prefLabel "perirhinal cortex" xsd:string
+
+[Term]
+id: UBERON:0006514
+property_value: prefLabel "pallidum" xsd:string
+
+[Term]
+id: UBERON:0007224
+property_value: prefLabel "medial entorhinal cortex" xsd:string
+
+[Term]
+id: UBERON:0007225
+property_value: prefLabel "lateral entorhinal cortex" xsd:string
+
+[Term]
+id: UBERON:0007763
+property_value: prefLabel "cerebellum vermis culmen" xsd:string
+
+[Term]
+id: UBERON:0008933
+property_value: prefLabel "primary somatosensory cortex" xsd:string
+
+[Term]
+id: UBERON:0008934
+property_value: prefLabel "secondary somatosensory cortex" xsd:string
+
+[Term]
+id: UBERON:0009050
+property_value: prefLabel "nucleus of solitary tract" xsd:string
+
+[Term]
+id: UBERON:0009835
+property_value: prefLabel "anterior cingulate cortex" xsd:string
+
+[Term]
+id: UBERON:0013531
+property_value: prefLabel "retrosplenial region" xsd:string
+
+[Term]
+id: UBERON:0014284
+property_value: prefLabel "endopiriform nucleus" xsd:string
+
+[Term]
+id: UBERON:0014528
+property_value: prefLabel "extreme capsule" xsd:string
+
+[Term]
+id: UBERON:0014913
+property_value: prefLabel "ventral pallium" xsd:string
+
+[Term]
+id: UBERON:0014918
+property_value: prefLabel "retrosplenial granular cortex" xsd:string
+
+[Term]
+id: UBERON:0015800
+property_value: prefLabel "taenia tectum of brain" xsd:string
+
+[Term]
+id: UBERON:0016634
+property_value: prefLabel "premotor cortex" xsd:string
+
+[Term]
+id: UBERON:0022424
+property_value: prefLabel "supragenual nucleus of pontine tegmentum" xsd:string
+
+[Term]
+id: UBERON:0034676
+property_value: prefLabel "forceps major of corpus callosum" xsd:string
+
+[Term]
+id: UBERON:0034678
+property_value: prefLabel "forceps minor of corpus callosum" xsd:string
+
+[Term]
+id: UBERON:0034751
+property_value: prefLabel "primary auditory cortex" xsd:string
+
+[Term]
+id: UBERON:0034893
+property_value: prefLabel "agranular insular cortex" xsd:string
+
+[Term]
+id: UBERON:0034989
+property_value: prefLabel "amygdalopiriform transition area" xsd:string
+
+[Term]
+id: UBERON:0035886
+property_value: prefLabel "posterior parietal association areas" xsd:string
+
+[Term]
+id: UBERON:0035894
+property_value: prefLabel "anterolateral visual area" xsd:string
+
+[Term]
+id: UBERON:0035895
+property_value: prefLabel "lateral visual area" xsd:string
+
+[Term]
+id: UBERON:0035897
+property_value: prefLabel "posterolateral visual area" xsd:string
+
+[Term]
+id: UBERON:0035900
+property_value: prefLabel "posteromedial visual area" xsd:string
+
+[Term]
+id: UBERON:0035971
+property_value: prefLabel "postsubiculum" xsd:string
+
+[Term]
+id: UBERON:8440076
+property_value: prefLabel "somatomotor area" xsd:string
 
 [Typedef]
 id: BFO:0000050

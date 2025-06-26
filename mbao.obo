@@ -6382,7 +6382,7 @@ synonym: "iVIIn" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1131
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1131
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1131
-is_a: MBA:967 ! cranial nerves
+is_a: MBA:798 ! facial nerve
 is_a: UBERON:0001699 ! sensory root of facial nerve
 intersection_of: UBERON:0001699 ! sensory root of facial nerve
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -8649,7 +8649,7 @@ synonym: "sV" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=229
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=229
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=229
-is_a: MBA:967 ! cranial nerves
+is_a: MBA:901 ! trigeminal nerve
 is_a: UBERON:0009907 ! sensory root of trigeminal nerve
 intersection_of: UBERON:0009907 ! sensory root of trigeminal nerve
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -18012,8 +18012,8 @@ xref: http://atlas.brain-map.org/atlas?atlas=1#structure=717
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=717
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=717
 is_a: MBA:1009 ! fiber tracts
-is_a: UBERON:0002019 ! accessory XI nerve
-intersection_of: UBERON:0002019 ! accessory XI nerve
+is_a: UBERON:0014615 ! accessory nerve root
+intersection_of: UBERON:0014615 ! accessory nerve root
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
 relationship: part_of MBA:967 ! cranial nerves
 property_value: IAO:0000028 "XIn" xsd:string
@@ -19284,9 +19284,9 @@ synonym: "VIIn" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=798
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=798
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=798
-is_a: MBA:1009 ! fiber tracts
-is_a: UBERON:0001647 ! facial nerve
-intersection_of: UBERON:0001647 ! facial nerve
+is_a: MBA:967 ! cranial nerves
+is_a: UBERON:0004674 ! facial nerve root
+intersection_of: UBERON:0004674 ! facial nerve root
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
 relationship: part_of MBA:967 ! cranial nerves
 property_value: IAO:0000028 "VIIn" xsd:string
@@ -19454,9 +19454,9 @@ synonym: "IXn" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=808
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=808
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=808
-is_a: MBA:1009 ! fiber tracts
-is_a: UBERON:0001649 ! glossopharyngeal nerve
-intersection_of: UBERON:0001649 ! glossopharyngeal nerve
+is_a: MBA:967 ! cranial nerves
+is_a: UBERON:0019310 ! glossopharyngeal nerve root
+intersection_of: UBERON:0019310 ! glossopharyngeal nerve root
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
 relationship: part_of MBA:967 ! cranial nerves
 property_value: IAO:0000028 "IXn" xsd:string
@@ -19546,9 +19546,9 @@ synonym: "XIIn" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=813
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=813
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=813
-is_a: MBA:1009 ! fiber tracts
-is_a: UBERON:0001650 ! hypoglossal nerve
-intersection_of: UBERON:0001650 ! hypoglossal nerve
+is_a: MBA:967 ! cranial nerves
+is_a: UBERON:0004675 ! hypoglossal nerve root
+intersection_of: UBERON:0004675 ! hypoglossal nerve root
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
 relationship: part_of MBA:967 ! cranial nerves
 property_value: IAO:0000028 "XIIn" xsd:string
@@ -20996,9 +20996,9 @@ synonym: "Vn" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=901
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=901
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=901
-is_a: MBA:1009 ! fiber tracts
-is_a: UBERON:0001645 ! trigeminal nerve
-intersection_of: UBERON:0001645 ! trigeminal nerve
+is_a: MBA:967 ! cranial nerves
+is_a: UBERON:0004673 ! trigeminal nerve root
+intersection_of: UBERON:0004673 ! trigeminal nerve root
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
 relationship: part_of MBA:967 ! cranial nerves
 property_value: IAO:0000028 "Vn" xsd:string
@@ -21254,8 +21254,8 @@ xref: http://atlas.brain-map.org/atlas?atlas=1#structure=917
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=917
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=917
 is_a: MBA:1009 ! fiber tracts
-is_a: UBERON:0001759 ! vagus nerve
-intersection_of: UBERON:0001759 ! vagus nerve
+is_a: UBERON:0011213 ! root of vagus nerve
+intersection_of: UBERON:0011213 ! root of vagus nerve
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
 relationship: part_of MBA:967 ! cranial nerves
 property_value: IAO:0000028 "Xn" xsd:string
@@ -21457,7 +21457,7 @@ synonym: "moV" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=93
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=93
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=93
-is_a: MBA:967 ! cranial nerves
+is_a: MBA:901 ! trigeminal nerve
 is_a: UBERON:0002796 ! motor root of trigeminal nerve
 intersection_of: UBERON:0002796 ! motor root of trigeminal nerve
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -21739,6 +21739,7 @@ intersection_of: UBERON:0002706 ! posterior nucleus of hypothalamus
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
 relationship: part_of MBA:467 ! Hypothalamic medial zone
 property_value: IAO:0000028 "PH" xsd:string
+property_value: IAO:0000589 "posterior hyfpothalamic nucleus" xsd:string
 property_value: IAO:0000589 "posterior hypothalamic nucleus" xsd:string
 property_value: prefLabel "Posterior hypothalamic nucleus  ( mouse )" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
@@ -40926,6 +40927,7 @@ xref: UMLS:C0175408 {source="BIRNLEX:1323"}
 is_a: UBERON:0006843 ! root of cranial nerve
 relationship: extends_fibers_into UBERON:0001643 ! oculomotor nerve
 relationship: part_of UBERON:0001943 ! midbrain tegmentum
+property_value: prefLabel "oculomotor nerve root" xsd:string
 property_value: UBPROP:0000012 "todo - determine pattern for central part of nerve vs fibers vs root" xsd:string
 
 [Term]
@@ -49360,6 +49362,37 @@ relationship: part_of UBERON:0001895 ! metencephalon
 property_value: prefLabel "facial nerve root" xsd:string
 
 [Term]
+id: UBERON:0004675
+name: hypoglossal nerve root
+namespace: uberon
+alt_id: UBERON:0022760
+def: "A nerve root that extends_fibers_into a hypoglossal nerve." [OBOL:automatic]
+synonym: "central part of hypoglossal nerve" EXACT [FMA:72632]
+synonym: "central part of hypoglossal nerve" RELATED [BIRNLEX:1288]
+synonym: "fibrae nervi hypoglossi" EXACT OMO:0003011 [FMA:72632, FMA:TA]
+synonym: "hypoglossal nerve fiber bundle" EXACT HUMAN_PREFERRED [BIRNLEX:1288]
+synonym: "hypoglossal nerve fibers" EXACT [FMA:72632]
+synonym: "hypoglossal nerve fibers" RELATED [BIRNLEX:1288]
+synonym: "hypoglossal nerve root" EXACT [BIRNLEX:1588]
+synonym: "hypoglossal nerve tract" EXACT [FMA:72632]
+synonym: "hypoglossal nerve/ root" RELATED [BAMS:12n]
+synonym: "root of hypoglossal nerve" EXACT [FMA:72632]
+synonym: "root of hypoglossal nerve" RELATED [BIRNLEX:1288]
+xref: BAMS:12n
+xref: BAMS:12nf
+xref: BIRNLEX:1288
+xref: BIRNLEX:1588
+xref: DHBA:12886
+xref: DMBA:17750
+xref: FMA:72632
+xref: HBA:9343
+xref: neuronames:798
+xref: UMLS:C0175555
+is_a: UBERON:0006843 {source="FMA"} ! root of cranial nerve
+relationship: extends_fibers_into UBERON:0001650 ! hypoglossal nerve
+relationship: part_of UBERON:0001896 ! medulla oblongata
+
+[Term]
 id: UBERON:0004679
 name: dentate gyrus molecular layer
 namespace: uberon
@@ -56994,6 +57027,27 @@ relationship: part_of UBERON:0011177 {source="MA"} ! posterior division of bed n
 property_value: prefLabel "transverse nucleus of stria terminalis" xsd:string
 
 [Term]
+id: UBERON:0011213
+name: root of vagus nerve
+namespace: uberon
+def: "A root of cranial nerve that is part of a vagus nerve." [OBOL:automatic]
+synonym: "rootlet of vagus nerve" EXACT [FMA:6213]
+synonym: "rX" BROAD [ZFA:0007011]
+synonym: "vagal root" EXACT [ZFA:0007011]
+synonym: "vagus nerve root" EXACT [BIRNLEX:1456]
+synonym: "vagus neural rootlet" RELATED [FMA:6213]
+synonym: "vagus root" EXACT [ZFA:0007011]
+xref: BIRNLEX:1456
+xref: DHBA:12888
+xref: DMBA:17748
+xref: FMA:6213
+xref: HBA:9337
+xref: ZFA:0007011
+is_a: UBERON:0002211 ! nerve root
+relationship: extends_fibers_into UBERON:0001759 ! vagus nerve
+property_value: UBPROP:0000012 "FMA distinguishes between roots and rootlets - we mix the two here" xsd:string {external_ontology="FMA"}
+
+[Term]
 id: UBERON:0011214
 name: nucleus of midbrain tectum
 namespace: uberon
@@ -58761,6 +58815,36 @@ relationship: part_of UBERON:0005403 {source="ABA"} ! ventral striatum
 property_value: prefLabel "fundus striati" xsd:string
 
 [Term]
+id: UBERON:0014615
+name: accessory nerve root
+namespace: uberon
+def: "A nerve root that is part of a accessory XI nerve." [OBOL:automatic]
+synonym: "accessory nerve root" EXACT HUMAN_PREFERRED [BIRNLEX:1580]
+synonym: "accessory portion of spinal accessory nerve" RELATED [NeuroNames:703]
+synonym: "bulbar accessory nerve" RELATED [NeuroNames:703]
+synonym: "bulbar part of accessory nerve" RELATED [NeuroNames:703]
+synonym: "c11n" BROAD OMO:0003000 [BIRNLEX:1580, NIFSTD:NeuroNames_abbrevSource]
+synonym: "cranial accessory nerve" RELATED [NeuroNames:703]
+synonym: "cranial part of accessory nerve" RELATED [BAMS:c11n]
+synonym: "cranial part of the accessory nerve" RELATED [NeuroNames:703]
+synonym: "cranial portion of eleventh cranial nerve" RELATED [NeuroNames:703]
+synonym: "internal branch of accessory nerve" RELATED [NeuroNames:703]
+synonym: "nerve XI (cranialis)" RELATED [NeuroNames:703]
+synonym: "pars vagalis of nervus accessorius" RELATED OMO:0003011 [NeuroNames:703]
+synonym: "radices craniales nervi accessorii" RELATED OMO:0003011 [NeuroNames:703]
+synonym: "root of accessory nerve" EXACT []
+xref: BAMS:c11n
+xref: BIRNLEX:1580
+xref: DHBA:12883
+xref: DMBA:17749
+xref: HBA:9340
+xref: neuronames:703 {source="BIRNLEX:1580"}
+xref: SCTID:280187004
+xref: Wikipedia:Cranial_root_of_accessory_nerves
+is_a: UBERON:0002211 ! nerve root
+relationship: extends_fibers_into UBERON:0002019 ! accessory XI nerve
+
+[Term]
 id: UBERON:0014642
 name: vestibulocerebellum
 namespace: uberon
@@ -60022,6 +60106,19 @@ relationship: part_of UBERON:0000004 ! nose
 property_value: prefLabel "nose epithelium" xsd:string
 
 [Term]
+id: UBERON:0019310
+name: glossopharyngeal nerve root
+namespace: uberon
+synonym: "glossopharyngeal nerve root" EXACT [BIRNLEX:1533]
+xref: BIRNLEX:1533
+xref: DHBA:12887
+xref: DMBA:17747
+xref: HBA:9334
+is_a: UBERON:0006843 ! root of cranial nerve
+relationship: extends_fibers_into UBERON:0001649 ! glossopharyngeal nerve
+relationship: part_of UBERON:0001896 ! medulla oblongata
+
+[Term]
 id: UBERON:0019311
 name: root of olfactory nerve
 namespace: uberon
@@ -60030,6 +60127,7 @@ synonym: "olfactory nerve root" EXACT [BIRNLEX:1632]
 xref: BIRNLEX:1632
 is_a: UBERON:0002211 ! nerve root
 relationship: extends_fibers_into UBERON:0001579 ! olfactory nerve
+property_value: prefLabel "root of olfactory nerve" xsd:string
 
 [Term]
 id: UBERON:0020358

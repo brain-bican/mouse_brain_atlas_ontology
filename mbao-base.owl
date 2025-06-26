@@ -6104,7 +6104,9 @@
 
     <!-- http://purl.obolibrary.org/obo/UBERON_0002668 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002668"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002668">
+        <skos:prefLabel>oculomotor nerve root</skos:prefLabel>
+    </owl:Class>
     
 
 
@@ -8465,6 +8467,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004674">
         <skos:prefLabel>facial nerve root</skos:prefLabel>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004675 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004675"/>
     
 
 
@@ -11604,6 +11612,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0011213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0011213"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0011214 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0011214">
@@ -12452,6 +12466,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014615 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014615"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0014642 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014642">
@@ -13092,9 +13112,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0019310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0019310"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0019311 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0019311"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0019311">
+        <skos:prefLabel>root of olfactory nerve</skos:prefLabel>
+    </owl:Class>
     
 
 
@@ -55436,7 +55464,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002019"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014615"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -55444,7 +55472,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0014615"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -58812,7 +58840,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001647"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004674"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -58820,7 +58848,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001647"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004674"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -59288,7 +59316,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001649"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0019310"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -59296,7 +59324,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001649"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0019310"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -59534,7 +59562,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001650"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004675"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -59542,7 +59570,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001650"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004675"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -63620,7 +63648,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001645"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004673"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -63628,7 +63656,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001645"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004673"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -64348,7 +64376,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001759"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0011213"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -64356,7 +64384,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001759"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011213"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -65676,6 +65704,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>PH</obo:IAO_0000028>
+        <obo:IAO_0000589>posterior hyfpothalamic nucleus</obo:IAO_0000589>
         <obo:IAO_0000589>posterior hypothalamic nucleus</obo:IAO_0000589>
         <oboInOwl:hasDbXref>http://atlas.brain-map.org/atlas?atlas=1#structure=946</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://atlas.brain-map.org/atlas?atlas=2#structure=946</oboInOwl:hasDbXref>
