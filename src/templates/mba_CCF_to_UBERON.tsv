@@ -1155,10 +1155,10 @@ https://purl.brain-bican.org/ontology/mbao/MBA_963	"lateral reticular nucleus, p
 https://purl.brain-bican.org/ontology/mbao/MBA_964	"corpus callosum, extreme capsule"	subclass	http://purl.obolibrary.org/obo/UBERON_0014528			extreme capsule 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_965	"retrosplenial area, lateral agranular part, layer 2/3"	subclass	http://purl.obolibrary.org/obo/UBERON_0013531			retrosplenial region 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_966	"endopiriform nucleus, ventral part"	subclass	http://purl.obolibrary.org/obo/UBERON_0014284			endopiriform nucleus 	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_967	cranial nerves	equivalent		http://purl.obolibrary.org/obo/UBERON_0001785		cranial nerve	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_967	cranial nerves	equivalent		http://purl.obolibrary.org/obo/UBERON_0001785		cranial nerve 	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_967	cranial nerves	equivalent		http://purl.obolibrary.org/obo/UBERON_0001785		cranial nerve 	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_967	cranial nerves	equivalent		http://purl.obolibrary.org/obo/UBERON_0001785		cranial nerve 	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_967	cranial nerves	equivalent		http://purl.obolibrary.org/obo/UBERON_0006843		root of cranial nerve	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_967	cranial nerves	equivalent		http://purl.obolibrary.org/obo/UBERON_0006843		root of cranial nerve 	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_967	cranial nerves	equivalent		http://purl.obolibrary.org/obo/UBERON_0006843		root of cranial nerve 	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_967	cranial nerves	equivalent		http://purl.obolibrary.org/obo/UBERON_0006843		root of cranial nerve 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_969	"orbital area, ventrolateral part, layer 1"	subclass	http://purl.obolibrary.org/obo/UBERON_0004167			orbitofrontal cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_970	"paragigantocellular reticular nucleus, dorsal part"	equivalent		http://purl.obolibrary.org/obo/UBERON_0016825		dorsal paragigantocellular nucleus	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_971	"corpus callosum, posterior forceps"	subclass	http://purl.obolibrary.org/obo/UBERON_0034676			forceps major of corpus callosum 	Verified	https://ror.org/03cpe7c52

@@ -267,12 +267,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0001785 -->
-
-    <Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001785"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0001877 -->
 
     <Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001877"/>
@@ -2340,6 +2334,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0006840 -->
 
     <Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006840"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006843 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006843"/>
     
 
 
@@ -31983,7 +31983,7 @@
         <equivalentClass>
             <Class>
                 <intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001785"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006843"/>
                     <Restriction>
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
