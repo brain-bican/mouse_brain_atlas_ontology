@@ -1,6 +1,1770 @@
 ID	xref	prefLabel
 ID	A OboInOwl:hasDbXref	A skos:prefLabel
-https://purl.brain-bican.org/ontology/mbao/ABA_ENTITY		ABA entity
+http://purl.obolibrary.org/obo/CL_0000000		cell
+http://purl.obolibrary.org/obo/CL_0000006		neuronal receptor cell
+http://purl.obolibrary.org/obo/CL_0000007		early embryonic cell (metazoa)
+http://purl.obolibrary.org/obo/CL_0000008		migratory cranial neural crest cell
+http://purl.obolibrary.org/obo/CL_0000029		neural crest derived neuron
+http://purl.obolibrary.org/obo/CL_0000031		neuroblast (sensu Vertebrata)
+http://purl.obolibrary.org/obo/CL_0000034		stem cell
+http://purl.obolibrary.org/obo/CL_0000037		hematopoietic stem cell
+http://purl.obolibrary.org/obo/CL_0000038		erythroid progenitor cell
+http://purl.obolibrary.org/obo/CL_0000039		germ line cell
+http://purl.obolibrary.org/obo/CL_0000048		multi fate stem cell
+http://purl.obolibrary.org/obo/CL_0000049		common myeloid progenitor
+http://purl.obolibrary.org/obo/CL_0000050		megakaryocyte-erythroid progenitor cell
+http://purl.obolibrary.org/obo/CL_0000052		totipotent stem cell
+http://purl.obolibrary.org/obo/CL_0000055		non-terminally differentiated cell
+http://purl.obolibrary.org/obo/CL_0000056		myoblast
+http://purl.obolibrary.org/obo/CL_0000057		fibroblast
+http://purl.obolibrary.org/obo/CL_0000058		chondroblast
+http://purl.obolibrary.org/obo/CL_0000064		ciliated cell
+http://purl.obolibrary.org/obo/CL_0000065		ependymal cell
+http://purl.obolibrary.org/obo/CL_0000066		epithelial cell
+http://purl.obolibrary.org/obo/CL_0000067		ciliated epithelial cell
+http://purl.obolibrary.org/obo/CL_0000071		blood vessel endothelial cell
+http://purl.obolibrary.org/obo/CL_0000075		columnar/cuboidal epithelial cell
+http://purl.obolibrary.org/obo/CL_0000076		squamous epithelial cell
+http://purl.obolibrary.org/obo/CL_0000081		blood cell
+http://purl.obolibrary.org/obo/CL_0000095		neuron associated cell
+http://purl.obolibrary.org/obo/CL_0000098		sensory epithelial cell
+http://purl.obolibrary.org/obo/CL_0000099		interneuron
+http://purl.obolibrary.org/obo/CL_0000100		motor neuron
+http://purl.obolibrary.org/obo/CL_0000101		sensory neuron
+http://purl.obolibrary.org/obo/CL_0000108		cholinergic neuron
+http://purl.obolibrary.org/obo/CL_0000115		endothelial cell
+http://purl.obolibrary.org/obo/CL_0000118		basket cell
+http://purl.obolibrary.org/obo/CL_0000119		cerebellar Golgi cell
+http://purl.obolibrary.org/obo/CL_0000120		granule cell
+http://purl.obolibrary.org/obo/CL_0000121		Purkinje cell
+http://purl.obolibrary.org/obo/CL_0000122		stellate neuron
+http://purl.obolibrary.org/obo/CL_0000125		glial cell
+http://purl.obolibrary.org/obo/CL_0000133		neurectodermal cell
+http://purl.obolibrary.org/obo/CL_0000134		mesenchymal stem cell
+http://purl.obolibrary.org/obo/CL_0000136		adipocyte
+http://purl.obolibrary.org/obo/CL_0000138		chondrocyte
+http://purl.obolibrary.org/obo/CL_0000147		pigment cell
+http://purl.obolibrary.org/obo/CL_0000149		visual pigment cell
+http://purl.obolibrary.org/obo/CL_0000150		glandular secretory epithelial cell
+http://purl.obolibrary.org/obo/CL_0000151		secretory cell
+http://purl.obolibrary.org/obo/CL_0000153		glycosaminoglycan secreting cell
+http://purl.obolibrary.org/obo/CL_0000154		protein secreting cell
+http://purl.obolibrary.org/obo/CL_0000163		endocrine cell
+http://purl.obolibrary.org/obo/CL_0000165		neuroendocrine cell
+http://purl.obolibrary.org/obo/CL_0000166		chromaffin cell
+http://purl.obolibrary.org/obo/CL_0000167		peptide hormone secreting cell
+http://purl.obolibrary.org/obo/CL_0000183		contractile cell
+http://purl.obolibrary.org/obo/CL_0000187		muscle cell
+http://purl.obolibrary.org/obo/CL_0000188		cell of skeletal muscle
+http://purl.obolibrary.org/obo/CL_0000192		smooth muscle cell
+http://purl.obolibrary.org/obo/CL_0000197		sensory receptor cell
+http://purl.obolibrary.org/obo/CL_0000206		chemoreceptor cell
+http://purl.obolibrary.org/obo/CL_0000207		olfactory receptor cell
+http://purl.obolibrary.org/obo/CL_0000209		taste receptor cell
+http://purl.obolibrary.org/obo/CL_0000210		photoreceptor cell
+http://purl.obolibrary.org/obo/CL_0000211		electrically active cell
+http://purl.obolibrary.org/obo/CL_0000219		motile cell
+http://purl.obolibrary.org/obo/CL_0000221		ectodermal cell
+http://purl.obolibrary.org/obo/CL_0000222		mesodermal cell
+http://purl.obolibrary.org/obo/CL_0000223		endodermal cell
+http://purl.obolibrary.org/obo/CL_0000228		multinucleate cell
+http://purl.obolibrary.org/obo/CL_0000232		erythrocyte
+http://purl.obolibrary.org/obo/CL_0000255		eukaryotic cell
+http://purl.obolibrary.org/obo/CL_0000287		eye photoreceptor cell
+http://purl.obolibrary.org/obo/CL_0000293		structural cell
+http://purl.obolibrary.org/obo/CL_0000295		somatotropin secreting cell
+http://purl.obolibrary.org/obo/CL_0000325		stuff accumulating cell
+http://purl.obolibrary.org/obo/CL_0000327		extracellular matrix secreting cell
+http://purl.obolibrary.org/obo/CL_0000329		oxygen accumulating cell
+http://purl.obolibrary.org/obo/CL_0000333		migratory neural crest cell
+http://purl.obolibrary.org/obo/CL_0000335		mesenchyme condensation cell
+http://purl.obolibrary.org/obo/CL_0000347		scleral cell
+http://purl.obolibrary.org/obo/CL_0000352		epiblast cell
+http://purl.obolibrary.org/obo/CL_0000355		multi-potent skeletal muscle stem cell
+http://purl.obolibrary.org/obo/CL_0000365		animal zygote
+http://purl.obolibrary.org/obo/CL_0000393		electrically responsive cell
+http://purl.obolibrary.org/obo/CL_0000404		electrically signaling cell
+http://purl.obolibrary.org/obo/CL_0000438		luteinizing hormone secreting cell
+http://purl.obolibrary.org/obo/CL_0000439		prolactin secreting cell
+http://purl.obolibrary.org/obo/CL_0000440		melanocyte stimulating hormone secreting cell
+http://purl.obolibrary.org/obo/CL_0000447		carbohydrate secreting cell
+http://purl.obolibrary.org/obo/CL_0000457		biogenic amine secreting cell
+http://purl.obolibrary.org/obo/CL_0000459		noradrenergic cell
+http://purl.obolibrary.org/obo/CL_0000467		adrenocorticotropic hormone secreting cell
+http://purl.obolibrary.org/obo/CL_0000498		inhibitory interneuron
+http://purl.obolibrary.org/obo/CL_0000499		stromal cell
+http://purl.obolibrary.org/obo/CL_0000514		smooth muscle myoblast
+http://purl.obolibrary.org/obo/CL_0000515		skeletal muscle myoblast
+http://purl.obolibrary.org/obo/CL_0000526		afferent neuron
+http://purl.obolibrary.org/obo/CL_0000527		efferent neuron
+http://purl.obolibrary.org/obo/CL_0000540		neuron
+http://purl.obolibrary.org/obo/CL_0000547		proerythroblast
+http://purl.obolibrary.org/obo/CL_0000549		basophilic erythroblast
+http://purl.obolibrary.org/obo/CL_0000550		polychromatophilic erythroblast
+http://purl.obolibrary.org/obo/CL_0000552		orthochromatic erythroblast
+http://purl.obolibrary.org/obo/CL_0000558		reticulocyte
+http://purl.obolibrary.org/obo/CL_0000566		angioblastic mesenchymal cell
+http://purl.obolibrary.org/obo/CL_0000568		amine precursor uptake and decarboxylation cell
+http://purl.obolibrary.org/obo/CL_0000573		retinal cone cell
+http://purl.obolibrary.org/obo/CL_0000586		germ cell
+http://purl.obolibrary.org/obo/CL_0000598		pyramidal neuron
+http://purl.obolibrary.org/obo/CL_0000604		retinal rod cell
+http://purl.obolibrary.org/obo/CL_0000617		GABAergic neuron
+http://purl.obolibrary.org/obo/CL_0000626		olfactory granule cell
+http://purl.obolibrary.org/obo/CL_0000630		supporting cell
+http://purl.obolibrary.org/obo/CL_0000637		chromophil cell of anterior pituitary gland
+http://purl.obolibrary.org/obo/CL_0000638		acidophil cell of pars distalis of adenohypophysis
+http://purl.obolibrary.org/obo/CL_0000642		folliculostellate cell
+http://purl.obolibrary.org/obo/CL_0000652		pinealocyte
+http://purl.obolibrary.org/obo/CL_0000667		collagen secreting cell
+http://purl.obolibrary.org/obo/CL_0000679		glutamatergic neuron
+http://purl.obolibrary.org/obo/CL_0000680		muscle precursor cell
+http://purl.obolibrary.org/obo/CL_0000681		radial glial cell
+http://purl.obolibrary.org/obo/CL_0000700		dopaminergic neuron
+http://purl.obolibrary.org/obo/CL_0000710		neurecto-epithelial cell
+http://purl.obolibrary.org/obo/CL_0000723		somatic stem cell
+http://purl.obolibrary.org/obo/CL_0000737		striated muscle cell
+http://purl.obolibrary.org/obo/CL_0000740		retinal ganglion cell
+http://purl.obolibrary.org/obo/CL_0000763		myeloid cell
+http://purl.obolibrary.org/obo/CL_0000764		erythroid lineage cell
+http://purl.obolibrary.org/obo/CL_0000765		erythroblast
+http://purl.obolibrary.org/obo/CL_0000837		hematopoietic multipotent progenitor cell
+http://purl.obolibrary.org/obo/CL_0000839		myeloid lineage restricted progenitor cell
+http://purl.obolibrary.org/obo/CL_0000853		olfactory epithelial supporting cell
+http://purl.obolibrary.org/obo/CL_0000988		hematopoietic cell
+http://purl.obolibrary.org/obo/CL_0001031		cerebellar granule cell
+http://purl.obolibrary.org/obo/CL_0001032		cortical granule cell
+http://purl.obolibrary.org/obo/CL_0001033		hippocampal granule cell
+http://purl.obolibrary.org/obo/CL_0002031		hematopoietic lineage restricted progenitor cell
+http://purl.obolibrary.org/obo/CL_0002032		hematopoietic oligopotent progenitor cell
+http://purl.obolibrary.org/obo/CL_0002076		endo-epithelial cell
+http://purl.obolibrary.org/obo/CL_0002077		ecto-epithelial cell
+http://purl.obolibrary.org/obo/CL_0002139		endothelial cell of vascular tree
+http://purl.obolibrary.org/obo/CL_0002167		olfactory epithelial cell
+http://purl.obolibrary.org/obo/CL_0002169		basal cell of olfactory epithelium
+http://purl.obolibrary.org/obo/CL_0002220		interstitial cell of pineal gland
+http://purl.obolibrary.org/obo/CL_0002242		nucleate cell
+http://purl.obolibrary.org/obo/CL_0002312		somatotroph
+http://purl.obolibrary.org/obo/CL_0002319		neural cell
+http://purl.obolibrary.org/obo/CL_0002320		connective tissue cell
+http://purl.obolibrary.org/obo/CL_0002321		embryonic cell (metazoa)
+http://purl.obolibrary.org/obo/CL_0002362		cerebellar granule cell precursor
+http://purl.obolibrary.org/obo/CL_0002368		respiratory tract epithelial cell
+http://purl.obolibrary.org/obo/CL_0002372		myotube
+http://purl.obolibrary.org/obo/CL_0002494		cardiocyte
+http://purl.obolibrary.org/obo/CL_0002608		hippocampal neuron
+http://purl.obolibrary.org/obo/CL_0002631		epithelial cell of upper respiratory tract
+http://purl.obolibrary.org/obo/CL_0002672		retinal progenitor cell
+http://purl.obolibrary.org/obo/CL_0002676		neural crest derived neuroblast
+http://purl.obolibrary.org/obo/CL_0005000		spinal cord interneuron
+http://purl.obolibrary.org/obo/CL_0007001		skeletogenic cell
+http://purl.obolibrary.org/obo/CL_0007004		premigratory neural crest cell
+http://purl.obolibrary.org/obo/CL_0007009		prechondroblast
+http://purl.obolibrary.org/obo/CL_0008000		non-striated muscle cell
+http://purl.obolibrary.org/obo/CL_0008001		hematopoietic precursor cell
+http://purl.obolibrary.org/obo/CL_0008002		skeletal muscle fiber
+http://purl.obolibrary.org/obo/CL_0008007		visceral muscle cell
+http://purl.obolibrary.org/obo/CL_0008019		mesenchymal cell
+http://purl.obolibrary.org/obo/CL_0008028		visual system neuron
+http://purl.obolibrary.org/obo/CL_0009004		retinal cell
+http://purl.obolibrary.org/obo/CL_0010009		camera-type eye photoreceptor cell
+http://purl.obolibrary.org/obo/CL_0010012		cerebral cortex neuron
+http://purl.obolibrary.org/obo/CL_0010017		zygote
+http://purl.obolibrary.org/obo/CL_0011005		GABAergic interneuron
+http://purl.obolibrary.org/obo/CL_0011012		neural crest cell
+http://purl.obolibrary.org/obo/CL_0011026		progenitor cell
+http://purl.obolibrary.org/obo/CL_0011115		precursor cell
+http://purl.obolibrary.org/obo/CL_0012001		neuron of the forebrain
+http://purl.obolibrary.org/obo/CL_0017502		acidophilic cytoplasm
+http://purl.obolibrary.org/obo/CL_0017503		basophilic cytoplasm
+http://purl.obolibrary.org/obo/CL_0017504		polychromatophilic cytoplasm
+http://purl.obolibrary.org/obo/CL_1001434		olfactory bulb interneuron
+http://purl.obolibrary.org/obo/CL_1001502		mitral cell
+http://purl.obolibrary.org/obo/CL_1001503		olfactory bulb tufted cell
+http://purl.obolibrary.org/obo/CL_1001611		cerebellar neuron
+http://purl.obolibrary.org/obo/CL_1100001		secretory epithelial cell
+http://purl.obolibrary.org/obo/CL_2000004		pituitary gland cell
+http://purl.obolibrary.org/obo/CL_2000028		cerebellum glutamatergic neuron
+http://purl.obolibrary.org/obo/CL_2000029		central nervous system neuron
+http://purl.obolibrary.org/obo/CL_2000089		dentate gyrus granule cell
+http://purl.obolibrary.org/obo/CL_4023057		cerebellar inhibitory GABAergic interneuron
+http://purl.obolibrary.org/obo/CL_4023062		dentate gyrus neuron
+http://purl.obolibrary.org/obo/CL_4023161		unipolar brush cell
+http://purl.obolibrary.org/obo/CL_4033050		catecholaminergic neuron
+http://purl.obolibrary.org/obo/CL_4052002		syncytial cell
+http://purl.obolibrary.org/obo/GO_0000785		chromatin
+http://purl.obolibrary.org/obo/GO_0000792		heterochromatin
+http://purl.obolibrary.org/obo/GO_0005604		basement membrane
+http://purl.obolibrary.org/obo/GO_0005622		intracellular anatomical structure
+http://purl.obolibrary.org/obo/GO_0005634		nucleus
+http://purl.obolibrary.org/obo/GO_0005694		chromosome
+http://purl.obolibrary.org/obo/GO_0005730		nucleolus
+http://purl.obolibrary.org/obo/GO_0005737		cytoplasm
+http://purl.obolibrary.org/obo/GO_0005840		ribosome
+http://purl.obolibrary.org/obo/GO_0005886		plasma membrane
+http://purl.obolibrary.org/obo/GO_0005911		cell-cell junction
+http://purl.obolibrary.org/obo/GO_0005929		cilium
+http://purl.obolibrary.org/obo/GO_0016020		membrane
+http://purl.obolibrary.org/obo/GO_0030016		myofibril
+http://purl.obolibrary.org/obo/GO_0030017		sarcomere
+http://purl.obolibrary.org/obo/GO_0030054		cell junction
+http://purl.obolibrary.org/obo/GO_0030312		external encapsulating structure
+http://purl.obolibrary.org/obo/GO_0030424		axon
+http://purl.obolibrary.org/obo/GO_0030425		dendrite
+http://purl.obolibrary.org/obo/GO_0031012		extracellular matrix
+http://purl.obolibrary.org/obo/GO_0031974		membrane-enclosed lumen
+http://purl.obolibrary.org/obo/GO_0031981		nuclear lumen
+http://purl.obolibrary.org/obo/GO_0036477		somatodendritic compartment
+http://purl.obolibrary.org/obo/GO_0042995		cell projection
+http://purl.obolibrary.org/obo/GO_0043005		neuron projection
+http://purl.obolibrary.org/obo/GO_0043025		neuronal cell body
+http://purl.obolibrary.org/obo/GO_0043209		myelin sheath
+http://purl.obolibrary.org/obo/GO_0043226		organelle
+http://purl.obolibrary.org/obo/GO_0043227		membrane-bounded organelle
+http://purl.obolibrary.org/obo/GO_0043228		membraneless organelle
+http://purl.obolibrary.org/obo/GO_0043229		intracellular organelle
+http://purl.obolibrary.org/obo/GO_0043231		intracellular membrane-bounded organelle
+http://purl.obolibrary.org/obo/GO_0043232		intracellular membraneless organelle
+http://purl.obolibrary.org/obo/GO_0043233		organelle lumen
+http://purl.obolibrary.org/obo/GO_0043292		contractile muscle fiber
+http://purl.obolibrary.org/obo/GO_0044292		dendrite terminus
+http://purl.obolibrary.org/obo/GO_0044293		dendriole
+http://purl.obolibrary.org/obo/GO_0044297		cell body
+http://purl.obolibrary.org/obo/GO_0062023		collagen-containing extracellular matrix
+http://purl.obolibrary.org/obo/GO_0070013		intracellular organelle lumen
+http://purl.obolibrary.org/obo/GO_0070161		anchoring junction
+http://purl.obolibrary.org/obo/GO_0071944		cell periphery
+http://purl.obolibrary.org/obo/GO_0071953		elastic fiber
+http://purl.obolibrary.org/obo/GO_0097447		dendritic tree
+http://purl.obolibrary.org/obo/GO_0097457		hippocampal mossy fiber
+http://purl.obolibrary.org/obo/GO_0098590		plasma membrane region
+http://purl.obolibrary.org/obo/GO_0098643		banded collagen fibril
+http://purl.obolibrary.org/obo/GO_0098644		complex of collagen trimers
+http://purl.obolibrary.org/obo/GO_0099080		supramolecular complex
+http://purl.obolibrary.org/obo/GO_0099081		supramolecular polymer
+http://purl.obolibrary.org/obo/GO_0099512		supramolecular fiber
+http://purl.obolibrary.org/obo/GO_0110165		cellular anatomical structure
+http://purl.obolibrary.org/obo/GO_0120025		plasma membrane bounded cell projection
+http://purl.obolibrary.org/obo/NCBITaxon_1		root
+http://purl.obolibrary.org/obo/NCBITaxon_10066		Muridae
+http://purl.obolibrary.org/obo/NCBITaxon_10088		Mus <genus>
+http://purl.obolibrary.org/obo/NCBITaxon_10090		Mus musculus
+http://purl.obolibrary.org/obo/NCBITaxon_117570		Teleostomi
+http://purl.obolibrary.org/obo/NCBITaxon_117571		Euteleostomi
+http://purl.obolibrary.org/obo/NCBITaxon_131567		cellular organisms
+http://purl.obolibrary.org/obo/NCBITaxon_1338369		Dipnotetrapodomorpha
+http://purl.obolibrary.org/obo/NCBITaxon_1437010		Boreoeutheria
+http://purl.obolibrary.org/obo/NCBITaxon_1963758		Myomorpha
+http://purl.obolibrary.org/obo/NCBITaxon_2759		Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_314146		Euarchontoglires
+http://purl.obolibrary.org/obo/NCBITaxon_314147		Glires
+http://purl.obolibrary.org/obo/NCBITaxon_32523		Tetrapoda
+http://purl.obolibrary.org/obo/NCBITaxon_32524		Amniota
+http://purl.obolibrary.org/obo/NCBITaxon_32525		Theria <mammals>
+http://purl.obolibrary.org/obo/NCBITaxon_33154		Opisthokonta
+http://purl.obolibrary.org/obo/NCBITaxon_33208		Metazoa
+http://purl.obolibrary.org/obo/NCBITaxon_33213		Bilateria
+http://purl.obolibrary.org/obo/NCBITaxon_33511		Deuterostomia
+http://purl.obolibrary.org/obo/NCBITaxon_337687		Muroidea
+http://purl.obolibrary.org/obo/NCBITaxon_39107		Murinae
+http://purl.obolibrary.org/obo/NCBITaxon_40674		Mammalia
+http://purl.obolibrary.org/obo/NCBITaxon_6072		Eumetazoa
+http://purl.obolibrary.org/obo/NCBITaxon_7711		Chordata
+http://purl.obolibrary.org/obo/NCBITaxon_7742		Vertebrata <vertebrates>
+http://purl.obolibrary.org/obo/NCBITaxon_7776		Gnathostomata <vertebrates>
+http://purl.obolibrary.org/obo/NCBITaxon_8287		Sarcopterygii
+http://purl.obolibrary.org/obo/NCBITaxon_862507		Mus <subgenus>
+http://purl.obolibrary.org/obo/NCBITaxon_89593		Craniata <chordates>
+http://purl.obolibrary.org/obo/NCBITaxon_9347		Eutheria
+http://purl.obolibrary.org/obo/NCBITaxon_9989		Rodentia
+http://purl.obolibrary.org/obo/UBERON_0000000		processual entity
+http://purl.obolibrary.org/obo/UBERON_0000004		nose
+http://purl.obolibrary.org/obo/UBERON_0000005		chemosensory organ
+http://purl.obolibrary.org/obo/UBERON_0000007		pituitary gland
+http://purl.obolibrary.org/obo/UBERON_0000010		peripheral nervous system
+http://purl.obolibrary.org/obo/UBERON_0000012		somatic nervous system
+http://purl.obolibrary.org/obo/UBERON_0000014		zone of skin
+http://purl.obolibrary.org/obo/UBERON_0000019		camera-type eye
+http://purl.obolibrary.org/obo/UBERON_0000020		sense organ
+http://purl.obolibrary.org/obo/UBERON_0000025		tube
+http://purl.obolibrary.org/obo/UBERON_0000033		head
+http://purl.obolibrary.org/obo/UBERON_0000043		tendon
+http://purl.obolibrary.org/obo/UBERON_0000045		ganglion
+http://purl.obolibrary.org/obo/UBERON_0000047		simple eye
+http://purl.obolibrary.org/obo/UBERON_0000052		fornix of brain
+http://purl.obolibrary.org/obo/UBERON_0000055		vessel
+http://purl.obolibrary.org/obo/UBERON_0000060		anatomical wall
+http://purl.obolibrary.org/obo/UBERON_0000061		anatomical structure
+http://purl.obolibrary.org/obo/UBERON_0000062		organ
+http://purl.obolibrary.org/obo/UBERON_0000063		organ subunit
+http://purl.obolibrary.org/obo/UBERON_0000064		organ part
+http://purl.obolibrary.org/obo/UBERON_0000065		respiratory tract
+http://purl.obolibrary.org/obo/UBERON_0000066		fully formed stage
+http://purl.obolibrary.org/obo/UBERON_0000068		embryo stage
+http://purl.obolibrary.org/obo/UBERON_0000071		death stage
+http://purl.obolibrary.org/obo/UBERON_0000072		proximo-distal subdivision of respiratory tract
+http://purl.obolibrary.org/obo/UBERON_0000073		regional part of nervous system
+http://purl.obolibrary.org/obo/UBERON_0000075		subdivision of skeletal system
+http://purl.obolibrary.org/obo/UBERON_0000076		external ectoderm
+http://purl.obolibrary.org/obo/UBERON_0000092		post-embryonic stage
+http://purl.obolibrary.org/obo/UBERON_0000093		sulcus
+http://purl.obolibrary.org/obo/UBERON_0000094		membrane organ
+http://purl.obolibrary.org/obo/UBERON_0000104		life cycle
+http://purl.obolibrary.org/obo/UBERON_0000105		life cycle stage
+http://purl.obolibrary.org/obo/UBERON_0000106		zygote stage
+http://purl.obolibrary.org/obo/UBERON_0000107		cleavage stage
+http://purl.obolibrary.org/obo/UBERON_0000108		blastula stage
+http://purl.obolibrary.org/obo/UBERON_0000109		gastrula stage
+http://purl.obolibrary.org/obo/UBERON_0000110		neurula stage
+http://purl.obolibrary.org/obo/UBERON_0000111		organogenesis stage
+http://purl.obolibrary.org/obo/UBERON_0000119		cell layer
+http://purl.obolibrary.org/obo/UBERON_0000120		blood brain barrier
+http://purl.obolibrary.org/obo/UBERON_0000122		neuron projection bundle
+http://purl.obolibrary.org/obo/UBERON_0000125		neural nucleus
+http://purl.obolibrary.org/obo/UBERON_0000126		cranial nerve nucleus
+http://purl.obolibrary.org/obo/UBERON_0000127		facial nucleus
+http://purl.obolibrary.org/obo/UBERON_0000128		olivary body
+http://purl.obolibrary.org/obo/UBERON_0000153		anterior region of body
+http://purl.obolibrary.org/obo/UBERON_0000154		posterior region of body
+http://purl.obolibrary.org/obo/UBERON_0000161		orifice
+http://purl.obolibrary.org/obo/UBERON_0000165		mouth
+http://purl.obolibrary.org/obo/UBERON_0000166		oral opening
+http://purl.obolibrary.org/obo/UBERON_0000178		blood
+http://purl.obolibrary.org/obo/UBERON_0000179		haemolymphatic fluid
+http://purl.obolibrary.org/obo/UBERON_0000200		gyrus
+http://purl.obolibrary.org/obo/UBERON_0000201		endothelial blood brain barrier
+http://purl.obolibrary.org/obo/UBERON_0000203		pallium
+http://purl.obolibrary.org/obo/UBERON_0000204		ventral part of telencephalon
+http://purl.obolibrary.org/obo/UBERON_0000307		blastula
+http://purl.obolibrary.org/obo/UBERON_0000315		subarachnoid space
+http://purl.obolibrary.org/obo/UBERON_0000344		mucosa
+http://purl.obolibrary.org/obo/UBERON_0000349		limbic system
+http://purl.obolibrary.org/obo/UBERON_0000369		corpus striatum
+http://purl.obolibrary.org/obo/UBERON_0000378		tongue muscle
+http://purl.obolibrary.org/obo/UBERON_0000379		tracheal mucosa
+http://purl.obolibrary.org/obo/UBERON_0000383		musculature of body
+http://purl.obolibrary.org/obo/UBERON_0000391		leptomeninx
+http://purl.obolibrary.org/obo/UBERON_0000411		visual cortex
+http://purl.obolibrary.org/obo/UBERON_0000440		trabecula
+http://purl.obolibrary.org/obo/UBERON_0000446		septum of telencephalon
+http://purl.obolibrary.org/obo/UBERON_0000451		prefrontal cortex
+http://purl.obolibrary.org/obo/UBERON_0000454		cerebral subcortex
+http://purl.obolibrary.org/obo/UBERON_0000463		organism substance
+http://purl.obolibrary.org/obo/UBERON_0000464		anatomical space
+http://purl.obolibrary.org/obo/UBERON_0000465		material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0000466		immaterial anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0000467		anatomical system
+http://purl.obolibrary.org/obo/UBERON_0000468		multicellular organism
+http://purl.obolibrary.org/obo/UBERON_0000475		organism subdivision
+http://purl.obolibrary.org/obo/UBERON_0000476		acellular anatomical structure
+http://purl.obolibrary.org/obo/UBERON_0000477		anatomical cluster
+http://purl.obolibrary.org/obo/UBERON_0000479		tissue
+http://purl.obolibrary.org/obo/UBERON_0000481		multi-tissue structure
+http://purl.obolibrary.org/obo/UBERON_0000482		basal lamina of epithelium
+http://purl.obolibrary.org/obo/UBERON_0000483		epithelium
+http://purl.obolibrary.org/obo/UBERON_0000485		simple columnar epithelium
+http://purl.obolibrary.org/obo/UBERON_0000486		multilaminar epithelium
+http://purl.obolibrary.org/obo/UBERON_0000487		simple squamous epithelium
+http://purl.obolibrary.org/obo/UBERON_0000488		atypical epithelium
+http://purl.obolibrary.org/obo/UBERON_0000489		cavitated compound organ
+http://purl.obolibrary.org/obo/UBERON_0000490		unilaminar epithelium
+http://purl.obolibrary.org/obo/UBERON_0000908		hippocampal commissure
+http://purl.obolibrary.org/obo/UBERON_0000915		thoracic segment of trunk
+http://purl.obolibrary.org/obo/UBERON_0000922		embryo
+http://purl.obolibrary.org/obo/UBERON_0000923		germ layer
+http://purl.obolibrary.org/obo/UBERON_0000924		ectoderm
+http://purl.obolibrary.org/obo/UBERON_0000925		endoderm
+http://purl.obolibrary.org/obo/UBERON_0000926		mesoderm
+http://purl.obolibrary.org/obo/UBERON_0000930		stomodeum
+http://purl.obolibrary.org/obo/UBERON_0000935		anterior commissure
+http://purl.obolibrary.org/obo/UBERON_0000936		posterior commissure
+http://purl.obolibrary.org/obo/UBERON_0000941		cranial nerve II
+http://purl.obolibrary.org/obo/UBERON_0000948		heart
+http://purl.obolibrary.org/obo/UBERON_0000949		endocrine system
+http://purl.obolibrary.org/obo/UBERON_0000955		brain
+http://purl.obolibrary.org/obo/UBERON_0000956		cerebral cortex
+http://purl.obolibrary.org/obo/UBERON_0000957		lamina
+http://purl.obolibrary.org/obo/UBERON_0000959		optic chiasma
+http://purl.obolibrary.org/obo/UBERON_0000964		cornea
+http://purl.obolibrary.org/obo/UBERON_0000965		lens of camera-type eye
+http://purl.obolibrary.org/obo/UBERON_0000966		retina
+http://purl.obolibrary.org/obo/UBERON_0000970		eye
+http://purl.obolibrary.org/obo/UBERON_0000982		skeletal joint
+http://purl.obolibrary.org/obo/UBERON_0000988		pons
+http://purl.obolibrary.org/obo/UBERON_0000990		reproductive system
+http://purl.obolibrary.org/obo/UBERON_0000991		gonad
+http://purl.obolibrary.org/obo/UBERON_0001003		skin epidermis
+http://purl.obolibrary.org/obo/UBERON_0001004		respiratory system
+http://purl.obolibrary.org/obo/UBERON_0001005		respiratory airway
+http://purl.obolibrary.org/obo/UBERON_0001007		digestive system
+http://purl.obolibrary.org/obo/UBERON_0001009		circulatory system
+http://purl.obolibrary.org/obo/UBERON_0001013		adipose tissue
+http://purl.obolibrary.org/obo/UBERON_0001015		musculature
+http://purl.obolibrary.org/obo/UBERON_0001016		nervous system
+http://purl.obolibrary.org/obo/UBERON_0001017		central nervous system
+http://purl.obolibrary.org/obo/UBERON_0001018		axon tract
+http://purl.obolibrary.org/obo/UBERON_0001019		nerve fasciculus
+http://purl.obolibrary.org/obo/UBERON_0001020		nervous system commissure
+http://purl.obolibrary.org/obo/UBERON_0001021		nerve
+http://purl.obolibrary.org/obo/UBERON_0001032		sensory system
+http://purl.obolibrary.org/obo/UBERON_0001033		gustatory system
+http://purl.obolibrary.org/obo/UBERON_0001041		foregut
+http://purl.obolibrary.org/obo/UBERON_0001048		primordium
+http://purl.obolibrary.org/obo/UBERON_0001049		neural tube
+http://purl.obolibrary.org/obo/UBERON_0001062		anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0001063		flocculus
+http://purl.obolibrary.org/obo/UBERON_0001084		skin of head
+http://purl.obolibrary.org/obo/UBERON_0001134		skeletal muscle tissue
+http://purl.obolibrary.org/obo/UBERON_0001135		smooth muscle tissue
+http://purl.obolibrary.org/obo/UBERON_0001137		dorsum
+http://purl.obolibrary.org/obo/UBERON_0001359		cerebrospinal fluid
+http://purl.obolibrary.org/obo/UBERON_0001384		primary motor cortex
+http://purl.obolibrary.org/obo/UBERON_0001393		auditory cortex
+http://purl.obolibrary.org/obo/UBERON_0001434		skeletal system
+http://purl.obolibrary.org/obo/UBERON_0001444		subdivision of head
+http://purl.obolibrary.org/obo/UBERON_0001456		face
+http://purl.obolibrary.org/obo/UBERON_0001474		bone element
+http://purl.obolibrary.org/obo/UBERON_0001555		digestive tract
+http://purl.obolibrary.org/obo/UBERON_0001557		upper respiratory tract
+http://purl.obolibrary.org/obo/UBERON_0001571		genioglossus muscle
+http://purl.obolibrary.org/obo/UBERON_0001572		hyoglossus muscle
+http://purl.obolibrary.org/obo/UBERON_0001575		extrinsic muscle of tongue
+http://purl.obolibrary.org/obo/UBERON_0001577		facial muscle
+http://purl.obolibrary.org/obo/UBERON_0001579		olfactory nerve
+http://purl.obolibrary.org/obo/UBERON_0001601		extra-ocular muscle
+http://purl.obolibrary.org/obo/UBERON_0001605		ciliary muscle
+http://purl.obolibrary.org/obo/UBERON_0001630		muscle organ
+http://purl.obolibrary.org/obo/UBERON_0001637		artery
+http://purl.obolibrary.org/obo/UBERON_0001638		vein
+http://purl.obolibrary.org/obo/UBERON_0001643		oculomotor nerve
+http://purl.obolibrary.org/obo/UBERON_0001644		trochlear nerve
+http://purl.obolibrary.org/obo/UBERON_0001645		trigeminal nerve
+http://purl.obolibrary.org/obo/UBERON_0001646		abducens nerve
+http://purl.obolibrary.org/obo/UBERON_0001647		facial nerve
+http://purl.obolibrary.org/obo/UBERON_0001648		vestibulocochlear nerve
+http://purl.obolibrary.org/obo/UBERON_0001649		glossopharyngeal nerve
+http://purl.obolibrary.org/obo/UBERON_0001650		hypoglossal nerve
+http://purl.obolibrary.org/obo/UBERON_0001678		temporal bone
+http://purl.obolibrary.org/obo/UBERON_0001685		hyoid bone
+http://purl.obolibrary.org/obo/UBERON_0001690		ear
+http://purl.obolibrary.org/obo/UBERON_0001694		petrous part of temporal bone
+http://purl.obolibrary.org/obo/UBERON_0001699		sensory root of facial nerve
+http://purl.obolibrary.org/obo/UBERON_0001703		neurocranium
+http://purl.obolibrary.org/obo/UBERON_0001706		nasal septum
+http://purl.obolibrary.org/obo/UBERON_0001708		jaw skeleton
+http://purl.obolibrary.org/obo/UBERON_0001710		lower jaw region
+http://purl.obolibrary.org/obo/UBERON_0001714		cranial ganglion
+http://purl.obolibrary.org/obo/UBERON_0001715		oculomotor nuclear complex
+http://purl.obolibrary.org/obo/UBERON_0001717		spinal nucleus of trigeminal nerve
+http://purl.obolibrary.org/obo/UBERON_0001718		mesencephalic nucleus of trigeminal nerve
+http://purl.obolibrary.org/obo/UBERON_0001719		nucleus ambiguus
+http://purl.obolibrary.org/obo/UBERON_0001720		cochlear nucleus
+http://purl.obolibrary.org/obo/UBERON_0001721		inferior vestibular nucleus
+http://purl.obolibrary.org/obo/UBERON_0001722		medial vestibular nucleus
+http://purl.obolibrary.org/obo/UBERON_0001723		tongue
+http://purl.obolibrary.org/obo/UBERON_0001727		taste bud
+http://purl.obolibrary.org/obo/UBERON_0001737		larynx
+http://purl.obolibrary.org/obo/UBERON_0001759		vagus nerve
+http://purl.obolibrary.org/obo/UBERON_0001768		uvea
+http://purl.obolibrary.org/obo/UBERON_0001769		iris
+http://purl.obolibrary.org/obo/UBERON_0001772		corneal epithelium
+http://purl.obolibrary.org/obo/UBERON_0001773		sclera
+http://purl.obolibrary.org/obo/UBERON_0001775		ciliary body
+http://purl.obolibrary.org/obo/UBERON_0001776		optic choroid
+http://purl.obolibrary.org/obo/UBERON_0001780		spinal nerve
+http://purl.obolibrary.org/obo/UBERON_0001781		layer of retina
+http://purl.obolibrary.org/obo/UBERON_0001785		cranial nerve
+http://purl.obolibrary.org/obo/UBERON_0001801		anterior segment of eyeball
+http://purl.obolibrary.org/obo/UBERON_0001802		posterior segment of eyeball
+http://purl.obolibrary.org/obo/UBERON_0001826		nasal cavity mucosa
+http://purl.obolibrary.org/obo/UBERON_0001839		bony labyrinth
+http://purl.obolibrary.org/obo/UBERON_0001840		semicircular canal
+http://purl.obolibrary.org/obo/UBERON_0001844		cochlea
+http://purl.obolibrary.org/obo/UBERON_0001846		internal ear
+http://purl.obolibrary.org/obo/UBERON_0001849		membranous labyrinth
+http://purl.obolibrary.org/obo/UBERON_0001869		cerebral hemisphere
+http://purl.obolibrary.org/obo/UBERON_0001870		frontal cortex
+http://purl.obolibrary.org/obo/UBERON_0001871		temporal lobe
+http://purl.obolibrary.org/obo/UBERON_0001872		parietal lobe
+http://purl.obolibrary.org/obo/UBERON_0001873		caudate nucleus
+http://purl.obolibrary.org/obo/UBERON_0001874		putamen
+http://purl.obolibrary.org/obo/UBERON_0001875		globus pallidus
+http://purl.obolibrary.org/obo/UBERON_0001876		amygdala
+http://purl.obolibrary.org/obo/UBERON_0001877		medial septal nucleus
+http://purl.obolibrary.org/obo/UBERON_0001878		septofimbrial nucleus
+http://purl.obolibrary.org/obo/UBERON_0001879		nucleus of diagonal band
+http://purl.obolibrary.org/obo/UBERON_0001880		bed nucleus of stria terminalis
+http://purl.obolibrary.org/obo/UBERON_0001881		island of Calleja
+http://purl.obolibrary.org/obo/UBERON_0001882		nucleus accumbens
+http://purl.obolibrary.org/obo/UBERON_0001883		olfactory tubercle
+http://purl.obolibrary.org/obo/UBERON_0001885		dentate gyrus of hippocampal formation
+http://purl.obolibrary.org/obo/UBERON_0001886		choroid plexus
+http://purl.obolibrary.org/obo/UBERON_0001887		internal capsule of telencephalon
+http://purl.obolibrary.org/obo/UBERON_0001888		lateral olfactory stria
+http://purl.obolibrary.org/obo/UBERON_0001890		forebrain
+http://purl.obolibrary.org/obo/UBERON_0001891		midbrain
+http://purl.obolibrary.org/obo/UBERON_0001892		rhombomere
+http://purl.obolibrary.org/obo/UBERON_0001893		telencephalon
+http://purl.obolibrary.org/obo/UBERON_0001894		diencephalon
+http://purl.obolibrary.org/obo/UBERON_0001895		metencephalon
+http://purl.obolibrary.org/obo/UBERON_0001896		medulla oblongata
+http://purl.obolibrary.org/obo/UBERON_0001897		dorsal plus ventral thalamus
+http://purl.obolibrary.org/obo/UBERON_0001898		hypothalamus
+http://purl.obolibrary.org/obo/UBERON_0001899		epithalamus
+http://purl.obolibrary.org/obo/UBERON_0001900		ventral thalamus
+http://purl.obolibrary.org/obo/UBERON_0001903		thalamic reticular nucleus
+http://purl.obolibrary.org/obo/UBERON_0001904		habenula
+http://purl.obolibrary.org/obo/UBERON_0001905		pineal body
+http://purl.obolibrary.org/obo/UBERON_0001906		subthalamic nucleus
+http://purl.obolibrary.org/obo/UBERON_0001907		zona incerta
+http://purl.obolibrary.org/obo/UBERON_0001908		optic tract
+http://purl.obolibrary.org/obo/UBERON_0001909		habenular commissure
+http://purl.obolibrary.org/obo/UBERON_0001910		medial forebrain bundle
+http://purl.obolibrary.org/obo/UBERON_0001920		paraventricular nucleus of thalamus
+http://purl.obolibrary.org/obo/UBERON_0001921		reuniens nucleus
+http://purl.obolibrary.org/obo/UBERON_0001922		parafascicular nucleus
+http://purl.obolibrary.org/obo/UBERON_0001923		central medial nucleus
+http://purl.obolibrary.org/obo/UBERON_0001924		paracentral nucleus
+http://purl.obolibrary.org/obo/UBERON_0001925		ventral lateral nucleus of thalamus
+http://purl.obolibrary.org/obo/UBERON_0001926		lateral geniculate body
+http://purl.obolibrary.org/obo/UBERON_0001927		medial geniculate body
+http://purl.obolibrary.org/obo/UBERON_0001928		preoptic area
+http://purl.obolibrary.org/obo/UBERON_0001929		supraoptic nucleus
+http://purl.obolibrary.org/obo/UBERON_0001930		paraventricular nucleus of hypothalamus
+http://purl.obolibrary.org/obo/UBERON_0001931		lateral preoptic nucleus
+http://purl.obolibrary.org/obo/UBERON_0001932		arcuate nucleus of hypothalamus
+http://purl.obolibrary.org/obo/UBERON_0001933		retrochiasmatic area
+http://purl.obolibrary.org/obo/UBERON_0001934		dorsomedial nucleus of hypothalamus
+http://purl.obolibrary.org/obo/UBERON_0001935		ventromedial nucleus of hypothalamus
+http://purl.obolibrary.org/obo/UBERON_0001936		tuberomammillary nucleus
+http://purl.obolibrary.org/obo/UBERON_0001938		lateral mammillary nucleus
+http://purl.obolibrary.org/obo/UBERON_0001939		medial mammillary nucleus
+http://purl.obolibrary.org/obo/UBERON_0001940		supramammillary nucleus
+http://purl.obolibrary.org/obo/UBERON_0001941		lateral habenular nucleus
+http://purl.obolibrary.org/obo/UBERON_0001942		medial habenular nucleus
+http://purl.obolibrary.org/obo/UBERON_0001943		midbrain tegmentum
+http://purl.obolibrary.org/obo/UBERON_0001944		pretectal region
+http://purl.obolibrary.org/obo/UBERON_0001945		superior colliculus
+http://purl.obolibrary.org/obo/UBERON_0001946		inferior colliculus
+http://purl.obolibrary.org/obo/UBERON_0001947		red nucleus
+http://purl.obolibrary.org/obo/UBERON_0001950		neocortex
+http://purl.obolibrary.org/obo/UBERON_0001953		presubiculum
+http://purl.obolibrary.org/obo/UBERON_0001954		Ammon's horn
+http://purl.obolibrary.org/obo/UBERON_0001965		substantia nigra pars compacta
+http://purl.obolibrary.org/obo/UBERON_0001966		substantia nigra pars reticulata
+http://purl.obolibrary.org/obo/UBERON_0001969		blood plasma
+http://purl.obolibrary.org/obo/UBERON_0001979		venule
+http://purl.obolibrary.org/obo/UBERON_0001980		arteriole
+http://purl.obolibrary.org/obo/UBERON_0001981		blood vessel
+http://purl.obolibrary.org/obo/UBERON_0001982		capillary
+http://purl.obolibrary.org/obo/UBERON_0001986		endothelium
+http://purl.obolibrary.org/obo/UBERON_0001997		olfactory epithelium
+http://purl.obolibrary.org/obo/UBERON_0002019		accessory XI nerve
+http://purl.obolibrary.org/obo/UBERON_0002020		gray matter
+http://purl.obolibrary.org/obo/UBERON_0002021		occipital lobe
+http://purl.obolibrary.org/obo/UBERON_0002022		insula
+http://purl.obolibrary.org/obo/UBERON_0002023		claustrum of brain
+http://purl.obolibrary.org/obo/UBERON_0002028		hindbrain
+http://purl.obolibrary.org/obo/UBERON_0002034		suprachiasmatic nucleus
+http://purl.obolibrary.org/obo/UBERON_0002035		medial preoptic nucleus
+http://purl.obolibrary.org/obo/UBERON_0002036		striated muscle tissue
+http://purl.obolibrary.org/obo/UBERON_0002037		cerebellum
+http://purl.obolibrary.org/obo/UBERON_0002038		substantia nigra
+http://purl.obolibrary.org/obo/UBERON_0002043		dorsal raphe nucleus
+http://purl.obolibrary.org/obo/UBERON_0002044		ventral nucleus of posterior commissure
+http://purl.obolibrary.org/obo/UBERON_0002045		cuneate nucleus
+http://purl.obolibrary.org/obo/UBERON_0002047		pontine raphe nucleus
+http://purl.obolibrary.org/obo/UBERON_0002049		vasculature
+http://purl.obolibrary.org/obo/UBERON_0002050		embryonic structure
+http://purl.obolibrary.org/obo/UBERON_0002067		dermis
+http://purl.obolibrary.org/obo/UBERON_0002072		hypodermis
+http://purl.obolibrary.org/obo/UBERON_0002075		viscus
+http://purl.obolibrary.org/obo/UBERON_0002090		postcranial axial skeleton
+http://purl.obolibrary.org/obo/UBERON_0002097		skin of body
+http://purl.obolibrary.org/obo/UBERON_0002100		trunk
+http://purl.obolibrary.org/obo/UBERON_0002104		visual system
+http://purl.obolibrary.org/obo/UBERON_0002105		vestibulo-auditory system
+http://purl.obolibrary.org/obo/UBERON_0002126		solitary tract nuclear complex
+http://purl.obolibrary.org/obo/UBERON_0002127		inferior olivary complex
+http://purl.obolibrary.org/obo/UBERON_0002128		superior olivary complex
+http://purl.obolibrary.org/obo/UBERON_0002129		cerebellar cortex
+http://purl.obolibrary.org/obo/UBERON_0002130		cerebellar nuclear complex
+http://purl.obolibrary.org/obo/UBERON_0002131		anterior lobe of cerebellum
+http://purl.obolibrary.org/obo/UBERON_0002132		dentate nucleus
+http://purl.obolibrary.org/obo/UBERON_0002138		habenulo-interpeduncular tract
+http://purl.obolibrary.org/obo/UBERON_0002139		subcommissural organ
+http://purl.obolibrary.org/obo/UBERON_0002140		parabigeminal nucleus
+http://purl.obolibrary.org/obo/UBERON_0002141		parvocellular oculomotor nucleus
+http://purl.obolibrary.org/obo/UBERON_0002142		pedunculopontine tegmental nucleus
+http://purl.obolibrary.org/obo/UBERON_0002143		dorsal tegmental nucleus
+http://purl.obolibrary.org/obo/UBERON_0002144		peripeduncular nucleus
+http://purl.obolibrary.org/obo/UBERON_0002145		interpeduncular nucleus
+http://purl.obolibrary.org/obo/UBERON_0002147		reticulotegmental nucleus
+http://purl.obolibrary.org/obo/UBERON_0002148		locus ceruleus
+http://purl.obolibrary.org/obo/UBERON_0002149		superior salivatory nucleus
+http://purl.obolibrary.org/obo/UBERON_0002150		superior cerebellar peduncle
+http://purl.obolibrary.org/obo/UBERON_0002151		pontine nuclear group
+http://purl.obolibrary.org/obo/UBERON_0002152		middle cerebellar peduncle
+http://purl.obolibrary.org/obo/UBERON_0002153		fastigial nucleus
+http://purl.obolibrary.org/obo/UBERON_0002154		lateral reticular nucleus
+http://purl.obolibrary.org/obo/UBERON_0002155		gigantocellular nucleus
+http://purl.obolibrary.org/obo/UBERON_0002156		nucleus raphe magnus
+http://purl.obolibrary.org/obo/UBERON_0002157		nucleus raphe pallidus
+http://purl.obolibrary.org/obo/UBERON_0002160		nucleus prepositus
+http://purl.obolibrary.org/obo/UBERON_0002161		gracile nucleus
+http://purl.obolibrary.org/obo/UBERON_0002162		area postrema
+http://purl.obolibrary.org/obo/UBERON_0002163		inferior cerebellar peduncle
+http://purl.obolibrary.org/obo/UBERON_0002191		subiculum
+http://purl.obolibrary.org/obo/UBERON_0002192		ventricular system choroidal fissure
+http://purl.obolibrary.org/obo/UBERON_0002193		hemolymphoid system
+http://purl.obolibrary.org/obo/UBERON_0002196		adenohypophysis
+http://purl.obolibrary.org/obo/UBERON_0002197		median eminence of neurohypophysis
+http://purl.obolibrary.org/obo/UBERON_0002198		neurohypophysis
+http://purl.obolibrary.org/obo/UBERON_0002199		integument
+http://purl.obolibrary.org/obo/UBERON_0002200		vasculature of head
+http://purl.obolibrary.org/obo/UBERON_0002203		vasculature of eye
+http://purl.obolibrary.org/obo/UBERON_0002204		musculoskeletal system
+http://purl.obolibrary.org/obo/UBERON_0002206		mammillary body
+http://purl.obolibrary.org/obo/UBERON_0002209		fibrous joint
+http://purl.obolibrary.org/obo/UBERON_0002211		nerve root
+http://purl.obolibrary.org/obo/UBERON_0002213		cartilaginous joint
+http://purl.obolibrary.org/obo/UBERON_0002216		symphysis
+http://purl.obolibrary.org/obo/UBERON_0002219		subfornical organ
+http://purl.obolibrary.org/obo/UBERON_0002224		thoracic cavity
+http://purl.obolibrary.org/obo/UBERON_0002240		spinal cord
+http://purl.obolibrary.org/obo/UBERON_0002241		chondrocranium
+http://purl.obolibrary.org/obo/UBERON_0002245		cerebellar hemisphere
+http://purl.obolibrary.org/obo/UBERON_0002255		vomeronasal organ
+http://purl.obolibrary.org/obo/UBERON_0002258		dorsal funiculus of spinal cord
+http://purl.obolibrary.org/obo/UBERON_0002259		corpora quadrigemina
+http://purl.obolibrary.org/obo/UBERON_0002263		lentiform nucleus
+http://purl.obolibrary.org/obo/UBERON_0002264		olfactory bulb
+http://purl.obolibrary.org/obo/UBERON_0002265		olfactory tract
+http://purl.obolibrary.org/obo/UBERON_0002266		anterior olfactory nucleus
+http://purl.obolibrary.org/obo/UBERON_0002267		laterodorsal tegmental nucleus
+http://purl.obolibrary.org/obo/UBERON_0002268		olfactory organ
+http://purl.obolibrary.org/obo/UBERON_0002271		periventricular zone of hypothalamus
+http://purl.obolibrary.org/obo/UBERON_0002272		medial zone of hypothalamus
+http://purl.obolibrary.org/obo/UBERON_0002273		lateral zone of hypothalamus
+http://purl.obolibrary.org/obo/UBERON_0002275		reticular formation
+http://purl.obolibrary.org/obo/UBERON_0002285		telencephalic ventricle
+http://purl.obolibrary.org/obo/UBERON_0002286		third ventricle
+http://purl.obolibrary.org/obo/UBERON_0002289		midbrain cerebral aqueduct
+http://purl.obolibrary.org/obo/UBERON_0002291		central canal of spinal cord
+http://purl.obolibrary.org/obo/UBERON_0002298		brainstem
+http://purl.obolibrary.org/obo/UBERON_0002301		layer of neocortex
+http://purl.obolibrary.org/obo/UBERON_0002304		layer of dentate gyrus
+http://purl.obolibrary.org/obo/UBERON_0002305		layer of hippocampus
+http://purl.obolibrary.org/obo/UBERON_0002307		choroid plexus of lateral ventricle
+http://purl.obolibrary.org/obo/UBERON_0002308		nucleus of brain
+http://purl.obolibrary.org/obo/UBERON_0002309		medial longitudinal fasciculus
+http://purl.obolibrary.org/obo/UBERON_0002310		hippocampus fimbria
+http://purl.obolibrary.org/obo/UBERON_0002313		hippocampus pyramidal layer
+http://purl.obolibrary.org/obo/UBERON_0002314		midbrain tectum
+http://purl.obolibrary.org/obo/UBERON_0002316		white matter
+http://purl.obolibrary.org/obo/UBERON_0002317		white matter of cerebellum
+http://purl.obolibrary.org/obo/UBERON_0002318		white matter of spinal cord
+http://purl.obolibrary.org/obo/UBERON_0002323		coelemic cavity lumen
+http://purl.obolibrary.org/obo/UBERON_0002328		notochord
+http://purl.obolibrary.org/obo/UBERON_0002329		somite
+http://purl.obolibrary.org/obo/UBERON_0002336		corpus callosum
+http://purl.obolibrary.org/obo/UBERON_0002342		neural crest
+http://purl.obolibrary.org/obo/UBERON_0002346		neurectoderm
+http://purl.obolibrary.org/obo/UBERON_0002360		meninx
+http://purl.obolibrary.org/obo/UBERON_0002361		pia mater
+http://purl.obolibrary.org/obo/UBERON_0002362		arachnoid mater
+http://purl.obolibrary.org/obo/UBERON_0002368		endocrine gland
+http://purl.obolibrary.org/obo/UBERON_0002376		cranial muscle
+http://purl.obolibrary.org/obo/UBERON_0002384		connective tissue
+http://purl.obolibrary.org/obo/UBERON_0002385		muscle tissue
+http://purl.obolibrary.org/obo/UBERON_0002390		hematopoietic system
+http://purl.obolibrary.org/obo/UBERON_0002410		autonomic nervous system
+http://purl.obolibrary.org/obo/UBERON_0002416		integumental system
+http://purl.obolibrary.org/obo/UBERON_0002418		cartilage tissue
+http://purl.obolibrary.org/obo/UBERON_0002420		basal ganglion
+http://purl.obolibrary.org/obo/UBERON_0002421		hippocampal formation
+http://purl.obolibrary.org/obo/UBERON_0002422		fourth ventricle
+http://purl.obolibrary.org/obo/UBERON_0002430		lateral hypothalamic area
+http://purl.obolibrary.org/obo/UBERON_0002435		striatum
+http://purl.obolibrary.org/obo/UBERON_0002436		primary visual cortex
+http://purl.obolibrary.org/obo/UBERON_0002437		cerebral hemisphere white matter
+http://purl.obolibrary.org/obo/UBERON_0002438		ventral tegmental nucleus
+http://purl.obolibrary.org/obo/UBERON_0002473		intercerebral commissure
+http://purl.obolibrary.org/obo/UBERON_0002474		cerebellar peduncular complex
+http://purl.obolibrary.org/obo/UBERON_0002476		lateral globus pallidus
+http://purl.obolibrary.org/obo/UBERON_0002477		medial globus pallidus
+http://purl.obolibrary.org/obo/UBERON_0002479		dorsal lateral geniculate nucleus
+http://purl.obolibrary.org/obo/UBERON_0002480		ventral lateral geniculate nucleus
+http://purl.obolibrary.org/obo/UBERON_0002481		bone tissue
+http://purl.obolibrary.org/obo/UBERON_0002517		basicranium
+http://purl.obolibrary.org/obo/UBERON_0002530		gland
+http://purl.obolibrary.org/obo/UBERON_0002532		epiblast (generic)
+http://purl.obolibrary.org/obo/UBERON_0002539		pharyngeal arch
+http://purl.obolibrary.org/obo/UBERON_0002546		cranial placode
+http://purl.obolibrary.org/obo/UBERON_0002550		anterior hypothalamic region
+http://purl.obolibrary.org/obo/UBERON_0002551		interstitial nucleus of Cajal
+http://purl.obolibrary.org/obo/UBERON_0002553		anatomical cavity
+http://purl.obolibrary.org/obo/UBERON_0002555		intermediate hypothalamic region
+http://purl.obolibrary.org/obo/UBERON_0002556		corticotectal tract
+http://purl.obolibrary.org/obo/UBERON_0002558		organ cavity
+http://purl.obolibrary.org/obo/UBERON_0002559		medullary reticular formation
+http://purl.obolibrary.org/obo/UBERON_0002563		central nucleus of inferior colliculus
+http://purl.obolibrary.org/obo/UBERON_0002565		olivary pretectal nucleus
+http://purl.obolibrary.org/obo/UBERON_0002567		basal part of pons
+http://purl.obolibrary.org/obo/UBERON_0002571		external nucleus of inferior colliculus
+http://purl.obolibrary.org/obo/UBERON_0002573		pontine reticular formation
+http://purl.obolibrary.org/obo/UBERON_0002577		pericentral nucleus of inferior colliculus
+http://purl.obolibrary.org/obo/UBERON_0002580		brachium of superior colliculus
+http://purl.obolibrary.org/obo/UBERON_0002581		postcentral gyrus
+http://purl.obolibrary.org/obo/UBERON_0002583		commissure of superior colliculus
+http://purl.obolibrary.org/obo/UBERON_0002587		nucleus subceruleus
+http://purl.obolibrary.org/obo/UBERON_0002588		decussation of superior cerebellar peduncle
+http://purl.obolibrary.org/obo/UBERON_0002589		lateral corticospinal tract
+http://purl.obolibrary.org/obo/UBERON_0002591		oral part of spinal trigeminal nucleus
+http://purl.obolibrary.org/obo/UBERON_0002592		juxtarestiform body
+http://purl.obolibrary.org/obo/UBERON_0002596		ventral posterior nucleus of thalamus
+http://purl.obolibrary.org/obo/UBERON_0002597		principal sensory nucleus of trigeminal nerve
+http://purl.obolibrary.org/obo/UBERON_0002600		limbic lobe
+http://purl.obolibrary.org/obo/UBERON_0002604		ventral nucleus of lateral lemniscus
+http://purl.obolibrary.org/obo/UBERON_0002610		cochlear nuclear complex
+http://purl.obolibrary.org/obo/UBERON_0002614		medial part of ventral lateral nucleus
+http://purl.obolibrary.org/obo/UBERON_0002615		ventral tegmental decussation
+http://purl.obolibrary.org/obo/UBERON_0002616		regional part of brain
+http://purl.obolibrary.org/obo/UBERON_0002618		root of trochlear nerve
+http://purl.obolibrary.org/obo/UBERON_0002620		tuber cinereum
+http://purl.obolibrary.org/obo/UBERON_0002622		preoptic periventricular nucleus
+http://purl.obolibrary.org/obo/UBERON_0002623		cerebral peduncle
+http://purl.obolibrary.org/obo/UBERON_0002625		median preoptic nucleus
+http://purl.obolibrary.org/obo/UBERON_0002632		medial part of medial mammillary nucleus
+http://purl.obolibrary.org/obo/UBERON_0002633		motor nucleus of trigeminal nerve
+http://purl.obolibrary.org/obo/UBERON_0002634		anterior nucleus of hypothalamus
+http://purl.obolibrary.org/obo/UBERON_0002639		midbrain reticular formation
+http://purl.obolibrary.org/obo/UBERON_0002640		cuneocerebellar tract
+http://purl.obolibrary.org/obo/UBERON_0002647		magnocellular part of medial dorsal nucleus
+http://purl.obolibrary.org/obo/UBERON_0002663		septal nuclear complex
+http://purl.obolibrary.org/obo/UBERON_0002665		supracallosal gyrus
+http://purl.obolibrary.org/obo/UBERON_0002666		mesencephalic tract of trigeminal nerve
+http://purl.obolibrary.org/obo/UBERON_0002667		lateral septal nucleus
+http://purl.obolibrary.org/obo/UBERON_0002671		pallidotegmental fasciculus
+http://purl.obolibrary.org/obo/UBERON_0002673		vestibular nuclear complex
+http://purl.obolibrary.org/obo/UBERON_0002676		ventral supraoptic decussation
+http://purl.obolibrary.org/obo/UBERON_0002679		anterodorsal nucleus of thalamus
+http://purl.obolibrary.org/obo/UBERON_0002681		anteromedial nucleus of thalamus
+http://purl.obolibrary.org/obo/UBERON_0002682		abducens nucleus
+http://purl.obolibrary.org/obo/UBERON_0002683		rhinal sulcus
+http://purl.obolibrary.org/obo/UBERON_0002684		nucleus raphe obscurus
+http://purl.obolibrary.org/obo/UBERON_0002685		anteroventral nucleus of thalamus
+http://purl.obolibrary.org/obo/UBERON_0002687		area X of ventral lateral nucleus
+http://purl.obolibrary.org/obo/UBERON_0002689		supraoptic crest
+http://purl.obolibrary.org/obo/UBERON_0002690		anteroventral periventricular nucleus
+http://purl.obolibrary.org/obo/UBERON_0002691		ventral tegmental area
+http://purl.obolibrary.org/obo/UBERON_0002692		medullary raphe nuclear complex
+http://purl.obolibrary.org/obo/UBERON_0002696		cuneiform nucleus
+http://purl.obolibrary.org/obo/UBERON_0002697		dorsal supraoptic decussation
+http://purl.obolibrary.org/obo/UBERON_0002704		metathalamus
+http://purl.obolibrary.org/obo/UBERON_0002705		midline nuclear group
+http://purl.obolibrary.org/obo/UBERON_0002706		posterior nucleus of hypothalamus
+http://purl.obolibrary.org/obo/UBERON_0002707		corticospinal tract
+http://purl.obolibrary.org/obo/UBERON_0002708		posterior periventricular nucleus
+http://purl.obolibrary.org/obo/UBERON_0002709		posterior nuclear complex of thalamus
+http://purl.obolibrary.org/obo/UBERON_0002711		nucleus of posterior commissure
+http://purl.obolibrary.org/obo/UBERON_0002712		premammillary nucleus
+http://purl.obolibrary.org/obo/UBERON_0002714		rubrospinal tract
+http://purl.obolibrary.org/obo/UBERON_0002718		solitary tract
+http://purl.obolibrary.org/obo/UBERON_0002719		spino-olivary tract
+http://purl.obolibrary.org/obo/UBERON_0002720		mammillary peduncle
+http://purl.obolibrary.org/obo/UBERON_0002722		trochlear nucleus
+http://purl.obolibrary.org/obo/UBERON_0002723		mammillary princeps fasciculus
+http://purl.obolibrary.org/obo/UBERON_0002728		entorhinal cortex
+http://purl.obolibrary.org/obo/UBERON_0002731		vestibulocochlear nerve root
+http://purl.obolibrary.org/obo/UBERON_0002733		intralaminar nuclear group
+http://purl.obolibrary.org/obo/UBERON_0002736		lateral nuclear group of thalamus
+http://purl.obolibrary.org/obo/UBERON_0002739		medial dorsal nucleus of thalamus
+http://purl.obolibrary.org/obo/UBERON_0002743		basal forebrain
+http://purl.obolibrary.org/obo/UBERON_0002749		regional part of cerebellar cortex
+http://purl.obolibrary.org/obo/UBERON_0002752		olivocerebellar tract
+http://purl.obolibrary.org/obo/UBERON_0002753		posterior spinocerebellar tract
+http://purl.obolibrary.org/obo/UBERON_0002755		pyramidal decussation
+http://purl.obolibrary.org/obo/UBERON_0002758		dorsal nucleus of medial geniculate body
+http://purl.obolibrary.org/obo/UBERON_0002759		magnocellular nucleus of medial geniculate body
+http://purl.obolibrary.org/obo/UBERON_0002760		ventral corticospinal tract
+http://purl.obolibrary.org/obo/UBERON_0002762		internal medullary lamina of thalamus
+http://purl.obolibrary.org/obo/UBERON_0002768		vestibulospinal tract
+http://purl.obolibrary.org/obo/UBERON_0002770		posterior hypothalamic region
+http://purl.obolibrary.org/obo/UBERON_0002775		olivocochlear bundle
+http://purl.obolibrary.org/obo/UBERON_0002776		ventral nuclear group
+http://purl.obolibrary.org/obo/UBERON_0002778		ventral pallidum
+http://purl.obolibrary.org/obo/UBERON_0002779		lateral superior olivary nucleus
+http://purl.obolibrary.org/obo/UBERON_0002782		medial superior olivary nucleus
+http://purl.obolibrary.org/obo/UBERON_0002787		decussation of trochlear nerve
+http://purl.obolibrary.org/obo/UBERON_0002788		anterior nuclear group
+http://purl.obolibrary.org/obo/UBERON_0002790		dorsal acoustic stria
+http://purl.obolibrary.org/obo/UBERON_0002795		frontal pole
+http://purl.obolibrary.org/obo/UBERON_0002796		motor root of trigeminal nerve
+http://purl.obolibrary.org/obo/UBERON_0002798		spinothalamic tract of pons
+http://purl.obolibrary.org/obo/UBERON_0002812		left cerebral hemisphere
+http://purl.obolibrary.org/obo/UBERON_0002813		right cerebral hemisphere
+http://purl.obolibrary.org/obo/UBERON_0002814		posterior superior fissure of cerebellum
+http://purl.obolibrary.org/obo/UBERON_0002816		prepyramidal fissure of cerebellum
+http://purl.obolibrary.org/obo/UBERON_0002817		secondary fissure of cerebellum
+http://purl.obolibrary.org/obo/UBERON_0002818		posterolateral fissure of cerebellum
+http://purl.obolibrary.org/obo/UBERON_0002828		ventral cochlear nucleus
+http://purl.obolibrary.org/obo/UBERON_0002829		dorsal cochlear nucleus
+http://purl.obolibrary.org/obo/UBERON_0002864		accessory cuneate nucleus
+http://purl.obolibrary.org/obo/UBERON_0002866		caudal part of spinal trigeminal nucleus
+http://purl.obolibrary.org/obo/UBERON_0002869		diffuse reticular nucleus
+http://purl.obolibrary.org/obo/UBERON_0002870		dorsal motor nucleus of vagus nerve
+http://purl.obolibrary.org/obo/UBERON_0002871		hypoglossal nucleus
+http://purl.obolibrary.org/obo/UBERON_0002872		inferior salivatory nucleus
+http://purl.obolibrary.org/obo/UBERON_0002873		interpolar part of spinal trigeminal nucleus
+http://purl.obolibrary.org/obo/UBERON_0002876		nucleus intercalatus
+http://purl.obolibrary.org/obo/UBERON_0002877		parasolitary nucleus
+http://purl.obolibrary.org/obo/UBERON_0002881		sublingual nucleus
+http://purl.obolibrary.org/obo/UBERON_0002883		central amygdaloid nucleus
+http://purl.obolibrary.org/obo/UBERON_0002884		intercalated amygdaloid nuclei
+http://purl.obolibrary.org/obo/UBERON_0002886		lateral amygdaloid nucleus
+http://purl.obolibrary.org/obo/UBERON_0002887		basal amygdaloid nucleus
+http://purl.obolibrary.org/obo/UBERON_0002889		medial part of basal amygdaloid nucleus
+http://purl.obolibrary.org/obo/UBERON_0002890		anterior amygdaloid area
+http://purl.obolibrary.org/obo/UBERON_0002891		cortical amygdaloid nucleus
+http://purl.obolibrary.org/obo/UBERON_0002892		medial amygdaloid nucleus
+http://purl.obolibrary.org/obo/UBERON_0002893		nucleus of lateral olfactory tract
+http://purl.obolibrary.org/obo/UBERON_0002894		olfactory cortex
+http://purl.obolibrary.org/obo/UBERON_0002895		secondary olfactory cortex
+http://purl.obolibrary.org/obo/UBERON_0002899		hippocampal sulcus
+http://purl.obolibrary.org/obo/UBERON_0002918		medial parabrachial nucleus
+http://purl.obolibrary.org/obo/UBERON_0002924		terminal nerve
+http://purl.obolibrary.org/obo/UBERON_0002925		trigeminal nucleus
+http://purl.obolibrary.org/obo/UBERON_0002926		gustatory epithelium
+http://purl.obolibrary.org/obo/UBERON_0002928		dentate gyrus polymorphic layer
+http://purl.obolibrary.org/obo/UBERON_0002932		trapezoid body
+http://purl.obolibrary.org/obo/UBERON_0002933		nucleus of anterior commissure
+http://purl.obolibrary.org/obo/UBERON_0002942		ventral posterolateral nucleus
+http://purl.obolibrary.org/obo/UBERON_0002945		ventral posteromedial nucleus of thalamus
+http://purl.obolibrary.org/obo/UBERON_0002949		tectospinal tract
+http://purl.obolibrary.org/obo/UBERON_0002952		intermediate acoustic stria
+http://purl.obolibrary.org/obo/UBERON_0002953		lateral lemniscus
+http://purl.obolibrary.org/obo/UBERON_0002955		rhomboidal nucleus
+http://purl.obolibrary.org/obo/UBERON_0002956		granular layer of cerebellar cortex
+http://purl.obolibrary.org/obo/UBERON_0002963		caudal pontine reticular nucleus
+http://purl.obolibrary.org/obo/UBERON_0002965		rostral intralaminar nuclear group
+http://purl.obolibrary.org/obo/UBERON_0002968		central gray substance of pons
+http://purl.obolibrary.org/obo/UBERON_0002971		periolivary nucleus
+http://purl.obolibrary.org/obo/UBERON_0002973		parahippocampal gyrus
+http://purl.obolibrary.org/obo/UBERON_0002974		molecular layer of cerebellar cortex
+http://purl.obolibrary.org/obo/UBERON_0002977		triangular septal nucleus
+http://purl.obolibrary.org/obo/UBERON_0002979		Purkinje cell layer of cerebellar cortex
+http://purl.obolibrary.org/obo/UBERON_0002983		lateral posterior nucleus of thalamus
+http://purl.obolibrary.org/obo/UBERON_0002984		lateral dorsal nucleus
+http://purl.obolibrary.org/obo/UBERON_0002985		ventral nucleus of medial geniculate body
+http://purl.obolibrary.org/obo/UBERON_0002987		anterior spinocerebellar tract
+http://purl.obolibrary.org/obo/UBERON_0002991		supramammillary commissure
+http://purl.obolibrary.org/obo/UBERON_0002992		paratenial nucleus
+http://purl.obolibrary.org/obo/UBERON_0002995		substantia nigra pars lateralis
+http://purl.obolibrary.org/obo/UBERON_0002996		nucleus of optic tract
+http://purl.obolibrary.org/obo/UBERON_0002999		oral pontine reticular nucleus
+http://purl.obolibrary.org/obo/UBERON_0003001		nervous system lemniscus
+http://purl.obolibrary.org/obo/UBERON_0003002		medial lemniscus
+http://purl.obolibrary.org/obo/UBERON_0003004		median raphe nucleus
+http://purl.obolibrary.org/obo/UBERON_0003006		dorsal nucleus of lateral lemniscus
+http://purl.obolibrary.org/obo/UBERON_0003007		lateral parabrachial nucleus
+http://purl.obolibrary.org/obo/UBERON_0003011		facial motor nucleus
+http://purl.obolibrary.org/obo/UBERON_0003012		flocculonodular lobe
+http://purl.obolibrary.org/obo/UBERON_0003016		postcommissural fornix of brain
+http://purl.obolibrary.org/obo/UBERON_0003017		substantia innominata
+http://purl.obolibrary.org/obo/UBERON_0003018		parvocellular part of ventral posteromedial nucleus
+http://purl.obolibrary.org/obo/UBERON_0003021		central lobule
+http://purl.obolibrary.org/obo/UBERON_0003023		pontine tegmentum
+http://purl.obolibrary.org/obo/UBERON_0003025		brachium of inferior colliculus
+http://purl.obolibrary.org/obo/UBERON_0003027		cingulate cortex
+http://purl.obolibrary.org/obo/UBERON_0003028		commissure of inferior colliculus
+http://purl.obolibrary.org/obo/UBERON_0003029		stria terminalis
+http://purl.obolibrary.org/obo/UBERON_0003030		posterior nucleus of thalamus
+http://purl.obolibrary.org/obo/UBERON_0003031		submedial nucleus of thalamus
+http://purl.obolibrary.org/obo/UBERON_0003033		suprageniculate nucleus of thalamus
+http://purl.obolibrary.org/obo/UBERON_0003036		central lateral nucleus
+http://purl.obolibrary.org/obo/UBERON_0003037		septum
+http://purl.obolibrary.org/obo/UBERON_0003039		anterior commissure anterior part
+http://purl.obolibrary.org/obo/UBERON_0003040		central gray substance of midbrain
+http://purl.obolibrary.org/obo/UBERON_0003045		dorsal longitudinal fasciculus
+http://purl.obolibrary.org/obo/UBERON_0003050		olfactory placode
+http://purl.obolibrary.org/obo/UBERON_0003051		ear vesicle
+http://purl.obolibrary.org/obo/UBERON_0003052		midbrain-hindbrain boundary
+http://purl.obolibrary.org/obo/UBERON_0003054		roof plate
+http://purl.obolibrary.org/obo/UBERON_0003055		periderm
+http://purl.obolibrary.org/obo/UBERON_0003056		pre-chordal neural plate
+http://purl.obolibrary.org/obo/UBERON_0003057		chordal neural plate
+http://purl.obolibrary.org/obo/UBERON_0003059		presomitic mesoderm
+http://purl.obolibrary.org/obo/UBERON_0003061		blood island
+http://purl.obolibrary.org/obo/UBERON_0003063		prechordal plate
+http://purl.obolibrary.org/obo/UBERON_0003066		pharyngeal arch 2
+http://purl.obolibrary.org/obo/UBERON_0003067		dorsolateral placode
+http://purl.obolibrary.org/obo/UBERON_0003068		axial mesoderm
+http://purl.obolibrary.org/obo/UBERON_0003069		otic placode
+http://purl.obolibrary.org/obo/UBERON_0003071		eye primordium
+http://purl.obolibrary.org/obo/UBERON_0003072		optic cup
+http://purl.obolibrary.org/obo/UBERON_0003073		lens placode
+http://purl.obolibrary.org/obo/UBERON_0003075		neural plate
+http://purl.obolibrary.org/obo/UBERON_0003076		posterior neural tube
+http://purl.obolibrary.org/obo/UBERON_0003077		paraxial mesoderm
+http://purl.obolibrary.org/obo/UBERON_0003078		epibranchial placode
+http://purl.obolibrary.org/obo/UBERON_0003080		anterior neural tube
+http://purl.obolibrary.org/obo/UBERON_0003081		lateral plate mesoderm
+http://purl.obolibrary.org/obo/UBERON_0003082		myotome
+http://purl.obolibrary.org/obo/UBERON_0003084		heart primordium
+http://purl.obolibrary.org/obo/UBERON_0003089		sclerotome
+http://purl.obolibrary.org/obo/UBERON_0003098		optic stalk
+http://purl.obolibrary.org/obo/UBERON_0003099		cranial neural crest
+http://purl.obolibrary.org/obo/UBERON_0003102		surface structure
+http://purl.obolibrary.org/obo/UBERON_0003103		compound organ
+http://purl.obolibrary.org/obo/UBERON_0003104		mesenchyme
+http://purl.obolibrary.org/obo/UBERON_0003110		otic region
+http://purl.obolibrary.org/obo/UBERON_0003112		olfactory region
+http://purl.obolibrary.org/obo/UBERON_0003113		dermatocranium
+http://purl.obolibrary.org/obo/UBERON_0003114		pharyngeal arch 3
+http://purl.obolibrary.org/obo/UBERON_0003117		pharyngeal arch 6
+http://purl.obolibrary.org/obo/UBERON_0003128		cranium
+http://purl.obolibrary.org/obo/UBERON_0003129		skull
+http://purl.obolibrary.org/obo/UBERON_0003133		reproductive organ
+http://purl.obolibrary.org/obo/UBERON_0003212		gustatory organ
+http://purl.obolibrary.org/obo/UBERON_0003258		endoderm of foregut
+http://purl.obolibrary.org/obo/UBERON_0003269		skeletal muscle tissue of eye
+http://purl.obolibrary.org/obo/UBERON_0003278		skeleton of lower jaw
+http://purl.obolibrary.org/obo/UBERON_0003296		gland of diencephalon
+http://purl.obolibrary.org/obo/UBERON_0003314		eye mesenchyme
+http://purl.obolibrary.org/obo/UBERON_0003324		mesenchyme of lower jaw
+http://purl.obolibrary.org/obo/UBERON_0003350		epithelium of mucosa
+http://purl.obolibrary.org/obo/UBERON_0003367		epithelium of vomeronasal organ
+http://purl.obolibrary.org/obo/UBERON_0003386		smooth muscle of eye
+http://purl.obolibrary.org/obo/UBERON_0003457		head bone
+http://purl.obolibrary.org/obo/UBERON_0003462		facial bone
+http://purl.obolibrary.org/obo/UBERON_0003509		arterial blood vessel
+http://purl.obolibrary.org/obo/UBERON_0003528		brain gray matter
+http://purl.obolibrary.org/obo/UBERON_0003544		brain white matter
+http://purl.obolibrary.org/obo/UBERON_0003714		neural tissue
+http://purl.obolibrary.org/obo/UBERON_0003716		recurrent laryngeal nerve
+http://purl.obolibrary.org/obo/UBERON_0003723		vestibular nerve
+http://purl.obolibrary.org/obo/UBERON_0003842		neural tube lumen
+http://purl.obolibrary.org/obo/UBERON_0003849		mesencephalic neural crest
+http://purl.obolibrary.org/obo/UBERON_0003850		telencephalon neural crest
+http://purl.obolibrary.org/obo/UBERON_0003851		diencephalon neural crest
+http://purl.obolibrary.org/obo/UBERON_0003852		rhombencephalon neural crest
+http://purl.obolibrary.org/obo/UBERON_0003853		spinal cord neural crest
+http://purl.obolibrary.org/obo/UBERON_0003869		presumptive ganglion
+http://purl.obolibrary.org/obo/UBERON_0003876		hippocampal field
+http://purl.obolibrary.org/obo/UBERON_0003881		CA1 field of hippocampus
+http://purl.obolibrary.org/obo/UBERON_0003882		CA2 field of hippocampus
+http://purl.obolibrary.org/obo/UBERON_0003883		CA3 field of hippocampus
+http://purl.obolibrary.org/obo/UBERON_0003886		future coelemic cavity lumen
+http://purl.obolibrary.org/obo/UBERON_0003887		intraembryonic coelom
+http://purl.obolibrary.org/obo/UBERON_0003902		retinal neural layer
+http://purl.obolibrary.org/obo/UBERON_0003914		epithelial tube
+http://purl.obolibrary.org/obo/UBERON_0003920		venous blood vessel
+http://purl.obolibrary.org/obo/UBERON_0003929		digestive tract epithelium
+http://purl.obolibrary.org/obo/UBERON_0003931		diencephalic white matter
+http://purl.obolibrary.org/obo/UBERON_0003932		cartilage element of chondrocranium
+http://purl.obolibrary.org/obo/UBERON_0003933		cranial cartilage
+http://purl.obolibrary.org/obo/UBERON_0003936		postoptic commissure
+http://purl.obolibrary.org/obo/UBERON_0003937		reproductive gland
+http://purl.obolibrary.org/obo/UBERON_0003941		cerebellum anterior vermis
+http://purl.obolibrary.org/obo/UBERON_0003942		somatosensory system
+http://purl.obolibrary.org/obo/UBERON_0003947		brain ventricle/choroid plexus
+http://purl.obolibrary.org/obo/UBERON_0003961		cingulum of brain
+http://purl.obolibrary.org/obo/UBERON_0003980		cerebellum fissure
+http://purl.obolibrary.org/obo/UBERON_0003993		interventricular foramen of CNS
+http://purl.obolibrary.org/obo/UBERON_0004001		olfactory bulb layer
+http://purl.obolibrary.org/obo/UBERON_0004002		posterior lobe of cerebellum
+http://purl.obolibrary.org/obo/UBERON_0004003		cerebellum hemisphere lobule
+http://purl.obolibrary.org/obo/UBERON_0004004		cerebellum lobule
+http://purl.obolibrary.org/obo/UBERON_0004008		cerebellar plate
+http://purl.obolibrary.org/obo/UBERON_0004009		cerebellum posterior vermis
+http://purl.obolibrary.org/obo/UBERON_0004016		dermatome
+http://purl.obolibrary.org/obo/UBERON_0004022		germinal neuroepithelium
+http://purl.obolibrary.org/obo/UBERON_0004023		ganglionic eminence
+http://purl.obolibrary.org/obo/UBERON_0004035		cortical subplate
+http://purl.obolibrary.org/obo/UBERON_0004040		cortical intermediate zone
+http://purl.obolibrary.org/obo/UBERON_0004060		neural tube ventricular layer
+http://purl.obolibrary.org/obo/UBERON_0004061		neural tube mantle layer
+http://purl.obolibrary.org/obo/UBERON_0004062		neural tube marginal layer
+http://purl.obolibrary.org/obo/UBERON_0004064		neural tube basal plate
+http://purl.obolibrary.org/obo/UBERON_0004066		frontonasal prominence
+http://purl.obolibrary.org/obo/UBERON_0004067		lateral nasal prominence
+http://purl.obolibrary.org/obo/UBERON_0004068		medial nasal prominence
+http://purl.obolibrary.org/obo/UBERON_0004069		accessory olfactory bulb
+http://purl.obolibrary.org/obo/UBERON_0004070		cerebellum vermis lobule
+http://purl.obolibrary.org/obo/UBERON_0004073		cerebellum interpositus nucleus
+http://purl.obolibrary.org/obo/UBERON_0004074		cerebellum vermis lobule I
+http://purl.obolibrary.org/obo/UBERON_0004075		cerebellum vermis lobule II
+http://purl.obolibrary.org/obo/UBERON_0004076		cerebellum vermis lobule III
+http://purl.obolibrary.org/obo/UBERON_0004077		cerebellum vermis lobule IV
+http://purl.obolibrary.org/obo/UBERON_0004078		cerebellum vermis lobule IX
+http://purl.obolibrary.org/obo/UBERON_0004079		cerebellum vermis lobule V
+http://purl.obolibrary.org/obo/UBERON_0004080		cerebellum vermis lobule VI
+http://purl.obolibrary.org/obo/UBERON_0004081		cerebellum vermis lobule VII
+http://purl.obolibrary.org/obo/UBERON_0004082		cerebellum vermis lobule VIII
+http://purl.obolibrary.org/obo/UBERON_0004083		cerebellum vermis lobule X
+http://purl.obolibrary.org/obo/UBERON_0004086		brain ventricle
+http://purl.obolibrary.org/obo/UBERON_0004088		orbital region
+http://purl.obolibrary.org/obo/UBERON_0004111		anatomical conduit
+http://purl.obolibrary.org/obo/UBERON_0004119		endoderm-derived structure
+http://purl.obolibrary.org/obo/UBERON_0004120		mesoderm-derived structure
+http://purl.obolibrary.org/obo/UBERON_0004121		ectoderm-derived structure
+http://purl.obolibrary.org/obo/UBERON_0004128		optic vesicle
+http://purl.obolibrary.org/obo/UBERON_0004130		cerebellar layer
+http://purl.obolibrary.org/obo/UBERON_0004132		trigeminal sensory nucleus
+http://purl.obolibrary.org/obo/UBERON_0004133		salivatory nucleus
+http://purl.obolibrary.org/obo/UBERON_0004139		cardiogenic plate
+http://purl.obolibrary.org/obo/UBERON_0004140		primary heart field
+http://purl.obolibrary.org/obo/UBERON_0004141		heart tube
+http://purl.obolibrary.org/obo/UBERON_0004151		cardiac chamber
+http://purl.obolibrary.org/obo/UBERON_0004167		orbitofrontal cortex
+http://purl.obolibrary.org/obo/UBERON_0004170		spinal cord ventral commissure
+http://purl.obolibrary.org/obo/UBERON_0004186		olfactory bulb mitral cell layer
+http://purl.obolibrary.org/obo/UBERON_0004277		eye muscle
+http://purl.obolibrary.org/obo/UBERON_0004288		skeleton
+http://purl.obolibrary.org/obo/UBERON_0004290		dermomyotome
+http://purl.obolibrary.org/obo/UBERON_0004291		heart rudiment
+http://purl.obolibrary.org/obo/UBERON_0004348		optic eminence
+http://purl.obolibrary.org/obo/UBERON_0004362		pharyngeal arch 1
+http://purl.obolibrary.org/obo/UBERON_0004370		anterior limiting lamina of cornea
+http://purl.obolibrary.org/obo/UBERON_0004456		entire sense organ system
+http://purl.obolibrary.org/obo/UBERON_0004461		skeletal musculature of head
+http://purl.obolibrary.org/obo/UBERON_0004473		musculature of face
+http://purl.obolibrary.org/obo/UBERON_0004535		cardiovascular system
+http://purl.obolibrary.org/obo/UBERON_0004537		blood vasculature
+http://purl.obolibrary.org/obo/UBERON_0004545		external capsule of telencephalon
+http://purl.obolibrary.org/obo/UBERON_0004572		arterial system
+http://purl.obolibrary.org/obo/UBERON_0004582		venous system
+http://purl.obolibrary.org/obo/UBERON_0004637		otic capsule
+http://purl.obolibrary.org/obo/UBERON_0004638		blood vessel endothelium
+http://purl.obolibrary.org/obo/UBERON_0004670		ependyma
+http://purl.obolibrary.org/obo/UBERON_0004673		trigeminal nerve root
+http://purl.obolibrary.org/obo/UBERON_0004674		facial nerve root
+http://purl.obolibrary.org/obo/UBERON_0004679		dentate gyrus molecular layer
+http://purl.obolibrary.org/obo/UBERON_0004680		body of fornix
+http://purl.obolibrary.org/obo/UBERON_0004681		vestibular system
+http://purl.obolibrary.org/obo/UBERON_0004683		parasubiculum
+http://purl.obolibrary.org/obo/UBERON_0004684		raphe nuclei
+http://purl.obolibrary.org/obo/UBERON_0004703		dorsal thalamus
+http://purl.obolibrary.org/obo/UBERON_0004716		conceptus
+http://purl.obolibrary.org/obo/UBERON_0004720		cerebellar vermis
+http://purl.obolibrary.org/obo/UBERON_0004725		piriform cortex
+http://purl.obolibrary.org/obo/UBERON_0004727		cochlear nerve
+http://purl.obolibrary.org/obo/UBERON_0004731		neuromere
+http://purl.obolibrary.org/obo/UBERON_0004732		segmental subdivision of nervous system
+http://purl.obolibrary.org/obo/UBERON_0004733		segmental subdivision of hindbrain
+http://purl.obolibrary.org/obo/UBERON_0004734		gastrula
+http://purl.obolibrary.org/obo/UBERON_0004742		dentary
+http://purl.obolibrary.org/obo/UBERON_0004755		skeletal tissue
+http://purl.obolibrary.org/obo/UBERON_0004756		dermal skeletal element
+http://purl.obolibrary.org/obo/UBERON_0004761		cartilaginous neurocranium
+http://purl.obolibrary.org/obo/UBERON_0004765		skeletal element
+http://purl.obolibrary.org/obo/UBERON_0004768		bone of lower jaw
+http://purl.obolibrary.org/obo/UBERON_0004770		articular system
+http://purl.obolibrary.org/obo/UBERON_0004785		respiratory system mucosa
+http://purl.obolibrary.org/obo/UBERON_0004802		respiratory tract epithelium
+http://purl.obolibrary.org/obo/UBERON_0004807		respiratory system epithelium
+http://purl.obolibrary.org/obo/UBERON_0004814		upper respiratory tract epithelium
+http://purl.obolibrary.org/obo/UBERON_0004852		cardiovascular system endothelium
+http://purl.obolibrary.org/obo/UBERON_0004872		splanchnic layer of lateral plate mesoderm
+http://purl.obolibrary.org/obo/UBERON_0004880		chordamesoderm
+http://purl.obolibrary.org/obo/UBERON_0004905		articulation
+http://purl.obolibrary.org/obo/UBERON_0004921		subdivision of digestive tract
+http://purl.obolibrary.org/obo/UBERON_0004922		postnatal subventricular zone
+http://purl.obolibrary.org/obo/UBERON_0004923		organ component layer
+http://purl.obolibrary.org/obo/UBERON_0005061		neural groove
+http://purl.obolibrary.org/obo/UBERON_0005062		neural fold
+http://purl.obolibrary.org/obo/UBERON_0005068		neural rod
+http://purl.obolibrary.org/obo/UBERON_0005085		ectodermal placode
+http://purl.obolibrary.org/obo/UBERON_0005090		muscle structure
+http://purl.obolibrary.org/obo/UBERON_0005156		reproductive structure
+http://purl.obolibrary.org/obo/UBERON_0005157		epithelial fold
+http://purl.obolibrary.org/obo/UBERON_0005162		multi cell part structure
+http://purl.obolibrary.org/obo/UBERON_0005174		dorsal region element
+http://purl.obolibrary.org/obo/UBERON_0005177		trunk region element
+http://purl.obolibrary.org/obo/UBERON_0005178		thoracic cavity element
+http://purl.obolibrary.org/obo/UBERON_0005181		thoracic segment organ
+http://purl.obolibrary.org/obo/UBERON_0005239		basal plate metencephalon
+http://purl.obolibrary.org/obo/UBERON_0005253		head mesenchyme
+http://purl.obolibrary.org/obo/UBERON_0005256		trunk mesenchyme
+http://purl.obolibrary.org/obo/UBERON_0005281		ventricular system of central nervous system
+http://purl.obolibrary.org/obo/UBERON_0005282		ventricular system of brain
+http://purl.obolibrary.org/obo/UBERON_0005283		tela choroidea
+http://purl.obolibrary.org/obo/UBERON_0005290		myelencephalon
+http://purl.obolibrary.org/obo/UBERON_0005291		embryonic tissue
+http://purl.obolibrary.org/obo/UBERON_0005293		cerebellum lobe
+http://purl.obolibrary.org/obo/UBERON_0005340		dorsal telencephalic commissure
+http://purl.obolibrary.org/obo/UBERON_0005341		ventral commissure
+http://purl.obolibrary.org/obo/UBERON_0005343		cortical plate
+http://purl.obolibrary.org/obo/UBERON_0005347		copula pyramidis
+http://purl.obolibrary.org/obo/UBERON_0005348		ansiform lobule
+http://purl.obolibrary.org/obo/UBERON_0005349		paramedian lobule
+http://purl.obolibrary.org/obo/UBERON_0005350		lobule simplex
+http://purl.obolibrary.org/obo/UBERON_0005351		paraflocculus
+http://purl.obolibrary.org/obo/UBERON_0005358		ventricle of nervous system
+http://purl.obolibrary.org/obo/UBERON_0005366		olfactory lobe
+http://purl.obolibrary.org/obo/UBERON_0005368		hippocampus molecular layer
+http://purl.obolibrary.org/obo/UBERON_0005370		hippocampus stratum lacunosum
+http://purl.obolibrary.org/obo/UBERON_0005371		hippocampus stratum oriens
+http://purl.obolibrary.org/obo/UBERON_0005372		hippocampus stratum radiatum
+http://purl.obolibrary.org/obo/UBERON_0005373		spinal cord dorsal column
+http://purl.obolibrary.org/obo/UBERON_0005376		olfactory bulb external plexiform layer
+http://purl.obolibrary.org/obo/UBERON_0005377		olfactory bulb glomerular layer
+http://purl.obolibrary.org/obo/UBERON_0005378		olfactory bulb granule cell layer
+http://purl.obolibrary.org/obo/UBERON_0005379		olfactory bulb internal plexiform layer
+http://purl.obolibrary.org/obo/UBERON_0005381		dentate gyrus granule cell layer
+http://purl.obolibrary.org/obo/UBERON_0005382		dorsal striatum
+http://purl.obolibrary.org/obo/UBERON_0005383		caudate-putamen
+http://purl.obolibrary.org/obo/UBERON_0005384		nasal cavity epithelium
+http://purl.obolibrary.org/obo/UBERON_0005386		olfactory segment of nasal mucosa
+http://purl.obolibrary.org/obo/UBERON_0005388		photoreceptor array
+http://purl.obolibrary.org/obo/UBERON_0005389		transparent eye structure
+http://purl.obolibrary.org/obo/UBERON_0005390		cortical layer I
+http://purl.obolibrary.org/obo/UBERON_0005391		cortical layer II
+http://purl.obolibrary.org/obo/UBERON_0005392		cortical layer III
+http://purl.obolibrary.org/obo/UBERON_0005393		cortical layer IV
+http://purl.obolibrary.org/obo/UBERON_0005394		cortical layer V
+http://purl.obolibrary.org/obo/UBERON_0005395		cortical layer VI
+http://purl.obolibrary.org/obo/UBERON_0005401		cerebral hemisphere gray matter
+http://purl.obolibrary.org/obo/UBERON_0005403		ventral striatum
+http://purl.obolibrary.org/obo/UBERON_0005408		circumventricular organ
+http://purl.obolibrary.org/obo/UBERON_0005413		spinocerebellar tract
+http://purl.obolibrary.org/obo/UBERON_0005423		developing anatomical structure
+http://purl.obolibrary.org/obo/UBERON_0005425		presumptive neural retina
+http://purl.obolibrary.org/obo/UBERON_0005426		lens vesicle
+http://purl.obolibrary.org/obo/UBERON_0005427		corneal primordium
+http://purl.obolibrary.org/obo/UBERON_0005478		sulcus limitans of neural tube
+http://purl.obolibrary.org/obo/UBERON_0005496		neural tube lateral wall
+http://purl.obolibrary.org/obo/UBERON_0005497		non-neural ectoderm
+http://purl.obolibrary.org/obo/UBERON_0005498		primitive heart tube
+http://purl.obolibrary.org/obo/UBERON_0005499		rhombomere 1
+http://purl.obolibrary.org/obo/UBERON_0005502		rhombomere roof plate
+http://purl.obolibrary.org/obo/UBERON_0005564		gonad primordium
+http://purl.obolibrary.org/obo/UBERON_0005568		rhombomere 1 roof plate
+http://purl.obolibrary.org/obo/UBERON_0005594		head somite
+http://purl.obolibrary.org/obo/UBERON_0005629		vascular plexus
+http://purl.obolibrary.org/obo/UBERON_0005725		olfactory system
+http://purl.obolibrary.org/obo/UBERON_0005726		chemosensory system
+http://purl.obolibrary.org/obo/UBERON_0005764		acellular membrane
+http://purl.obolibrary.org/obo/UBERON_0005769		basement membrane of epithelium
+http://purl.obolibrary.org/obo/UBERON_0005821		gracile fasciculus
+http://purl.obolibrary.org/obo/UBERON_0005832		cuneate fasciculus
+http://purl.obolibrary.org/obo/UBERON_0005838		fasciculus of brain
+http://purl.obolibrary.org/obo/UBERON_0005856		developing mesenchymal condensation
+http://purl.obolibrary.org/obo/UBERON_0005863		cartilaginous condensation
+http://purl.obolibrary.org/obo/UBERON_0005865		pre-muscle condensation
+http://purl.obolibrary.org/obo/UBERON_0005866		pre-cartilage condensation
+http://purl.obolibrary.org/obo/UBERON_0005867		mandibular prominence
+http://purl.obolibrary.org/obo/UBERON_0005882		neural tube alar plate
+http://purl.obolibrary.org/obo/UBERON_0005884		hyoid arch skeleton
+http://purl.obolibrary.org/obo/UBERON_0005911		endo-epithelium
+http://purl.obolibrary.org/obo/UBERON_0005913		zone of bone organ
+http://purl.obolibrary.org/obo/UBERON_0005944		axial skeleton plus cranial skeleton
+http://purl.obolibrary.org/obo/UBERON_0005945		neurocranial trabecula
+http://purl.obolibrary.org/obo/UBERON_0005970		brain commissure
+http://purl.obolibrary.org/obo/UBERON_0005976		ansiform lobule crus I
+http://purl.obolibrary.org/obo/UBERON_0005977		ansiform lobule crus II
+http://purl.obolibrary.org/obo/UBERON_0005978		olfactory bulb outer nerve layer
+http://purl.obolibrary.org/obo/UBERON_0006083		perirhinal cortex
+http://purl.obolibrary.org/obo/UBERON_0006086		stria medullaris
+http://purl.obolibrary.org/obo/UBERON_0006087		internal arcuate fiber bundle
+http://purl.obolibrary.org/obo/UBERON_0006098		basal nuclear complex
+http://purl.obolibrary.org/obo/UBERON_0006107		basolateral amygdaloid nuclear complex
+http://purl.obolibrary.org/obo/UBERON_0006108		corticomedial nuclear complex
+http://purl.obolibrary.org/obo/UBERON_0006120		superior colliculus superficial gray layer
+http://purl.obolibrary.org/obo/UBERON_0006127		funiculus of spinal cord
+http://purl.obolibrary.org/obo/UBERON_0006133		funiculus of neuraxis
+http://purl.obolibrary.org/obo/UBERON_0006134		nerve fiber
+http://purl.obolibrary.org/obo/UBERON_0006135		myelinated nerve fiber
+http://purl.obolibrary.org/obo/UBERON_0006215		rhombic lip
+http://purl.obolibrary.org/obo/UBERON_0006222		future diencephalon
+http://purl.obolibrary.org/obo/UBERON_0006230		extrinsic ocular pre-muscle mass
+http://purl.obolibrary.org/obo/UBERON_0006238		future brain
+http://purl.obolibrary.org/obo/UBERON_0006240		future forebrain
+http://purl.obolibrary.org/obo/UBERON_0006241		future spinal cord
+http://purl.obolibrary.org/obo/UBERON_0006260		lingual swellings
+http://purl.obolibrary.org/obo/UBERON_0006267		notochordal plate
+http://purl.obolibrary.org/obo/UBERON_0006268		notochordal process
+http://purl.obolibrary.org/obo/UBERON_0006273		otic pit
+http://purl.obolibrary.org/obo/UBERON_0006284		early prosencephalic vesicle
+http://purl.obolibrary.org/obo/UBERON_0006314		bodily fluid
+http://purl.obolibrary.org/obo/UBERON_0006321		superior oblique extraocular muscle
+http://purl.obolibrary.org/obo/UBERON_0006331		brainstem nucleus
+http://purl.obolibrary.org/obo/UBERON_0006514		pallidum
+http://purl.obolibrary.org/obo/UBERON_0006516		dorsal pallidum
+http://purl.obolibrary.org/obo/UBERON_0006531		oculomotor muscle
+http://purl.obolibrary.org/obo/UBERON_0006532		oblique extraocular muscle
+http://purl.obolibrary.org/obo/UBERON_0006562		pharynx
+http://purl.obolibrary.org/obo/UBERON_0006568		hypothalamic nucleus
+http://purl.obolibrary.org/obo/UBERON_0006569		diencephalic nucleus
+http://purl.obolibrary.org/obo/UBERON_0006585		vestibular organ
+http://purl.obolibrary.org/obo/UBERON_0006595		presumptive endoderm
+http://purl.obolibrary.org/obo/UBERON_0006596		presumptive blood
+http://purl.obolibrary.org/obo/UBERON_0006598		presumptive structure
+http://purl.obolibrary.org/obo/UBERON_0006601		presumptive ectoderm
+http://purl.obolibrary.org/obo/UBERON_0006603		presumptive mesoderm
+http://purl.obolibrary.org/obo/UBERON_0006606		mandibular symphysis
+http://purl.obolibrary.org/obo/UBERON_0006695		mammillary axonal complex
+http://purl.obolibrary.org/obo/UBERON_0006696		mammillothalamic axonal tract
+http://purl.obolibrary.org/obo/UBERON_0006698		mammillotegmental axonal tract
+http://purl.obolibrary.org/obo/UBERON_0006756		median lingual swelling
+http://purl.obolibrary.org/obo/UBERON_0006757		lateral lingual swelling
+http://purl.obolibrary.org/obo/UBERON_0006777		tectal plate
+http://purl.obolibrary.org/obo/UBERON_0006779		superficial white layer of superior colliculus
+http://purl.obolibrary.org/obo/UBERON_0006780		zonal layer of superior colliculus
+http://purl.obolibrary.org/obo/UBERON_0006783		layer of superior colliculus
+http://purl.obolibrary.org/obo/UBERON_0006785		gray matter layer of superior colliculus
+http://purl.obolibrary.org/obo/UBERON_0006786		white matter of superior colliculus
+http://purl.obolibrary.org/obo/UBERON_0006791		superficial layer of superior colliculus
+http://purl.obolibrary.org/obo/UBERON_0006794		visual processing part of nervous system
+http://purl.obolibrary.org/obo/UBERON_0006813		nasal skeleton
+http://purl.obolibrary.org/obo/UBERON_0006840		nucleus of lateral lemniscus
+http://purl.obolibrary.org/obo/UBERON_0006843		root of cranial nerve
+http://purl.obolibrary.org/obo/UBERON_0006846		surface groove
+http://purl.obolibrary.org/obo/UBERON_0006847		cerebellar commissure
+http://purl.obolibrary.org/obo/UBERON_0006848		posterior pretectal nucleus
+http://purl.obolibrary.org/obo/UBERON_0006876		vasculature of organ
+http://purl.obolibrary.org/obo/UBERON_0006904		head mesenchyme from mesoderm
+http://purl.obolibrary.org/obo/UBERON_0006905		mandibular process mesenchyme
+http://purl.obolibrary.org/obo/UBERON_0006914		squamous epithelium
+http://purl.obolibrary.org/obo/UBERON_0006934		sensory epithelium
+http://purl.obolibrary.org/obo/UBERON_0006964		pars distalis of adenohypophysis
+http://purl.obolibrary.org/obo/UBERON_0006965		vascular cord
+http://purl.obolibrary.org/obo/UBERON_0006984		anatomical surface
+http://purl.obolibrary.org/obo/UBERON_0007005		cardiogenic splanchnic mesoderm
+http://purl.obolibrary.org/obo/UBERON_0007010		cleaving embryo
+http://purl.obolibrary.org/obo/UBERON_0007026		presumptive gut
+http://purl.obolibrary.org/obo/UBERON_0007037		mechanosensory system
+http://purl.obolibrary.org/obo/UBERON_0007098		mandibular neural crest
+http://purl.obolibrary.org/obo/UBERON_0007100		primary circulatory organ
+http://purl.obolibrary.org/obo/UBERON_0007135		neural keel
+http://purl.obolibrary.org/obo/UBERON_0007193		orbital gyrus
+http://purl.obolibrary.org/obo/UBERON_0007213		mesenchyme derived from head neural crest
+http://purl.obolibrary.org/obo/UBERON_0007224		medial entorhinal cortex
+http://purl.obolibrary.org/obo/UBERON_0007225		lateral entorhinal cortex
+http://purl.obolibrary.org/obo/UBERON_0007227		superior vestibular nucleus
+http://purl.obolibrary.org/obo/UBERON_0007228		vestibular nucleus
+http://purl.obolibrary.org/obo/UBERON_0007230		lateral vestibular nucleus
+http://purl.obolibrary.org/obo/UBERON_0007237		1st arch mandibular component
+http://purl.obolibrary.org/obo/UBERON_0007245		nuclear complex of neuraxis
+http://purl.obolibrary.org/obo/UBERON_0007247		nucleus of superior olivary complex
+http://purl.obolibrary.org/obo/UBERON_0007251		preoptic nucleus
+http://purl.obolibrary.org/obo/UBERON_0007277		presumptive hindbrain
+http://purl.obolibrary.org/obo/UBERON_0007281		presumptive midbrain hindbrain boundary
+http://purl.obolibrary.org/obo/UBERON_0007282		presumptive segmental plate
+http://purl.obolibrary.org/obo/UBERON_0007284		presumptive neural plate
+http://purl.obolibrary.org/obo/UBERON_0007285		presumptive paraxial mesoderm
+http://purl.obolibrary.org/obo/UBERON_0007289		presumptive rhombomere 1
+http://purl.obolibrary.org/obo/UBERON_0007376		outer epithelium
+http://purl.obolibrary.org/obo/UBERON_0007383		enveloping layer of ectoderm
+http://purl.obolibrary.org/obo/UBERON_0007412		midbrain raphe nuclei
+http://purl.obolibrary.org/obo/UBERON_0007413		nucleus of pontine reticular formation
+http://purl.obolibrary.org/obo/UBERON_0007414		nucleus of midbrain tegmentum
+http://purl.obolibrary.org/obo/UBERON_0007415		nucleus of midbrain reticular formation
+http://purl.obolibrary.org/obo/UBERON_0007416		cerebellar peduncle
+http://purl.obolibrary.org/obo/UBERON_0007417		peduncle of neuraxis
+http://purl.obolibrary.org/obo/UBERON_0007418		neural decussation
+http://purl.obolibrary.org/obo/UBERON_0007425		decussation of diencephalon
+http://purl.obolibrary.org/obo/UBERON_0007499		epithelial sac
+http://purl.obolibrary.org/obo/UBERON_0007500		epithelial tube open at both ends
+http://purl.obolibrary.org/obo/UBERON_0007503		epithelial vesicle
+http://purl.obolibrary.org/obo/UBERON_0007524		dense mesenchyme tissue
+http://purl.obolibrary.org/obo/UBERON_0007530		migrating mesenchyme population
+http://purl.obolibrary.org/obo/UBERON_0007592		ciliated columnar epithelium
+http://purl.obolibrary.org/obo/UBERON_0007601		ciliated epithelium
+http://purl.obolibrary.org/obo/UBERON_0007625		pigment epithelium of eye
+http://purl.obolibrary.org/obo/UBERON_0007626		subparaventricular zone
+http://purl.obolibrary.org/obo/UBERON_0007627		magnocellular nucleus of stria terminalis
+http://purl.obolibrary.org/obo/UBERON_0007628		lateral septal complex
+http://purl.obolibrary.org/obo/UBERON_0007629		medial septal complex
+http://purl.obolibrary.org/obo/UBERON_0007630		septohippocampal nucleus
+http://purl.obolibrary.org/obo/UBERON_0007631		accessory olfactory bulb glomerular layer
+http://purl.obolibrary.org/obo/UBERON_0007632		Barrington's nucleus
+http://purl.obolibrary.org/obo/UBERON_0007633		nucleus of trapezoid body
+http://purl.obolibrary.org/obo/UBERON_0007634		parabrachial nucleus
+http://purl.obolibrary.org/obo/UBERON_0007635		nucleus of medulla oblongata
+http://purl.obolibrary.org/obo/UBERON_0007637		hippocampus stratum lucidum
+http://purl.obolibrary.org/obo/UBERON_0007639		hippocampus alveus
+http://purl.obolibrary.org/obo/UBERON_0007640		hippocampus stratum lacunosum moleculare
+http://purl.obolibrary.org/obo/UBERON_0007641		trigeminal nuclear complex
+http://purl.obolibrary.org/obo/UBERON_0007645		future meninx
+http://purl.obolibrary.org/obo/UBERON_0007646		endomeninx
+http://purl.obolibrary.org/obo/UBERON_0007651		anatomical junction
+http://purl.obolibrary.org/obo/UBERON_0007656		lateral recess of fourth ventricle
+http://purl.obolibrary.org/obo/UBERON_0007688		anlage
+http://purl.obolibrary.org/obo/UBERON_0007690		early pharyngeal endoderm
+http://purl.obolibrary.org/obo/UBERON_0007692		nucleus of thalamus
+http://purl.obolibrary.org/obo/UBERON_0007699		tract of spinal cord
+http://purl.obolibrary.org/obo/UBERON_0007702		tract of brain
+http://purl.obolibrary.org/obo/UBERON_0007703		spinothalamic tract
+http://purl.obolibrary.org/obo/UBERON_0007710		intermediate nucleus of lateral lemniscus
+http://purl.obolibrary.org/obo/UBERON_0007763		cerebellum vermis culmen
+http://purl.obolibrary.org/obo/UBERON_0007764		paramedian reticular nucleus
+http://purl.obolibrary.org/obo/UBERON_0007767		dorsal premammillary nucleus
+http://purl.obolibrary.org/obo/UBERON_0007768		ventral premammillary nucleus
+http://purl.obolibrary.org/obo/UBERON_0007769		medial preoptic region
+http://purl.obolibrary.org/obo/UBERON_0007779		transudate
+http://purl.obolibrary.org/obo/UBERON_0007798		vascular system
+http://purl.obolibrary.org/obo/UBERON_0007811		craniocervical region
+http://purl.obolibrary.org/obo/UBERON_0007838		spinal cord white commissure
+http://purl.obolibrary.org/obo/UBERON_0007842		membrane bone
+http://purl.obolibrary.org/obo/UBERON_0007844		cartilage element
+http://purl.obolibrary.org/obo/UBERON_0007845		regular connective tissue
+http://purl.obolibrary.org/obo/UBERON_0007846		dense regular connective tissue
+http://purl.obolibrary.org/obo/UBERON_0007914		bone of craniocervical region
+http://purl.obolibrary.org/obo/UBERON_0008001		irregular bone
+http://purl.obolibrary.org/obo/UBERON_0008193		pneumatized bone
+http://purl.obolibrary.org/obo/UBERON_0008229		craniocervical region musculature
+http://purl.obolibrary.org/obo/UBERON_0008334		subarachnoid sulcus
+http://purl.obolibrary.org/obo/UBERON_0008814		pharyngeal arch system
+http://purl.obolibrary.org/obo/UBERON_0008816		embryonic head
+http://purl.obolibrary.org/obo/UBERON_0008882		spinal cord commissure
+http://purl.obolibrary.org/obo/UBERON_0008895		splanchnocranium
+http://purl.obolibrary.org/obo/UBERON_0008907		dermal bone
+http://purl.obolibrary.org/obo/UBERON_0008930		somatosensory cortex
+http://purl.obolibrary.org/obo/UBERON_0008933		primary somatosensory cortex
+http://purl.obolibrary.org/obo/UBERON_0008934		secondary somatosensory cortex
+http://purl.obolibrary.org/obo/UBERON_0008947		respiratory primordium
+http://purl.obolibrary.org/obo/UBERON_0008993		habenular nucleus
+http://purl.obolibrary.org/obo/UBERON_0008995		nucleus of cerebellar nuclear complex
+http://purl.obolibrary.org/obo/UBERON_0009050		nucleus of solitary tract
+http://purl.obolibrary.org/obo/UBERON_0009051		gelatinous nucleus of solitary tract
+http://purl.obolibrary.org/obo/UBERON_0009052		medial nucleus of solitary tract
+http://purl.obolibrary.org/obo/UBERON_0009121		vomeronasal nerve
+http://purl.obolibrary.org/obo/UBERON_0009122		adenohypophyseal placode
+http://purl.obolibrary.org/obo/UBERON_0009142		entire embryonic mesenchyme
+http://purl.obolibrary.org/obo/UBERON_0009145		pharyngeal region of foregut
+http://purl.obolibrary.org/obo/UBERON_0009292		embryonic nasal process
+http://purl.obolibrary.org/obo/UBERON_0009471		dorsum of tongue
+http://purl.obolibrary.org/obo/UBERON_0009494		pharyngeal arch mesenchymal region
+http://purl.obolibrary.org/obo/UBERON_0009569		subdivision of trunk
+http://purl.obolibrary.org/obo/UBERON_0009581		midbrain mantle layer
+http://purl.obolibrary.org/obo/UBERON_0009584		1st arch mandibular mesenchyme
+http://purl.obolibrary.org/obo/UBERON_0009615		midbrain hindbrain boundary neural plate
+http://purl.obolibrary.org/obo/UBERON_0009616		presumptive midbrain
+http://purl.obolibrary.org/obo/UBERON_0009617		head paraxial mesoderm
+http://purl.obolibrary.org/obo/UBERON_0009618		trunk paraxial mesoderm
+http://purl.obolibrary.org/obo/UBERON_0009661		midbrain nucleus
+http://purl.obolibrary.org/obo/UBERON_0009662		hindbrain nucleus
+http://purl.obolibrary.org/obo/UBERON_0009663		telencephalic nucleus
+http://purl.obolibrary.org/obo/UBERON_0009676		early telencephalic vesicle
+http://purl.obolibrary.org/obo/UBERON_0009714		intermaxillary process
+http://purl.obolibrary.org/obo/UBERON_0009722		entire pharyngeal arch endoderm
+http://purl.obolibrary.org/obo/UBERON_0009775		lateral medullary reticular complex
+http://purl.obolibrary.org/obo/UBERON_0009776		intermediate reticular formation
+http://purl.obolibrary.org/obo/UBERON_0009777		intermediate reticular nucleus
+http://purl.obolibrary.org/obo/UBERON_0009835		anterior cingulate cortex
+http://purl.obolibrary.org/obo/UBERON_0009841		upper rhombic lip
+http://purl.obolibrary.org/obo/UBERON_0009856		sac
+http://purl.obolibrary.org/obo/UBERON_0009881		anterior lateral plate mesoderm
+http://purl.obolibrary.org/obo/UBERON_0009891		facial mesenchyme
+http://purl.obolibrary.org/obo/UBERON_0009899		pole of cerebral hemisphere
+http://purl.obolibrary.org/obo/UBERON_0009907		sensory root of trigeminal nerve
+http://purl.obolibrary.org/obo/UBERON_0009920		optic neural crest
+http://purl.obolibrary.org/obo/UBERON_0009950		olfactory bulb plexiform layer
+http://purl.obolibrary.org/obo/UBERON_0009951		main olfactory bulb
+http://purl.obolibrary.org/obo/UBERON_0009952		dentate gyrus subgranular zone
+http://purl.obolibrary.org/obo/UBERON_0009953		post-embryonic organism
+http://purl.obolibrary.org/obo/UBERON_0009954		vomeronasal system
+http://purl.obolibrary.org/obo/UBERON_0009955		neurogenic placode
+http://purl.obolibrary.org/obo/UBERON_0010000		multicellular anatomical structure
+http://purl.obolibrary.org/obo/UBERON_0010009		aggregate regional part of brain
+http://purl.obolibrary.org/obo/UBERON_0010011		collection of basal ganglia
+http://purl.obolibrary.org/obo/UBERON_0010036		anterior tegmental nucleus
+http://purl.obolibrary.org/obo/UBERON_0010042		1st arch mesenchyme
+http://purl.obolibrary.org/obo/UBERON_0010046		entire pharyngeal arch associated mesenchyme
+http://purl.obolibrary.org/obo/UBERON_0010056		future tongue
+http://purl.obolibrary.org/obo/UBERON_0010059		hypoglossal cord
+http://purl.obolibrary.org/obo/UBERON_0010083		future dermis
+http://purl.obolibrary.org/obo/UBERON_0010092		future metencephalon
+http://purl.obolibrary.org/obo/UBERON_0010096		future myelencephalon
+http://purl.obolibrary.org/obo/UBERON_0010123		future facial nucleus
+http://purl.obolibrary.org/obo/UBERON_0010124		future inferior salivatory nucleus
+http://purl.obolibrary.org/obo/UBERON_0010125		future superior salivatory nucleus
+http://purl.obolibrary.org/obo/UBERON_0010126		future nucleus ambiguus
+http://purl.obolibrary.org/obo/UBERON_0010127		future dorsal motor nucleus of vagus
+http://purl.obolibrary.org/obo/UBERON_0010133		neuroendocrine gland
+http://purl.obolibrary.org/obo/UBERON_0010134		secretory circumventricular organ
+http://purl.obolibrary.org/obo/UBERON_0010135		sensory circumventricular organ
+http://purl.obolibrary.org/obo/UBERON_0010188		protuberance
+http://purl.obolibrary.org/obo/UBERON_0010199		bona-fide anatomical boundary
+http://purl.obolibrary.org/obo/UBERON_0010225		thalamic complex
+http://purl.obolibrary.org/obo/UBERON_0010230		eyeball of camera-type eye
+http://purl.obolibrary.org/obo/UBERON_0010252		1st arch mandibular mesenchyme from neural crest
+http://purl.obolibrary.org/obo/UBERON_0010258		mesenchyme from rhombencephalic neural crest
+http://purl.obolibrary.org/obo/UBERON_0010259		1st arch mesenchyme from neural crest
+http://purl.obolibrary.org/obo/UBERON_0010262		operculum of brain
+http://purl.obolibrary.org/obo/UBERON_0010272		hyoid apparatus
+http://purl.obolibrary.org/obo/UBERON_0010285		midbrain basal plate
+http://purl.obolibrary.org/obo/UBERON_0010286		midbrain neural tube
+http://purl.obolibrary.org/obo/UBERON_0010312		immature eye
+http://purl.obolibrary.org/obo/UBERON_0010313		neural crest-derived structure
+http://purl.obolibrary.org/obo/UBERON_0010314		structure with developmental contribution from neural crest
+http://purl.obolibrary.org/obo/UBERON_0010316		germ layer / neural crest
+http://purl.obolibrary.org/obo/UBERON_0010323		cranial skeletal system
+http://purl.obolibrary.org/obo/UBERON_0010336		mandibular process mesenchyme from neural crest
+http://purl.obolibrary.org/obo/UBERON_0010359		pharyngeal arch mesenchyme from neural crest
+http://purl.obolibrary.org/obo/UBERON_0010363		endochondral element
+http://purl.obolibrary.org/obo/UBERON_0010364		dermal skeleton
+http://purl.obolibrary.org/obo/UBERON_0010371		ecto-epithelium
+http://purl.obolibrary.org/obo/UBERON_0010403		brain marginal zone
+http://purl.obolibrary.org/obo/UBERON_0010409		ocular surface region
+http://purl.obolibrary.org/obo/UBERON_0010415		barrel cortex
+http://purl.obolibrary.org/obo/UBERON_0010427		ciliary processes
+http://purl.obolibrary.org/obo/UBERON_0010498		pseudostratified columnar epithelium
+http://purl.obolibrary.org/obo/UBERON_0010499		pseudostratified ciliated columnar epithelium
+http://purl.obolibrary.org/obo/UBERON_0010523		microcirculatory vessel
+http://purl.obolibrary.org/obo/UBERON_0010527		cavity of bone organ
+http://purl.obolibrary.org/obo/UBERON_0010528		pneumatic cavity of bone
+http://purl.obolibrary.org/obo/UBERON_0010743		meningeal cluster
+http://purl.obolibrary.org/obo/UBERON_0010912		subdivision of skeleton
+http://purl.obolibrary.org/obo/UBERON_0010959		craniocervical muscle
+http://purl.obolibrary.org/obo/UBERON_0011134		nonsynovial joint
+http://purl.obolibrary.org/obo/UBERON_0011137		axial skeletal system
+http://purl.obolibrary.org/obo/UBERON_0011138		postcranial axial skeletal system
+http://purl.obolibrary.org/obo/UBERON_0011156		facial skeleton
+http://purl.obolibrary.org/obo/UBERON_0011158		primary subdivision of skull
+http://purl.obolibrary.org/obo/UBERON_0011159		primary subdivision of cranial skeletal system
+http://purl.obolibrary.org/obo/UBERON_0011172		retrorubral area of midbrain reticular nucleus
+http://purl.obolibrary.org/obo/UBERON_0011173		anterior division of bed nuclei of stria terminalis
+http://purl.obolibrary.org/obo/UBERON_0011175		fusiform nucleus of stria terminalis
+http://purl.obolibrary.org/obo/UBERON_0011176		oval nucleus of stria terminalis
+http://purl.obolibrary.org/obo/UBERON_0011177		posterior division of bed nuclei of stria terminalis
+http://purl.obolibrary.org/obo/UBERON_0011178		principal nucleus of stria terminalis
+http://purl.obolibrary.org/obo/UBERON_0011179		transverse nucleus of stria terminalis
+http://purl.obolibrary.org/obo/UBERON_0011214		nucleus of midbrain tectum
+http://purl.obolibrary.org/obo/UBERON_0011215		central nervous system cell part cluster
+http://purl.obolibrary.org/obo/UBERON_0011216		organ system subdivision
+http://purl.obolibrary.org/obo/UBERON_0011222		intra-ocular muscle
+http://purl.obolibrary.org/obo/UBERON_0011241		ethmoid region
+http://purl.obolibrary.org/obo/UBERON_0011272		embryonic skin basal layer
+http://purl.obolibrary.org/obo/UBERON_0011299		white matter of telencephalon
+http://purl.obolibrary.org/obo/UBERON_0011300		gray matter of telencephalon
+http://purl.obolibrary.org/obo/UBERON_0011332		extrinsic tongue pre-muscle mass
+http://purl.obolibrary.org/obo/UBERON_0011357		Reissner's fiber
+http://purl.obolibrary.org/obo/UBERON_0011585		cell condensation
+http://purl.obolibrary.org/obo/UBERON_0011590		commissure of diencephalon
+http://purl.obolibrary.org/obo/UBERON_0011591		tract of diencephalon
+http://purl.obolibrary.org/obo/UBERON_0011595		jaw region
+http://purl.obolibrary.org/obo/UBERON_0011648		jaw muscle
+http://purl.obolibrary.org/obo/UBERON_0011676		subdivision of organism along main body axis
+http://purl.obolibrary.org/obo/UBERON_0011695		embryonic cardiovascular system
+http://purl.obolibrary.org/obo/UBERON_0011768		pineal gland stalk
+http://purl.obolibrary.org/obo/UBERON_0011775		vagus nerve nucleus
+http://purl.obolibrary.org/obo/UBERON_0011778		motor nucleus of vagal nerve
+http://purl.obolibrary.org/obo/UBERON_0011779		nerve of head region
+http://purl.obolibrary.org/obo/UBERON_0011814		non-neurogenic ectodermal placode
+http://purl.obolibrary.org/obo/UBERON_0011821		irregular connective tissue
+http://purl.obolibrary.org/obo/UBERON_0011822		dense irregular connective tissue
+http://purl.obolibrary.org/obo/UBERON_0011823		dense connective tissue
+http://purl.obolibrary.org/obo/UBERON_0011825		loose connective tissue
+http://purl.obolibrary.org/obo/UBERON_0011860		collection of collagen fibrils
+http://purl.obolibrary.org/obo/UBERON_0011892		anterior uvea
+http://purl.obolibrary.org/obo/UBERON_0011899		epimysium
+http://purl.obolibrary.org/obo/UBERON_0011997		coelom
+http://purl.obolibrary.org/obo/UBERON_0012180		head or neck skin
+http://purl.obolibrary.org/obo/UBERON_0012274		columnar epithelium
+http://purl.obolibrary.org/obo/UBERON_0012275		meso-epithelium
+http://purl.obolibrary.org/obo/UBERON_0012314		embryonic facial prominence
+http://purl.obolibrary.org/obo/UBERON_0012360		bone of jaw
+http://purl.obolibrary.org/obo/UBERON_0012430		tunica fibrosa of eyeball
+http://purl.obolibrary.org/obo/UBERON_0013118		sulcus of brain
+http://purl.obolibrary.org/obo/UBERON_0013147		early mesencephalic vesicle
+http://purl.obolibrary.org/obo/UBERON_0013148		early midbrain vesicle
+http://purl.obolibrary.org/obo/UBERON_0013149		hindbrain vesicle
+http://purl.obolibrary.org/obo/UBERON_0013150		future brain vesicle
+http://purl.obolibrary.org/obo/UBERON_0013199		stria of neuraxis
+http://purl.obolibrary.org/obo/UBERON_0013514		space surrounding organism
+http://purl.obolibrary.org/obo/UBERON_0013522		subdivision of tube
+http://purl.obolibrary.org/obo/UBERON_0013529		Brodmann area
+http://purl.obolibrary.org/obo/UBERON_0013531		retrosplenial region
+http://purl.obolibrary.org/obo/UBERON_0013559		Brodmann (1909) area 28
+http://purl.obolibrary.org/obo/UBERON_0013598		accessory nucleus of optic tract
+http://purl.obolibrary.org/obo/UBERON_0013599		dorsal accessory nucleus of optic tract
+http://purl.obolibrary.org/obo/UBERON_0013600		lateral accessory nucleus of optic tract
+http://purl.obolibrary.org/obo/UBERON_0013601		medial accessory nucleus of optic tract
+http://purl.obolibrary.org/obo/UBERON_0013686		anatomical conduit space
+http://purl.obolibrary.org/obo/UBERON_0013700		axial musculature
+http://purl.obolibrary.org/obo/UBERON_0013701		main body axis
+http://purl.obolibrary.org/obo/UBERON_0013702		body proper
+http://purl.obolibrary.org/obo/UBERON_0013734		rostral linear nucleus
+http://purl.obolibrary.org/obo/UBERON_0013736		interfascicular linear nucleus
+http://purl.obolibrary.org/obo/UBERON_0013754		integumentary system layer
+http://purl.obolibrary.org/obo/UBERON_0013756		venous blood
+http://purl.obolibrary.org/obo/UBERON_0013765		digestive system element
+http://purl.obolibrary.org/obo/UBERON_0014169		nigrostriatal tract
+http://purl.obolibrary.org/obo/UBERON_0014284		endopiriform nucleus
+http://purl.obolibrary.org/obo/UBERON_0014371		future telencephalon
+http://purl.obolibrary.org/obo/UBERON_0014387		mesenchyme derived from neural crest
+http://purl.obolibrary.org/obo/UBERON_0014450		pretectal nucleus
+http://purl.obolibrary.org/obo/UBERON_0014466		subarachnoid fissure
+http://purl.obolibrary.org/obo/UBERON_0014468		ansoparamedian fissure of cerebellum
+http://purl.obolibrary.org/obo/UBERON_0014471		primary fissure of cerebellum
+http://purl.obolibrary.org/obo/UBERON_0014473		precentral fissure of cerebellum
+http://purl.obolibrary.org/obo/UBERON_0014477		thoracic skeleton
+http://purl.obolibrary.org/obo/UBERON_0014528		extreme capsule
+http://purl.obolibrary.org/obo/UBERON_0014530		white matter lamina of neuraxis
+http://purl.obolibrary.org/obo/UBERON_0014531		white matter lamina of diencephalon
+http://purl.obolibrary.org/obo/UBERON_0014533		medullary lamina of thalamus
+http://purl.obolibrary.org/obo/UBERON_0014534		external medullary lamina of thalamus
+http://purl.obolibrary.org/obo/UBERON_0014548		pyramidal layer of CA1
+http://purl.obolibrary.org/obo/UBERON_0014549		pyramidal layer of CA2
+http://purl.obolibrary.org/obo/UBERON_0014550		pyramidal layer of CA3
+http://purl.obolibrary.org/obo/UBERON_0014551		CA2 stratum oriens
+http://purl.obolibrary.org/obo/UBERON_0014552		CA1 stratum oriens
+http://purl.obolibrary.org/obo/UBERON_0014553		CA3 stratum oriens
+http://purl.obolibrary.org/obo/UBERON_0014554		CA1 stratum radiatum
+http://purl.obolibrary.org/obo/UBERON_0014555		CA2 stratum radiatum
+http://purl.obolibrary.org/obo/UBERON_0014556		CA3 stratum radiatum
+http://purl.obolibrary.org/obo/UBERON_0014557		CA1 stratum lacunosum moleculare
+http://purl.obolibrary.org/obo/UBERON_0014558		CA2 stratum lacunosum moleculare
+http://purl.obolibrary.org/obo/UBERON_0014559		CA3 stratum lacunosum moleculare
+http://purl.obolibrary.org/obo/UBERON_0014560		CA3 stratum lucidum
+http://purl.obolibrary.org/obo/UBERON_0014567		layer of hippocampal field
+http://purl.obolibrary.org/obo/UBERON_0014589		anterior nucleus of hypothalamus anterior part
+http://purl.obolibrary.org/obo/UBERON_0014590		anterior nucleus of hypothalamus central part
+http://purl.obolibrary.org/obo/UBERON_0014591		anterior nucleus of hypothalamus posterior part
+http://purl.obolibrary.org/obo/UBERON_0014592		anterior nucleus of hypothalamus dorsal part
+http://purl.obolibrary.org/obo/UBERON_0014593		tuberomammillary nucleus dorsal part
+http://purl.obolibrary.org/obo/UBERON_0014594		tuberomammillary nucleus ventral part
+http://purl.obolibrary.org/obo/UBERON_0014595		paraventricular nucleus of the hypothalamus descending division - medial parvocellular part, ventral zone
+http://purl.obolibrary.org/obo/UBERON_0014596		paraventricular nucleus of the hypothalamus descending division - dorsal parvocellular part
+http://purl.obolibrary.org/obo/UBERON_0014597		paraventricular nucleus of the hypothalamus descending division - lateral parvocellular part
+http://purl.obolibrary.org/obo/UBERON_0014598		paraventricular nucleus of the hypothalamus descending division - forniceal part
+http://purl.obolibrary.org/obo/UBERON_0014599		paraventricular nucleus of the hypothalamus magnocellular division - anterior magnocellular part
+http://purl.obolibrary.org/obo/UBERON_0014600		paraventricular nucleus of the hypothalamus magnocellular division - medial magnocellular part
+http://purl.obolibrary.org/obo/UBERON_0014601		paraventricular nucleus of the hypothalamus magnocellular division - posterior magnocellular part
+http://purl.obolibrary.org/obo/UBERON_0014602		paraventricular nucleus of the hypothalamus descending division
+http://purl.obolibrary.org/obo/UBERON_0014603		paraventricular nucleus of the hypothalamus magnocellular division
+http://purl.obolibrary.org/obo/UBERON_0014604		paraventricular nucleus of the hypothalamus parvocellular division
+http://purl.obolibrary.org/obo/UBERON_0014605		fundus striati
+http://purl.obolibrary.org/obo/UBERON_0014642		vestibulocerebellum
+http://purl.obolibrary.org/obo/UBERON_0014648		hemisphere part of cerebellar posterior lobe
+http://purl.obolibrary.org/obo/UBERON_0014649		white matter of medulla oblongata
+http://purl.obolibrary.org/obo/UBERON_0014761		spinal trigeminal tract
+http://purl.obolibrary.org/obo/UBERON_0014796		common tendinous ring
+http://purl.obolibrary.org/obo/UBERON_0014889		left hemisphere of cerebellum
+http://purl.obolibrary.org/obo/UBERON_0014890		right hemisphere of cerebellum
+http://purl.obolibrary.org/obo/UBERON_0014891		brainstem white matter
+http://purl.obolibrary.org/obo/UBERON_0014892		skeletal muscle organ, vertebrate
+http://purl.obolibrary.org/obo/UBERON_0014903		primordial vasculature
+http://purl.obolibrary.org/obo/UBERON_0014913		ventral pallium
+http://purl.obolibrary.org/obo/UBERON_0014915		genu of facial nerve
+http://purl.obolibrary.org/obo/UBERON_0014918		retrosplenial granular cortex
+http://purl.obolibrary.org/obo/UBERON_0014935		cerebral cortex marginal layer
+http://purl.obolibrary.org/obo/UBERON_0014950		layer of developing cerebral cortex
+http://purl.obolibrary.org/obo/UBERON_0015203		non-connected functional system
+http://purl.obolibrary.org/obo/UBERON_0015204		glandular system
+http://purl.obolibrary.org/obo/UBERON_0015212		lateral structure
+http://purl.obolibrary.org/obo/UBERON_0015228		circulatory organ
+http://purl.obolibrary.org/obo/UBERON_0015233		nucleus of dorsal thalamus
+http://purl.obolibrary.org/obo/UBERON_0015234		nucleus of ventral thalamus
+http://purl.obolibrary.org/obo/UBERON_0015238		pineal complex
+http://purl.obolibrary.org/obo/UBERON_0015244		accessory olfactory bulb granule cell layer
+http://purl.obolibrary.org/obo/UBERON_0015410		heart plus pericardium
+http://purl.obolibrary.org/obo/UBERON_0015432		accessory olfactory bulb mitral cell layer
+http://purl.obolibrary.org/obo/UBERON_0015593		frontal gyrus
+http://purl.obolibrary.org/obo/UBERON_0015599		genu of corpus callosum
+http://purl.obolibrary.org/obo/UBERON_0015703		rostrum of corpus callosum
+http://purl.obolibrary.org/obo/UBERON_0015708		splenium of the corpus callosum
+http://purl.obolibrary.org/obo/UBERON_0015787		upper respiratory conduit
+http://purl.obolibrary.org/obo/UBERON_0015788		olfactory apparatus chamber
+http://purl.obolibrary.org/obo/UBERON_0015789		cranial or facial muscle
+http://purl.obolibrary.org/obo/UBERON_0015793		induseum griseum
+http://purl.obolibrary.org/obo/UBERON_0015800		taenia tectum of brain
+http://purl.obolibrary.org/obo/UBERON_0015808		eye epithelium
+http://purl.obolibrary.org/obo/UBERON_0015833		foregut epithelium
+http://purl.obolibrary.org/obo/UBERON_0016490		auditory system
+http://purl.obolibrary.org/obo/UBERON_0016525		frontal lobe
+http://purl.obolibrary.org/obo/UBERON_0016526		lobe of cerebral hemisphere
+http://purl.obolibrary.org/obo/UBERON_0016527		white matter of cerebral lobe
+http://purl.obolibrary.org/obo/UBERON_0016529		cortex of cerebral lobe
+http://purl.obolibrary.org/obo/UBERON_0016530		parietal cortex
+http://purl.obolibrary.org/obo/UBERON_0016536		white matter of limbic lobe
+http://purl.obolibrary.org/obo/UBERON_0016538		temporal cortex
+http://purl.obolibrary.org/obo/UBERON_0016542		limbic cortex
+http://purl.obolibrary.org/obo/UBERON_0016548		central nervous system gray matter layer
+http://purl.obolibrary.org/obo/UBERON_0016549		central nervous system white matter layer
+http://purl.obolibrary.org/obo/UBERON_0016550		spinal cord column
+http://purl.obolibrary.org/obo/UBERON_0016554		white matter of midbrain
+http://purl.obolibrary.org/obo/UBERON_0016555		stria of telencephalon
+http://purl.obolibrary.org/obo/UBERON_0016566		pit
+http://purl.obolibrary.org/obo/UBERON_0016633		parvocellular reticular nucleus
+http://purl.obolibrary.org/obo/UBERON_0016634		premotor cortex
+http://purl.obolibrary.org/obo/UBERON_0016635		paragigantocellular nucleus
+http://purl.obolibrary.org/obo/UBERON_0016641		subparafascicular nucleus
+http://purl.obolibrary.org/obo/UBERON_0016824		lateral paragigantocellular nucleus
+http://purl.obolibrary.org/obo/UBERON_0016825		dorsal paragigantocellular nucleus
+http://purl.obolibrary.org/obo/UBERON_0016879		future central nervous system
+http://purl.obolibrary.org/obo/UBERON_0016880		future nervous system
+http://purl.obolibrary.org/obo/UBERON_0016887		entire extraembryonic component
+http://purl.obolibrary.org/obo/UBERON_0016888		transitional anatomical structure
+http://purl.obolibrary.org/obo/UBERON_0017650		developing mesenchymal structure
+http://purl.obolibrary.org/obo/UBERON_0018237		dorsal column-medial lemniscus pathway
+http://purl.obolibrary.org/obo/UBERON_0018238		dorsal column nucleus
+http://purl.obolibrary.org/obo/UBERON_0018254		skeletal musculature
+http://purl.obolibrary.org/obo/UBERON_0018262		dorsal zone of medial entorhinal cortex
+http://purl.obolibrary.org/obo/UBERON_0019207		chorioretinal region
+http://purl.obolibrary.org/obo/UBERON_0019258		white matter of hindbrain
+http://purl.obolibrary.org/obo/UBERON_0019261		white matter of forebrain
+http://purl.obolibrary.org/obo/UBERON_0019262		white matter of myelencephalon
+http://purl.obolibrary.org/obo/UBERON_0019263		gray matter of hindbrain
+http://purl.obolibrary.org/obo/UBERON_0019264		gray matter of forebrain
+http://purl.obolibrary.org/obo/UBERON_0019267		gray matter of midbrain
+http://purl.obolibrary.org/obo/UBERON_0019269		gray matter of diencephalon
+http://purl.obolibrary.org/obo/UBERON_0019291		white matter of metencephalon
+http://purl.obolibrary.org/obo/UBERON_0019292		white matter of pons
+http://purl.obolibrary.org/obo/UBERON_0019293		white matter of pontine tegmentum
+http://purl.obolibrary.org/obo/UBERON_0019294		commissure of telencephalon
+http://purl.obolibrary.org/obo/UBERON_0019304		sensory organ epithelium
+http://purl.obolibrary.org/obo/UBERON_0019306		nose epithelium
+http://purl.obolibrary.org/obo/UBERON_0020358		accessory XI nerve nucleus
+http://purl.obolibrary.org/obo/UBERON_0022229		posterior amygdaloid nucleus
+http://purl.obolibrary.org/obo/UBERON_0022230		retrohippocampal region
+http://purl.obolibrary.org/obo/UBERON_0022235		peduncle of diencephalon
+http://purl.obolibrary.org/obo/UBERON_0022236		peduncle of thalamus
+http://purl.obolibrary.org/obo/UBERON_0022247		forebrain ipsilateral fiber tracts
+http://purl.obolibrary.org/obo/UBERON_0022256		subthalamic fasciculus
+http://purl.obolibrary.org/obo/UBERON_0022272		corticobulbar tract
+http://purl.obolibrary.org/obo/UBERON_0022288		surface of eyeball
+http://purl.obolibrary.org/obo/UBERON_0022303		nervous system cell part layer
+http://purl.obolibrary.org/obo/UBERON_0022424		supragenual nucleus of pontine tegmentum
+http://purl.obolibrary.org/obo/UBERON_0022434		primary superior olive
+http://purl.obolibrary.org/obo/UBERON_0023868		isla magna of Calleja
+http://purl.obolibrary.org/obo/UBERON_0023879		neural system
+http://purl.obolibrary.org/obo/UBERON_0025261		thalamic fiber tract
+http://purl.obolibrary.org/obo/UBERON_0025525		motor system
+http://purl.obolibrary.org/obo/UBERON_0027331		flocculonodular lobe, hemisphere portion
+http://purl.obolibrary.org/obo/UBERON_0034676		forceps major of corpus callosum
+http://purl.obolibrary.org/obo/UBERON_0034678		forceps minor of corpus callosum
+http://purl.obolibrary.org/obo/UBERON_0034705		developing neuroepithelium
+http://purl.obolibrary.org/obo/UBERON_0034706		proliferating neuroepithelium
+http://purl.obolibrary.org/obo/UBERON_0034707		differentiating neuroepithelium
+http://purl.obolibrary.org/obo/UBERON_0034711		cortical preplate
+http://purl.obolibrary.org/obo/UBERON_0034713		cranial neuron projection bundle
+http://purl.obolibrary.org/obo/UBERON_0034730		olfactory tract linking bulb to ipsilateral dorsal telencephalon
+http://purl.obolibrary.org/obo/UBERON_0034751		primary auditory cortex
+http://purl.obolibrary.org/obo/UBERON_0034768		morphological feature
+http://purl.obolibrary.org/obo/UBERON_0034873		bodily gas
+http://purl.obolibrary.org/obo/UBERON_0034874		air in respiratory system
+http://purl.obolibrary.org/obo/UBERON_0034875		future pituitary gland
+http://purl.obolibrary.org/obo/UBERON_0034878		prechordal mesoderm
+http://purl.obolibrary.org/obo/UBERON_0034891		insular cortex
+http://purl.obolibrary.org/obo/UBERON_0034893		agranular insular cortex
+http://purl.obolibrary.org/obo/UBERON_0034896		ansa peduncularis
+http://purl.obolibrary.org/obo/UBERON_0034921		multi organ part structure
+http://purl.obolibrary.org/obo/UBERON_0034923		disconnected anatomical group
+http://purl.obolibrary.org/obo/UBERON_0034925		anatomical collection
+http://purl.obolibrary.org/obo/UBERON_0034931		perforant path
+http://purl.obolibrary.org/obo/UBERON_0034944		zone of organ
+http://purl.obolibrary.org/obo/UBERON_0034947		gas in respiratory system
+http://purl.obolibrary.org/obo/UBERON_0034989		amygdalopiriform transition area
+http://purl.obolibrary.org/obo/UBERON_0034995		jaw mesenchyme
+http://purl.obolibrary.org/obo/UBERON_0035011		central gray substance
+http://purl.obolibrary.org/obo/UBERON_0035013		temporal cortex association area
+http://purl.obolibrary.org/obo/UBERON_0035014		functional part of brain
+http://purl.obolibrary.org/obo/UBERON_0035015		association cortex
+http://purl.obolibrary.org/obo/UBERON_0035113		central part of mediodorsal nucleus of the thalamus
+http://purl.obolibrary.org/obo/UBERON_0035114		lateral part of mediodorsal nucleus of the thalamus
+http://purl.obolibrary.org/obo/UBERON_0035570		tectothalamic tract
+http://purl.obolibrary.org/obo/UBERON_0035594		accessory optic system
+http://purl.obolibrary.org/obo/UBERON_0035595		accessory optic tract
+http://purl.obolibrary.org/obo/UBERON_0035596		circular nucleus of antherior hypothalamic nucleus
+http://purl.obolibrary.org/obo/UBERON_0035639		ocular adnexa
+http://purl.obolibrary.org/obo/UBERON_0035642		laryngeal nerve
+http://purl.obolibrary.org/obo/UBERON_0035786		layer of CA1 field
+http://purl.obolibrary.org/obo/UBERON_0035787		layer of CA2 field
+http://purl.obolibrary.org/obo/UBERON_0035788		layer of CA3 field
+http://purl.obolibrary.org/obo/UBERON_0035803		extrapyramidal tract system
+http://purl.obolibrary.org/obo/UBERON_0035804		future mouth
+http://purl.obolibrary.org/obo/UBERON_0035872		primary somatosensory area barrel field layer 5
+http://purl.obolibrary.org/obo/UBERON_0035873		primary somatosensory area barrel field layer 1
+http://purl.obolibrary.org/obo/UBERON_0035874		primary somatosensory area barrel field layer 2/3
+http://purl.obolibrary.org/obo/UBERON_0035875		primary somatosensory area barrel field layer 6b
+http://purl.obolibrary.org/obo/UBERON_0035876		primary somatosensory area barrel field layer 6a
+http://purl.obolibrary.org/obo/UBERON_0035877		primary somatosensory area barrel field layer 4
+http://purl.obolibrary.org/obo/UBERON_0035885		dorsal auditory area
+http://purl.obolibrary.org/obo/UBERON_0035886		posterior parietal association areas
+http://purl.obolibrary.org/obo/UBERON_0035890		postrhinal area
+http://purl.obolibrary.org/obo/UBERON_0035892		primary visual area, layer 6a
+http://purl.obolibrary.org/obo/UBERON_0035893		anteromedial visual area
+http://purl.obolibrary.org/obo/UBERON_0035894		anterolateral visual area
+http://purl.obolibrary.org/obo/UBERON_0035895		lateral visual area
+http://purl.obolibrary.org/obo/UBERON_0035897		posterolateral visual area
+http://purl.obolibrary.org/obo/UBERON_0035900		posteromedial visual area
+http://purl.obolibrary.org/obo/UBERON_0035904		primary visual area, layer 4
+http://purl.obolibrary.org/obo/UBERON_0035906		primary visual area, layer 5
+http://purl.obolibrary.org/obo/UBERON_0035907		primary visual area, layer 2/3
+http://purl.obolibrary.org/obo/UBERON_0035908		anterolateral visual area, layer 5
+http://purl.obolibrary.org/obo/UBERON_0035909		posteromedial visual area, layer 6a
+http://purl.obolibrary.org/obo/UBERON_0035911		postrhinal area, layer 4
+http://purl.obolibrary.org/obo/UBERON_0035912		rostrolateral visual area
+http://purl.obolibrary.org/obo/UBERON_0035913		anteromedial visual area, layer 5
+http://purl.obolibrary.org/obo/UBERON_0035914		posteromedial visual area, layer 4
+http://purl.obolibrary.org/obo/UBERON_0035915		lateral visual area, layer 4
+http://purl.obolibrary.org/obo/UBERON_0035916		lateral visual area, layer 5
+http://purl.obolibrary.org/obo/UBERON_0035917		dorsal auditory area, layer 4
+http://purl.obolibrary.org/obo/UBERON_0035918		lateral visual area, layer 6a
+http://purl.obolibrary.org/obo/UBERON_0035919		posterolateral visual area, layer 4
+http://purl.obolibrary.org/obo/UBERON_0035920		rostrolateral area, layer 5
+http://purl.obolibrary.org/obo/UBERON_0035926		preculminate fissure of cerebellum
+http://purl.obolibrary.org/obo/UBERON_0035971		postsubiculum
+http://purl.obolibrary.org/obo/UBERON_0035972		interanterodorsal nucleus of the thalamus
+http://purl.obolibrary.org/obo/UBERON_0035973		nucleus incertus
+http://purl.obolibrary.org/obo/UBERON_0035974		anteroventral preoptic nucleus
+http://purl.obolibrary.org/obo/UBERON_0035975		intergeniculate leaflet of the lateral geniculate complex
+http://purl.obolibrary.org/obo/UBERON_0035976		accessory abducens nucleus
+http://purl.obolibrary.org/obo/UBERON_0035977		bed nucleus of the accessory olfactory tract
+http://purl.obolibrary.org/obo/UBERON_0035999		dopaminergic cell groups
+http://purl.obolibrary.org/obo/UBERON_0036007		A13 dopaminergic cell group
+http://purl.obolibrary.org/obo/UBERON_0036012		nucleus of the brachium of the inferior colliculus
+http://purl.obolibrary.org/obo/UBERON_0036146		cardiopharyngeal field
+http://purl.obolibrary.org/obo/UBERON_0036215		anatomical surface region
+http://purl.obolibrary.org/obo/UBERON_0036224		corticobulbar and corticospinal tracts
+http://purl.obolibrary.org/obo/UBERON_0036302		vasculature of central nervous system plus retina
+http://purl.obolibrary.org/obo/UBERON_0036303		vasculature of central nervous system
+http://purl.obolibrary.org/obo/UBERON_1000021		skin of face
+http://purl.obolibrary.org/obo/UBERON_2001431		primitive olfactory epithelium
+http://purl.obolibrary.org/obo/UBERON_2007013		preplacodal ectoderm
+http://purl.obolibrary.org/obo/UBERON_3000961		external integument structure
+http://purl.obolibrary.org/obo/UBERON_8410081		blood microvessel
+http://purl.obolibrary.org/obo/UBERON_8440000		cortical layer II/III
+http://purl.obolibrary.org/obo/UBERON_8440003		cortical layer VIb
+http://purl.obolibrary.org/obo/UBERON_8440004		laminar subdivision of the cortex
+http://purl.obolibrary.org/obo/UBERON_8440005		rostral periventricular region of the third ventricle
+http://purl.obolibrary.org/obo/UBERON_8440007		periventricular hypothalamic nucleus, anterior part
+http://purl.obolibrary.org/obo/UBERON_8440008		periventricular hypothalamic nucleus, intermediate part
+http://purl.obolibrary.org/obo/UBERON_8440011		cortical visual area
+http://purl.obolibrary.org/obo/UBERON_8440012		cerebral nuclei
+http://purl.obolibrary.org/obo/UBERON_8440013		fasciola cinerea
+http://purl.obolibrary.org/obo/UBERON_8440014		ventrolateral preoptic nucleus
+http://purl.obolibrary.org/obo/UBERON_8440015		noradrenergic cell groups
+http://purl.obolibrary.org/obo/UBERON_8440024		visceral area
+http://purl.obolibrary.org/obo/UBERON_8440025		parapyramidal nucleus
+http://purl.obolibrary.org/obo/UBERON_8440026		parapyramidal nucleus, deep part
+http://purl.obolibrary.org/obo/UBERON_8440027		parapyramidal nucleus, superficial part
+http://purl.obolibrary.org/obo/UBERON_8440028		Perihypoglossal nuclei
+http://purl.obolibrary.org/obo/UBERON_8440029		rubroreticular tract
+http://purl.obolibrary.org/obo/UBERON_8440030		striatum-like amygdalar nuclei
+http://purl.obolibrary.org/obo/UBERON_8440031		medial corticohypothalmic tract
+http://purl.obolibrary.org/obo/UBERON_8440032		prelimbic area
+http://purl.obolibrary.org/obo/UBERON_8440033		infralimbic area
+http://purl.obolibrary.org/obo/UBERON_8440034		bulbocerebellar tract
+http://purl.obolibrary.org/obo/UBERON_8440035		sublaterodorsal nucleus
+http://purl.obolibrary.org/obo/UBERON_8440036		supratrigeminal nucleus
+http://purl.obolibrary.org/obo/UBERON_8440037		accessory facial motor nucleus
+http://purl.obolibrary.org/obo/UBERON_8440038		efferent vestibular nucleus
+http://purl.obolibrary.org/obo/UBERON_8440039		piriform-amygdalar area
+http://purl.obolibrary.org/obo/UBERON_8440040		dorsal peduncular area
+http://purl.obolibrary.org/obo/UBERON_8440072		lateral tegmental nucleus
+http://purl.obolibrary.org/obo/UBERON_8440073		magnocellular reticular nucleus
+http://purl.obolibrary.org/obo/UBERON_8440074		interstitial nucleus of the vestibular nerve
+http://purl.obolibrary.org/obo/UBERON_8440075		gustatory cortex
+http://purl.obolibrary.org/obo/UBERON_8440076		somatomotor area
+http://purl.obolibrary.org/obo/UBERON_8440077		rhinal incisure
+http://purl.obolibrary.org/obo/UBERON_8450003		embryonic craniocervical region
+http://purl.obolibrary.org/obo/UBERON_8600004		visceral muscle tissue
+http://purl.obolibrary.org/obo/UBERON_8600018		neuroendocrine system
 https://purl.brain-bican.org/ontology/mbao/MBA_1	http://atlas.brain-map.org/atlas?atlas=602630314#structure=1	Tuberomammillary nucleus, ventral part  ( mouse )
 https://purl.brain-bican.org/ontology/mbao/MBA_1	http://atlas.brain-map.org/atlas?atlas=1#structure=1	Tuberomammillary nucleus, ventral part  ( mouse )
 https://purl.brain-bican.org/ontology/mbao/MBA_1	http://atlas.brain-map.org/atlas?atlas=2#structure=1	Tuberomammillary nucleus, ventral part  ( mouse )

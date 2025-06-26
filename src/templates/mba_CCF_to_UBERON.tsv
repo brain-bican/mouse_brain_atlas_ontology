@@ -997,7 +997,7 @@ https://purl.brain-bican.org/ontology/mbao/MBA_83	inferior olivary complex	equiv
 https://purl.brain-bican.org/ontology/mbao/MBA_830	dorsomedial nucleus of the hypothalamus	equivalent		http://purl.obolibrary.org/obo/UBERON_0001934		dorsomedial nucleus of hypothalamus	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_830	dorsomedial nucleus of the hypothalamus	equivalent		http://purl.obolibrary.org/obo/UBERON_0001934		dorsomedial nucleus of hypothalamus 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_831	"agranular insular area, dorsal part, layer 6b"	subclass	http://purl.obolibrary.org/obo/UBERON_0034893			agranular insular cortex 	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_832	oculomotor nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0001643		oculomotor nerve	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_832	oculomotor nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0002668		oculomotor nerve root	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_833	"supraoptic commissures, ventral"	equivalent		http://purl.obolibrary.org/obo/UBERON_0002676		ventral supraoptic decussation	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_834	"superior colliculus, zonal layer"	equivalent		http://purl.obolibrary.org/obo/UBERON_0006780		zonal layer of superior colliculus	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_835	"pallidum, ventral region"	equivalent		http://purl.obolibrary.org/obo/UBERON_0002778		ventral pallidum	Verified	https://ror.org/03cpe7c52
@@ -1006,7 +1006,7 @@ https://purl.brain-bican.org/ontology/mbao/MBA_837	"subiculum, dorsal part, stra
 https://purl.brain-bican.org/ontology/mbao/MBA_838	"primary somatosensory area, nose, layer 2/3"	subclass	http://purl.obolibrary.org/obo/UBERON_0008933			primary somatosensory cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_839	dorsal motor nucleus of the vagus nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0002870		dorsal motor nucleus of vagus nerve	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_839	dorsal motor nucleus of the vagus nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0002870		dorsal motor nucleus of vagus nerve 	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_840	olfactory nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0001579		olfactory nerve	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_840	olfactory nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0019311		root of olfactory nerve	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_841	trapezoid body	equivalent		http://purl.obolibrary.org/obo/UBERON_0002932		trapezoid body	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_841	trapezoid body	equivalent		http://purl.obolibrary.org/obo/UBERON_0002932		trapezoid body 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_842	"superior colliculus, superficial gray layer"	equivalent		http://purl.obolibrary.org/obo/UBERON_0006120		superior colliculus superficial gray layer	Verified	https://ror.org/03cpe7c52
@@ -1118,7 +1118,7 @@ https://purl.brain-bican.org/ontology/mbao/MBA_93	motor root of the trigeminal n
 https://purl.brain-bican.org/ontology/mbao/MBA_930	parafascicular nucleus	equivalent		http://purl.obolibrary.org/obo/UBERON_0001922		parafascicular nucleus	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_930	parafascicular nucleus	equivalent		http://purl.obolibrary.org/obo/UBERON_0001922		parafascicular nucleus 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_931	pontine gray	equivalent		http://purl.obolibrary.org/obo/UBERON_0002151		pontine nuclear group	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_933	vestibulocochlear nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0001648		vestibulocochlear nerve	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_933	vestibulocochlear nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0002731		vestibulocochlear nerve root	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_934	"entorhinal area, medial part, ventral zone"	subclass	http://purl.obolibrary.org/obo/UBERON_0007224			medial entorhinal cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_937	"visual areas, layer 5"	subclass	http://purl.obolibrary.org/obo/UBERON_0000411			visual cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_938	paragigantocellular reticular nucleus	equivalent		http://purl.obolibrary.org/obo/UBERON_0016635		paragigantocellular nucleus	Verified	https://ror.org/03cpe7c52
