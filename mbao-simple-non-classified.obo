@@ -1,11 +1,11 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-06-26/mbao-simple-non-classified.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-06-27/mbao-simple-non-classified.owl
 ontology: https://purl.brain-bican.org/ontology/mbao/mbao-simple-non-classified.owl
 property_value: http://purl.org/dc/terms/description "An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon." xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
 property_value: IAO:0000700 MBA:997
-property_value: owl:versionInfo "2025-06-26" xsd:string
+property_value: owl:versionInfo "2025-06-27" xsd:string
 
 [Term]
 id: MBA:1

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-06-26/mbao-full.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-06-27/mbao-full.owl
 subsetdef: BDS_subset ""
 subsetdef: blood_and_immune_upper_slim ""
 subsetdef: cellxgene_subset ""
@@ -73,7 +73,7 @@ property_value: dcterms-license http://creativecommons.org/licenses/by/4.0/
 property_value: has_ontology_root_term MBA:997
 property_value: http://purl.org/dc/terms/description "An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon." xsd:string
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
-property_value: owl:versionInfo "2025-06-26" xsd:string
+property_value: owl:versionInfo "2025-06-27" xsd:string
 
 [Term]
 id: CL:0000000
@@ -21768,9 +21768,9 @@ synonym: "cVIIIn" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=948
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=948
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=948
-is_a: MBA:1009 ! fiber tracts
-is_a: UBERON:0004727 ! cochlear nerve
-intersection_of: UBERON:0004727 ! cochlear nerve
+is_a: MBA:967 ! cranial nerves
+is_a: UBERON:0002731 ! vestibulocochlear nerve root
+intersection_of: UBERON:0002731 ! vestibulocochlear nerve root
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
 relationship: part_of MBA:933 ! vestibulocochlear nerve
 property_value: IAO:0000028 "cVIIIn" xsd:string
@@ -49391,6 +49391,7 @@ xref: UMLS:C0175555
 is_a: UBERON:0006843 {source="FMA"} ! root of cranial nerve
 relationship: extends_fibers_into UBERON:0001650 ! hypoglossal nerve
 relationship: part_of UBERON:0001896 ! medulla oblongata
+property_value: prefLabel "hypoglossal nerve root" xsd:string
 
 [Term]
 id: UBERON:0004679
@@ -57045,6 +57046,7 @@ xref: HBA:9337
 xref: ZFA:0007011
 is_a: UBERON:0002211 ! nerve root
 relationship: extends_fibers_into UBERON:0001759 ! vagus nerve
+property_value: prefLabel "root of vagus nerve" xsd:string
 property_value: UBPROP:0000012 "FMA distinguishes between roots and rootlets - we mix the two here" xsd:string {external_ontology="FMA"}
 
 [Term]
@@ -58843,6 +58845,7 @@ xref: SCTID:280187004
 xref: Wikipedia:Cranial_root_of_accessory_nerves
 is_a: UBERON:0002211 ! nerve root
 relationship: extends_fibers_into UBERON:0002019 ! accessory XI nerve
+property_value: prefLabel "accessory nerve root" xsd:string
 
 [Term]
 id: UBERON:0014642
@@ -60117,6 +60120,7 @@ xref: HBA:9334
 is_a: UBERON:0006843 ! root of cranial nerve
 relationship: extends_fibers_into UBERON:0001649 ! glossopharyngeal nerve
 relationship: part_of UBERON:0001896 ! medulla oblongata
+property_value: prefLabel "glossopharyngeal nerve root" xsd:string
 
 [Term]
 id: UBERON:0019311

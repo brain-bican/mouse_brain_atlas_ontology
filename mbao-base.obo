@@ -1,12 +1,12 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-06-26/mbao-base.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-06-27/mbao-base.owl
 ontology: https://purl.brain-bican.org/ontology/mbao/mbao-base.owl
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/description "An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon." xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
 property_value: IAO:0000700 MBA:997
-property_value: owl:versionInfo "2025-06-26" xsd:string
+property_value: owl:versionInfo "2025-06-27" xsd:string
 
 [Term]
 id: CL:0000000
@@ -20370,8 +20370,8 @@ synonym: "cVIIIn" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=948
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=948
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=948
-is_a: UBERON:0004727
-intersection_of: UBERON:0004727
+is_a: UBERON:0002731
+intersection_of: UBERON:0002731
 intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:933 ! part of vestibulocochlear nerve
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
@@ -24446,6 +24446,10 @@ id: UBERON:0004674
 property_value: prefLabel "facial nerve root" xsd:string
 
 [Term]
+id: UBERON:0004675
+property_value: prefLabel "hypoglossal nerve root" xsd:string
+
+[Term]
 id: UBERON:0004679
 property_value: prefLabel "dentate gyrus molecular layer" xsd:string
 
@@ -26014,6 +26018,10 @@ id: UBERON:0011179
 property_value: prefLabel "transverse nucleus of stria terminalis" xsd:string
 
 [Term]
+id: UBERON:0011213
+property_value: prefLabel "root of vagus nerve" xsd:string
+
+[Term]
 id: UBERON:0011214
 property_value: prefLabel "nucleus of midbrain tectum" xsd:string
 
@@ -26438,6 +26446,10 @@ id: UBERON:0014605
 property_value: prefLabel "fundus striati" xsd:string
 
 [Term]
+id: UBERON:0014615
+property_value: prefLabel "accessory nerve root" xsd:string
+
+[Term]
 id: UBERON:0014642
 property_value: prefLabel "vestibulocerebellum" xsd:string
 
@@ -26756,6 +26768,10 @@ property_value: prefLabel "sensory organ epithelium" xsd:string
 [Term]
 id: UBERON:0019306
 property_value: prefLabel "nose epithelium" xsd:string
+
+[Term]
+id: UBERON:0019310
+property_value: prefLabel "glossopharyngeal nerve root" xsd:string
 
 [Term]
 id: UBERON:0019311

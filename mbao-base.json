@@ -19,9 +19,9 @@
         "val" : "Mouse Brain Atlas Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-06-26"
+        "val" : "2025-06-27"
       } ],
-      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2025-06-26/mbao-base.json"
+      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2025-06-27/mbao-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -9397,6 +9397,15 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0004675",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "hypoglossal nerve root"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0004679",
       "type" : "CLASS",
       "meta" : {
@@ -12925,6 +12934,15 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0011213",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "root of vagus nerve"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0011214",
       "type" : "CLASS",
       "meta" : {
@@ -13879,6 +13897,15 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0014615",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "accessory nerve root"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0014642",
       "type" : "CLASS",
       "meta" : {
@@ -14596,6 +14623,15 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "nose epithelium"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0019310",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "glossopharyngeal nerve root"
         } ]
       }
     }, {
@@ -64796,7 +64832,7 @@
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_948",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0004727"
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0002731"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_948",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -68993,7 +69029,7 @@
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/mbao/MBA_948",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0004727" ],
+      "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002731" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"

@@ -11,12 +11,12 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://purl.brain-bican.org/ontology/mbao/mbao-simple-non-classified.owl">
-        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2025-06-26/mbao-simple-non-classified.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2025-06-27/mbao-simple-non-classified.owl"/>
         <obo:IAO_0000700 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_997"/>
         <terms:description>An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon.</terms:description>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Mouse Brain Atlas Ontology</terms:title>
-        <owl:versionInfo>2025-06-26</owl:versionInfo>
+        <owl:versionInfo>2025-06-27</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -46744,6 +46744,9 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004674">
         <skos:prefLabel>facial nerve root</skos:prefLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004675">
+        <skos:prefLabel>hypoglossal nerve root</skos:prefLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004680">
         <skos:prefLabel>body of fornix</skos:prefLabel>
     </rdf:Description>
@@ -47875,6 +47878,9 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0011179">
         <skos:prefLabel>transverse nucleus of stria terminalis</skos:prefLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0011213">
+        <skos:prefLabel>root of vagus nerve</skos:prefLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0011214">
         <skos:prefLabel>nucleus of midbrain tectum</skos:prefLabel>
     </rdf:Description>
@@ -48184,6 +48190,9 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014605">
         <skos:prefLabel>fundus striati</skos:prefLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014615">
+        <skos:prefLabel>accessory nerve root</skos:prefLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014642">
         <skos:prefLabel>vestibulocerebellum</skos:prefLabel>
     </rdf:Description>
@@ -48411,6 +48420,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0019306">
         <skos:prefLabel>nose epithelium</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0019310">
+        <skos:prefLabel>glossopharyngeal nerve root</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0019311">
         <skos:prefLabel>root of olfactory nerve</skos:prefLabel>

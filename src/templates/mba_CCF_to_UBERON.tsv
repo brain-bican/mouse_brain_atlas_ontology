@@ -1135,9 +1135,9 @@ https://purl.brain-bican.org/ontology/mbao/MBA_944	folium-tuber vermis (VII)	equ
 https://purl.brain-bican.org/ontology/mbao/MBA_945	"primary somatosensory area, upper limb, layer 6a"	subclass	http://purl.obolibrary.org/obo/UBERON_0008933			primary somatosensory cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_946	posterior hypothalamic nucleus	equivalent		http://purl.obolibrary.org/obo/UBERON_0002706		posterior nucleus of hypothalamus	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_946	posterior hyfpothalamic nucleus	equivalent		http://purl.obolibrary.org/obo/UBERON_0002706		posterior nucleus of hypothalamus 	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_948	cochlear nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0004727		cochlear nerve	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_948	cochlear nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0004727		cochlear nerve 	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_948	cochlear nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0004727		cochlear nerve 	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_948	cochlear nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0002731		vestibulocochlear nerve root	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_948	cochlear nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0002731		vestibulocochlear nerve root	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_948	cochlear nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0002731		vestibulocochlear nerve root	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_95	agranular insular area	equivalent		http://purl.obolibrary.org/obo/UBERON_0034893		agranular insular cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_950	"primary somatosensory area, mouth, layer 4"	subclass	http://purl.obolibrary.org/obo/UBERON_0008933			primary somatosensory cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_952	"endopiriform nucleus, dorsal part"	subclass	http://purl.obolibrary.org/obo/UBERON_0014284			endopiriform nucleus 	Verified	https://ror.org/03cpe7c52
