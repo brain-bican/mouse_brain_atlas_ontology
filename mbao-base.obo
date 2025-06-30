@@ -1,12 +1,12 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-06-27/mbao-base.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-06-30/mbao-base.owl
 ontology: https://purl.brain-bican.org/ontology/mbao/mbao-base.owl
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/description "An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon." xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
 property_value: IAO:0000700 MBA:997
-property_value: owl:versionInfo "2025-06-27" xsd:string
+property_value: owl:versionInfo "2025-06-30" xsd:string
 
 [Term]
 id: CL:0000000
@@ -16877,11 +16877,9 @@ synonym: "DGcr-mo" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=742
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=742
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=742
-is_a: UBERON:0004679
-intersection_of: UBERON:0004679
-intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:734 ! part of Dentate gyrus crest
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
+relationship: BFO:0000050 UBERON:0004679 ! part of
 property_value: IAO:0000028 "DGcr-mo" xsd:string
 property_value: IAO:0000589 "dentate gyrus crest, molecular layer" xsd:string
 property_value: prefLabel "Dentate gyrus crest, molecular layer  ( mouse )" xsd:string
@@ -17139,11 +17137,9 @@ synonym: "DGcr-sg" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=758
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=758
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=758
-is_a: UBERON:0005381
-intersection_of: UBERON:0005381
-intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:734 ! part of Dentate gyrus crest
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
+relationship: BFO:0000050 UBERON:0005381 ! part of
 property_value: IAO:0000028 "DGcr-sg" xsd:string
 property_value: IAO:0000589 "dentate gyrus crest, granule cell layer" xsd:string
 property_value: prefLabel "Dentate gyrus crest, granule cell layer  ( mouse )" xsd:string
@@ -17647,11 +17643,9 @@ synonym: "DGlb-sg" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=790
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=790
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=790
-is_a: UBERON:0005381
-intersection_of: UBERON:0005381
-intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:766 ! part of Dentate gyrus lateral blade
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
+relationship: BFO:0000050 UBERON:0005381 ! part of
 property_value: IAO:0000028 "DGlb-sg" xsd:string
 property_value: IAO:0000589 "dentate gyrus lateral blade, granule cell layer" xsd:string
 property_value: prefLabel "Dentate gyrus lateral blade, granule cell layer  ( mouse )" xsd:string
@@ -17805,11 +17799,9 @@ synonym: "grey" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=8
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=8
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=8
-is_a: UBERON:0000955
-intersection_of: UBERON:0000955
-intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:997 ! part of brain
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
+relationship: BFO:0000050 UBERON:0002616 ! part of
 property_value: IAO:0000028 "grey" xsd:string
 property_value: IAO:0000589 "basic cell groups and regions" xsd:string
 property_value: prefLabel "Basic cell groups and regions  ( mouse )" xsd:string
@@ -18218,11 +18210,9 @@ synonym: "DGmb-sg" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=823
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=823
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=823
-is_a: UBERON:0005381
-intersection_of: UBERON:0005381
-intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:799 ! part of Dentate gyrus medial blade
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
+relationship: BFO:0000050 UBERON:0005381 ! part of
 property_value: IAO:0000028 "DGmb-sg" xsd:string
 property_value: IAO:0000589 "dentate gyrus medial blade, granule cell layer" xsd:string
 property_value: prefLabel "Dentate gyrus medial blade, granule cell layer  ( mouse )" xsd:string
@@ -20370,11 +20360,9 @@ synonym: "cVIIIn" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=948
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=948
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=948
-is_a: UBERON:0002731
-intersection_of: UBERON:0002731
-intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:933 ! part of vestibulocochlear nerve
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
+relationship: BFO:0000050 UBERON:0002731 ! part of
 property_value: IAO:0000028 "cVIIIn" xsd:string
 property_value: IAO:0000589 "cochlear nerve" xsd:string
 property_value: prefLabel "cochlear nerve  ( mouse )" xsd:string

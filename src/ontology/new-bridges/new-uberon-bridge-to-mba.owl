@@ -1059,6 +1059,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002616 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002616"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0002618 -->
 
     <Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002618"/>
@@ -26289,17 +26295,20 @@
     <!-- https://purl.brain-bican.org/ontology/mbao/MBA_742 -->
 
     <Class rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_742">
-        <equivalentClass>
+        <rdfs:subClassOf>
             <Class>
                 <intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004679"/>
                     <Restriction>
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
                     </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004679"/>
+                    </Restriction>
                 </intersectionOf>
             </Class>
-        </equivalentClass>
+        </rdfs:subClassOf>
         <obo:IAO_0000589>dentate gyrus crest, molecular layer</obo:IAO_0000589>
         <oboInOwl:status>Verified</oboInOwl:status>
     </Class>
@@ -26676,17 +26685,20 @@
     <!-- https://purl.brain-bican.org/ontology/mbao/MBA_758 -->
 
     <Class rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_758">
-        <equivalentClass>
+        <rdfs:subClassOf>
             <Class>
                 <intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005381"/>
                     <Restriction>
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
                     </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005381"/>
+                    </Restriction>
                 </intersectionOf>
             </Class>
-        </equivalentClass>
+        </rdfs:subClassOf>
         <obo:IAO_0000589>dentate gyrus crest, granule cell layer</obo:IAO_0000589>
         <oboInOwl:status>Verified</oboInOwl:status>
     </Class>
@@ -27278,17 +27290,20 @@
     <!-- https://purl.brain-bican.org/ontology/mbao/MBA_790 -->
 
     <Class rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_790">
-        <equivalentClass>
+        <rdfs:subClassOf>
             <Class>
                 <intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005381"/>
                     <Restriction>
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
                     </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005381"/>
+                    </Restriction>
                 </intersectionOf>
             </Class>
-        </equivalentClass>
+        </rdfs:subClassOf>
         <obo:IAO_0000589>dentate gyrus lateral blade, granule cell layer</obo:IAO_0000589>
         <oboInOwl:status>Verified</oboInOwl:status>
     </Class>
@@ -27521,17 +27536,20 @@
     <!-- https://purl.brain-bican.org/ontology/mbao/MBA_8 -->
 
     <Class rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_8">
-        <equivalentClass>
+        <rdfs:subClassOf>
             <Class>
                 <intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000955"/>
                     <Restriction>
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
                     </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002616"/>
+                    </Restriction>
                 </intersectionOf>
             </Class>
-        </equivalentClass>
+        </rdfs:subClassOf>
         <obo:IAO_0000589>basic cell groups and regions</obo:IAO_0000589>
         <oboInOwl:status>Verified</oboInOwl:status>
     </Class>
@@ -28117,17 +28135,20 @@
     <!-- https://purl.brain-bican.org/ontology/mbao/MBA_823 -->
 
     <Class rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_823">
-        <equivalentClass>
+        <rdfs:subClassOf>
             <Class>
                 <intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005381"/>
                     <Restriction>
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
                     </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005381"/>
+                    </Restriction>
                 </intersectionOf>
             </Class>
-        </equivalentClass>
+        </rdfs:subClassOf>
         <obo:IAO_0000589>dentate gyrus medial blade, granule cell layer</obo:IAO_0000589>
         <oboInOwl:status>Verified</oboInOwl:status>
     </Class>
@@ -31451,17 +31472,20 @@
     <!-- https://purl.brain-bican.org/ontology/mbao/MBA_948 -->
 
     <Class rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_948">
-        <equivalentClass>
+        <rdfs:subClassOf>
             <Class>
                 <intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002731"/>
                     <Restriction>
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
                     </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002731"/>
+                    </Restriction>
                 </intersectionOf>
             </Class>
-        </equivalentClass>
+        </rdfs:subClassOf>
         <obo:IAO_0000589>cochlear nerve</obo:IAO_0000589>
         <oboInOwl:status>Verified</oboInOwl:status>
     </Class>
