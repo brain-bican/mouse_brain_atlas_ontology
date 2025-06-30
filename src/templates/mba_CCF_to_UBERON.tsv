@@ -904,7 +904,7 @@ https://purl.brain-bican.org/ontology/mbao/MBA_737	postcommissural fornix	equiva
 https://purl.brain-bican.org/ontology/mbao/MBA_738	"orbital area, ventral part"	subclass	http://purl.obolibrary.org/obo/UBERON_0004167			orbitofrontal cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_74	"lateral visual area, layer 6a"	equivalent		http://purl.obolibrary.org/obo/UBERON_0035918		"lateral visual area, layer 6a"	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_741	"ventral posteromedial nucleus of the thalamus, parvicellular part"	equivalent		http://purl.obolibrary.org/obo/UBERON_0003018		parvicellular part of ventral posteromedial nucleus	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_742	"dentate gyrus crest, molecular layer"	equivalent		http://purl.obolibrary.org/obo/UBERON_0004679		dentate gyrus molecular layer 	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_742	dentate gyrus crest, molecular layer	subclass	http://purl.obolibrary.org/obo/UBERON_0004679			dentate gyrus molecular layer 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_743	"entorhinal area, medial part, dorsal zone, layer 6"	subclass	http://purl.obolibrary.org/obo/UBERON_0007224			medial entorhinal cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_744	cerebellar commissure	equivalent		http://purl.obolibrary.org/obo/UBERON_0006847		cerebellar commissure	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_744	cerebellar commissure	equivalent		http://purl.obolibrary.org/obo/UBERON_0006847		cerebellar commissure 	Verified	https://ror.org/03cpe7c52
@@ -925,7 +925,7 @@ https://purl.brain-bican.org/ontology/mbao/MBA_755	"ventral auditory area, layer
 https://purl.brain-bican.org/ontology/mbao/MBA_757	ventral tegmental nucleus	equivalent		http://purl.obolibrary.org/obo/UBERON_0002438		ventral tegmental nucleus	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_757	ventral tegmental nucleus	equivalent		http://purl.obolibrary.org/obo/UBERON_0002438		ventral tegmental nucleus 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_757	ventral tegmental nucleus	equivalent		http://purl.obolibrary.org/obo/UBERON_0002438		ventral tegmental nucleus 	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_758	"dentate gyrus crest, granule cell layer"	equivalent		http://purl.obolibrary.org/obo/UBERON_0005381		dentate gyrus granule cell layer 	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_758	dentate gyrus crest, granule cell layer	subclass	http://purl.obolibrary.org/obo/UBERON_0005381			dentate gyrus granule cell layer 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_759	"posterior auditory area, layer 4"	subclass	http://purl.obolibrary.org/obo/UBERON_0001393			auditory cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_763	vascular organ of the lamina terminalis	equivalent		http://purl.obolibrary.org/obo/UBERON_0002689		supraoptic crest	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_764	"entorhinal area, lateral part, layer 2b"	subclass	http://purl.obolibrary.org/obo/UBERON_0007225			lateral entorhinal cortex 	Verified	https://ror.org/03cpe7c52
@@ -950,7 +950,7 @@ https://purl.brain-bican.org/ontology/mbao/MBA_783	"agranular insular area, dors
 https://purl.brain-bican.org/ontology/mbao/MBA_784	corticospinal tract	equivalent		http://purl.obolibrary.org/obo/UBERON_0002707		corticospinal tract	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_784	corticospinal tract	equivalent		http://purl.obolibrary.org/obo/UBERON_0002707		corticospinal tract 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_79	"paraventricular hypothalamic nucleus, magnocellular division, medial magnocellular part"	equivalent		http://purl.obolibrary.org/obo/UBERON_0014600		paraventricular nucleus of the hypothalamus magnocellular division - medial magnocellular part	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_790	"dentate gyrus lateral blade, granule cell layer"	equivalent		http://purl.obolibrary.org/obo/UBERON_0005381		dentate gyrus granule cell layer 	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_790	dentate gyrus lateral blade, granule cell layer	subclass	http://purl.obolibrary.org/obo/UBERON_0005381			dentate gyrus granule cell layer 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_791	"posterior auditory area, layer 5"	subclass	http://purl.obolibrary.org/obo/UBERON_0001393			auditory cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_793	"primary somatosensory area, layer 1"	subclass	http://purl.obolibrary.org/obo/UBERON_0008933			primary somatosensory cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_794	spinal tract of the trigeminal nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0014761		spinal trigeminal tract	Verified	https://ror.org/03cpe7c52
@@ -962,7 +962,7 @@ https://purl.brain-bican.org/ontology/mbao/MBA_797	zona incerta	equivalent		http
 https://purl.brain-bican.org/ontology/mbao/MBA_797	zona incerta	equivalent		http://purl.obolibrary.org/obo/UBERON_0001907		zona incerta 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_798	facial nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0004674		facial nerve root	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_799	dentate gyrus medial blade	subclass	http://purl.obolibrary.org/obo/UBERON_0001885			dentate gyrus of hippocampal formation 	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_8	basic cell groups and regions	equivalent		http://purl.obolibrary.org/obo/UBERON_0000955		brain	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_8	basic cell groups and regions	subclass	http://purl.obolibrary.org/obo/UBERON_0002616			regional part of brain	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_800	"agranular insular area, ventral part, layer 5"	subclass	http://purl.obolibrary.org/obo/UBERON_0034893			agranular insular cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_801	"visual areas, layer 1"	subclass	http://purl.obolibrary.org/obo/UBERON_0000411			visual cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_802	stria medullaris	equivalent		http://purl.obolibrary.org/obo/UBERON_0006086		stria medullaris	Verified	https://ror.org/03cpe7c52
@@ -986,7 +986,7 @@ https://purl.brain-bican.org/ontology/mbao/MBA_82	"nucleus of the lateral lemnis
 https://purl.brain-bican.org/ontology/mbao/MBA_820	"inferior colliculus, dorsal nucleus"	equivalent		http://purl.obolibrary.org/obo/UBERON_0002577		pericentral nucleus of inferior colliculus	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_821	"primary visual area, layer 2/3"	equivalent		http://purl.obolibrary.org/obo/UBERON_0035907		"primary visual area, layer 2/3"	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_822	retrohippocampal region	equivalent		http://purl.obolibrary.org/obo/UBERON_0022230		retrohippocampal region	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_823	"dentate gyrus medial blade, granule cell layer"	equivalent		http://purl.obolibrary.org/obo/UBERON_0005381		dentate gyrus granule cell layer 	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_823	dentate gyrus medial blade, granule cell layer	subclass	http://purl.obolibrary.org/obo/UBERON_0005381			dentate gyrus granule cell layer 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_825	"supraoptic commissures, dorsal"	equivalent		http://purl.obolibrary.org/obo/UBERON_0002697		dorsal supraoptic decussation	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_826	"pallidum, medial region"	subclass	http://purl.obolibrary.org/obo/UBERON_0006514			pallidum 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_828	"inferior colliculus, external nucleus"	equivalent		http://purl.obolibrary.org/obo/UBERON_0002571		external nucleus of inferior colliculus	Verified	https://ror.org/03cpe7c52
@@ -1135,9 +1135,9 @@ https://purl.brain-bican.org/ontology/mbao/MBA_944	folium-tuber vermis (VII)	equ
 https://purl.brain-bican.org/ontology/mbao/MBA_945	"primary somatosensory area, upper limb, layer 6a"	subclass	http://purl.obolibrary.org/obo/UBERON_0008933			primary somatosensory cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_946	posterior hypothalamic nucleus	equivalent		http://purl.obolibrary.org/obo/UBERON_0002706		posterior nucleus of hypothalamus	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_946	posterior hyfpothalamic nucleus	equivalent		http://purl.obolibrary.org/obo/UBERON_0002706		posterior nucleus of hypothalamus 	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_948	cochlear nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0002731		vestibulocochlear nerve root	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_948	cochlear nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0002731		vestibulocochlear nerve root	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_948	cochlear nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0002731		vestibulocochlear nerve root	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_948	cochlear nerve	subclass	http://purl.obolibrary.org/obo/UBERON_0002731			vestibulocochlear nerve root	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_948	cochlear nerve	subclass	http://purl.obolibrary.org/obo/UBERON_0002731			vestibulocochlear nerve root	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_948	cochlear nerve	subclass	http://purl.obolibrary.org/obo/UBERON_0002731			vestibulocochlear nerve root	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_95	agranular insular area	equivalent		http://purl.obolibrary.org/obo/UBERON_0034893		agranular insular cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_950	"primary somatosensory area, mouth, layer 4"	subclass	http://purl.obolibrary.org/obo/UBERON_0008933			primary somatosensory cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_952	"endopiriform nucleus, dorsal part"	subclass	http://purl.obolibrary.org/obo/UBERON_0014284			endopiriform nucleus 	Verified	https://ror.org/03cpe7c52
