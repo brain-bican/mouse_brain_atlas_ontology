@@ -27536,20 +27536,17 @@
     <!-- https://purl.brain-bican.org/ontology/mbao/MBA_8 -->
 
     <Class rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_8">
-        <rdfs:subClassOf>
+        <equivalentClass>
             <Class>
                 <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002616"/>
                     <Restriction>
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
                     </Restriction>
-                    <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002616"/>
-                    </Restriction>
                 </intersectionOf>
             </Class>
-        </rdfs:subClassOf>
+        </equivalentClass>
         <obo:IAO_0000589>basic cell groups and regions</obo:IAO_0000589>
         <oboInOwl:status>Verified</oboInOwl:status>
     </Class>
