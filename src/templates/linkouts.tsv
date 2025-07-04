@@ -63,8 +63,6 @@ http://purl.obolibrary.org/obo/CL_0000207		olfactory receptor cell
 http://purl.obolibrary.org/obo/CL_0000209		taste receptor cell
 http://purl.obolibrary.org/obo/CL_0000210		photoreceptor cell
 http://purl.obolibrary.org/obo/CL_0000211		electrically active cell
-http://purl.obolibrary.org/obo/CL_0000213		lining cell
-http://purl.obolibrary.org/obo/CL_0000215		barrier cell
 http://purl.obolibrary.org/obo/CL_0000219		motile cell
 http://purl.obolibrary.org/obo/CL_0000221		ectodermal cell
 http://purl.obolibrary.org/obo/CL_0000222		mesodermal cell
@@ -229,6 +227,8 @@ http://purl.obolibrary.org/obo/GO_0043231		intracellular membrane-bounded organe
 http://purl.obolibrary.org/obo/GO_0043232		intracellular membraneless organelle
 http://purl.obolibrary.org/obo/GO_0043233		organelle lumen
 http://purl.obolibrary.org/obo/GO_0043292		contractile muscle fiber
+http://purl.obolibrary.org/obo/GO_0044292		dendrite terminus
+http://purl.obolibrary.org/obo/GO_0044293		dendriole
 http://purl.obolibrary.org/obo/GO_0044297		cell body
 http://purl.obolibrary.org/obo/GO_0062023		collagen-containing extracellular matrix
 http://purl.obolibrary.org/obo/GO_0070013		intracellular organelle lumen
@@ -360,6 +360,7 @@ http://purl.obolibrary.org/obo/UBERON_0000476		acellular anatomical structure
 http://purl.obolibrary.org/obo/UBERON_0000477		anatomical cluster
 http://purl.obolibrary.org/obo/UBERON_0000479		tissue
 http://purl.obolibrary.org/obo/UBERON_0000481		multi-tissue structure
+http://purl.obolibrary.org/obo/UBERON_0000482		basal lamina of epithelium
 http://purl.obolibrary.org/obo/UBERON_0000483		epithelium
 http://purl.obolibrary.org/obo/UBERON_0000485		simple columnar epithelium
 http://purl.obolibrary.org/obo/UBERON_0000486		multilaminar epithelium
@@ -744,6 +745,7 @@ http://purl.obolibrary.org/obo/UBERON_0002663		septal nuclear complex
 http://purl.obolibrary.org/obo/UBERON_0002665		supracallosal gyrus
 http://purl.obolibrary.org/obo/UBERON_0002666		mesencephalic tract of trigeminal nerve
 http://purl.obolibrary.org/obo/UBERON_0002667		lateral septal nucleus
+http://purl.obolibrary.org/obo/UBERON_0002668		oculomotor nerve root
 http://purl.obolibrary.org/obo/UBERON_0002671		pallidotegmental fasciculus
 http://purl.obolibrary.org/obo/UBERON_0002673		vestibular nuclear complex
 http://purl.obolibrary.org/obo/UBERON_0002676		ventral supraoptic decussation
@@ -1039,6 +1041,7 @@ http://purl.obolibrary.org/obo/UBERON_0004638		blood vessel endothelium
 http://purl.obolibrary.org/obo/UBERON_0004670		ependyma
 http://purl.obolibrary.org/obo/UBERON_0004673		trigeminal nerve root
 http://purl.obolibrary.org/obo/UBERON_0004674		facial nerve root
+http://purl.obolibrary.org/obo/UBERON_0004675		hypoglossal nerve root
 http://purl.obolibrary.org/obo/UBERON_0004679		dentate gyrus molecular layer
 http://purl.obolibrary.org/obo/UBERON_0004680		body of fornix
 http://purl.obolibrary.org/obo/UBERON_0004681		vestibular system
@@ -1374,7 +1377,6 @@ http://purl.obolibrary.org/obo/UBERON_0010042		1st arch mesenchyme
 http://purl.obolibrary.org/obo/UBERON_0010046		entire pharyngeal arch associated mesenchyme
 http://purl.obolibrary.org/obo/UBERON_0010056		future tongue
 http://purl.obolibrary.org/obo/UBERON_0010059		hypoglossal cord
-http://purl.obolibrary.org/obo/UBERON_0010064		open anatomical space
 http://purl.obolibrary.org/obo/UBERON_0010083		future dermis
 http://purl.obolibrary.org/obo/UBERON_0010092		future metencephalon
 http://purl.obolibrary.org/obo/UBERON_0010096		future myelencephalon
@@ -1432,6 +1434,7 @@ http://purl.obolibrary.org/obo/UBERON_0011176		oval nucleus of stria terminalis
 http://purl.obolibrary.org/obo/UBERON_0011177		posterior division of bed nuclei of stria terminalis
 http://purl.obolibrary.org/obo/UBERON_0011178		principal nucleus of stria terminalis
 http://purl.obolibrary.org/obo/UBERON_0011179		transverse nucleus of stria terminalis
+http://purl.obolibrary.org/obo/UBERON_0011213		root of vagus nerve
 http://purl.obolibrary.org/obo/UBERON_0011214		nucleus of midbrain tectum
 http://purl.obolibrary.org/obo/UBERON_0011215		central nervous system cell part cluster
 http://purl.obolibrary.org/obo/UBERON_0011216		organ system subdivision
@@ -1538,6 +1541,7 @@ http://purl.obolibrary.org/obo/UBERON_0014602		paraventricular nucleus of the hy
 http://purl.obolibrary.org/obo/UBERON_0014603		paraventricular nucleus of the hypothalamus magnocellular division
 http://purl.obolibrary.org/obo/UBERON_0014604		paraventricular nucleus of the hypothalamus parvocellular division
 http://purl.obolibrary.org/obo/UBERON_0014605		fundus striati
+http://purl.obolibrary.org/obo/UBERON_0014615		accessory nerve root
 http://purl.obolibrary.org/obo/UBERON_0014642		vestibulocerebellum
 http://purl.obolibrary.org/obo/UBERON_0014648		hemisphere part of cerebellar posterior lobe
 http://purl.obolibrary.org/obo/UBERON_0014649		white matter of medulla oblongata
@@ -1618,6 +1622,8 @@ http://purl.obolibrary.org/obo/UBERON_0019293		white matter of pontine tegmentum
 http://purl.obolibrary.org/obo/UBERON_0019294		commissure of telencephalon
 http://purl.obolibrary.org/obo/UBERON_0019304		sensory organ epithelium
 http://purl.obolibrary.org/obo/UBERON_0019306		nose epithelium
+http://purl.obolibrary.org/obo/UBERON_0019310		glossopharyngeal nerve root
+http://purl.obolibrary.org/obo/UBERON_0019311		root of olfactory nerve
 http://purl.obolibrary.org/obo/UBERON_0020358		accessory XI nerve nucleus
 http://purl.obolibrary.org/obo/UBERON_0022229		posterior amygdaloid nucleus
 http://purl.obolibrary.org/obo/UBERON_0022230		retrohippocampal region

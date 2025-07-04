@@ -12,13 +12,13 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://purl.brain-bican.org/ontology/mbao/mbao-base.owl">
-        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2025-04-17/mbao-base.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2025-07-04/mbao-base.owl"/>
         <obo:IAO_0000700 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_997"/>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <terms:description>An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon.</terms:description>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Mouse Brain Atlas Ontology</terms:title>
-        <owl:versionInfo>2025-04-17</owl:versionInfo>
+        <owl:versionInfo>2025-07-04</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -642,22 +642,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000211">
         <skos:prefLabel>electrically active cell</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_0000213 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000213">
-        <skos:prefLabel>lining cell</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_0000215 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000215">
-        <skos:prefLabel>barrier cell</skos:prefLabel>
     </owl:Class>
     
 
@@ -1974,6 +1958,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0044292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044292">
+        <skos:prefLabel>dendrite terminus</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044293 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044293">
+        <skos:prefLabel>dendriole</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0044297 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044297">
@@ -3018,6 +3018,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000481">
         <skos:prefLabel>multi-tissue structure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000482">
+        <skos:prefLabel>basal lamina of epithelium</skos:prefLabel>
     </owl:Class>
     
 
@@ -6094,6 +6102,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002668 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002668">
+        <skos:prefLabel>oculomotor nerve root</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0002671 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002671">
@@ -8450,6 +8466,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004674">
         <skos:prefLabel>facial nerve root</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004675 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004675">
+        <skos:prefLabel>hypoglossal nerve root</skos:prefLabel>
     </owl:Class>
     
 
@@ -11134,14 +11158,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0010064 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010064">
-        <skos:prefLabel>open anatomical space</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0010083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010083">
@@ -11594,6 +11610,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0011179">
         <skos:prefLabel>transverse nucleus of stria terminalis</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0011213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0011213">
+        <skos:prefLabel>root of vagus nerve</skos:prefLabel>
     </owl:Class>
     
 
@@ -12446,6 +12470,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014615 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014615">
+        <skos:prefLabel>accessory nerve root</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0014642 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014642">
@@ -13082,6 +13114,22 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0019306">
         <skos:prefLabel>nose epithelium</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0019310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0019310">
+        <skos:prefLabel>glossopharyngeal nerve root</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0019311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0019311">
+        <skos:prefLabel>root of olfactory nerve</skos:prefLabel>
     </owl:Class>
     
 
@@ -55424,7 +55472,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002019"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014615"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -55432,7 +55480,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0014615"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -56513,23 +56561,19 @@
     <!-- https://purl.brain-bican.org/ontology/mbao/MBA_742 -->
 
     <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_742">
-        <owl:equivalentClass>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004679"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004679"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004679"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -57211,23 +57255,19 @@
     <!-- https://purl.brain-bican.org/ontology/mbao/MBA_758 -->
 
     <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_758">
-        <owl:equivalentClass>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005381"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005381"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005381"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -58463,23 +58503,19 @@
     <!-- https://purl.brain-bican.org/ontology/mbao/MBA_790 -->
 
     <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_790">
-        <owl:equivalentClass>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005381"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005381"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005381"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -58800,7 +58836,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001647"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004674"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -58808,7 +58844,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001647"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004674"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -58888,7 +58924,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000955"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002616"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -58896,7 +58932,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000955"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002616"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -59276,7 +59312,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001649"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0019310"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -59284,7 +59320,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001649"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0019310"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -59522,7 +59558,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001650"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004675"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -59530,7 +59566,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001650"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004675"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -59965,23 +60001,19 @@
     <!-- https://purl.brain-bican.org/ontology/mbao/MBA_823 -->
 
     <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_823">
-        <owl:equivalentClass>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005381"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005381"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005381"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -60404,7 +60436,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001643"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002668"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -60412,7 +60444,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001643"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002668"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -60820,7 +60852,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001579"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0019311"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -60828,7 +60860,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001579"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0019311"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -63608,7 +63640,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001645"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004673"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -63616,7 +63648,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001645"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004673"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -64336,7 +64368,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001759"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0011213"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -64344,7 +64376,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001759"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011213"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -65044,7 +65076,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001648"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002731"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -65052,7 +65084,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001648"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002731"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -65664,6 +65696,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>PH</obo:IAO_0000028>
+        <obo:IAO_0000589>posterior hyfpothalamic nucleus</obo:IAO_0000589>
         <obo:IAO_0000589>posterior hypothalamic nucleus</obo:IAO_0000589>
         <oboInOwl:hasDbXref>http://atlas.brain-map.org/atlas?atlas=1#structure=946</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://atlas.brain-map.org/atlas?atlas=2#structure=946</oboInOwl:hasDbXref>
@@ -65745,23 +65778,19 @@
     <!-- https://purl.brain-bican.org/ontology/mbao/MBA_948 -->
 
     <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_948">
-        <owl:equivalentClass>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004727"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002731"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004727"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -66614,7 +66643,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001785"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006843"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -66622,7 +66651,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001785"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006843"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>

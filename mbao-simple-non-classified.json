@@ -16,9 +16,9 @@
         "val" : "Mouse Brain Atlas Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-04-17"
+        "val" : "2025-07-04"
       } ],
-      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2025-04-17/mbao-simple-non-classified.json"
+      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2025-07-04/mbao-simple-non-classified.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -526,22 +526,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "electrically active cell"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0000213",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "lining cell"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0000215",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "barrier cell"
         } ]
       }
     }, {
@@ -1857,6 +1841,22 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0044292",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "dendrite terminus"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0044293",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "dendriole"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0044297",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -2904,6 +2904,14 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "multi-tissue structure"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0000482",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "basal lamina of epithelium"
         } ]
       }
     }, {
@@ -6002,6 +6010,14 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0002668",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "oculomotor nerve root"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0002671",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -6253,6 +6269,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0002731",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -8379,6 +8396,14 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0004675",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "hypoglossal nerve root"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0004679",
       "type" : "CLASS",
       "meta" : {
@@ -8962,6 +8987,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0005381",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -11074,14 +11100,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0010064",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "open anatomical space"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0010083",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -11535,6 +11553,14 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "transverse nucleus of stria terminalis"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0011213",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "root of vagus nerve"
         } ]
       }
     }, {
@@ -12389,6 +12415,14 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0014615",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "accessory nerve root"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0014642",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -13030,6 +13064,22 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "nose epithelium"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0019310",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "glossopharyngeal nerve root"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0019311",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "root of olfactory nerve"
         } ]
       }
     }, {
@@ -49390,6 +49440,9 @@
           "val" : "PH"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
+          "val" : "posterior hyfpothalamic nucleus"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
           "val" : "posterior hypothalamic nucleus"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#status",
@@ -57385,10 +57438,6 @@
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_742",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
-    }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_742",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/mbao/MBA_734"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_743",
@@ -57486,10 +57535,6 @@
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_757",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/mbao/MBA_323"
-    }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_758",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_758",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -57678,10 +57723,6 @@
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_79",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/mbao/MBA_71"
-    }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_790",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_790",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -57906,10 +57947,6 @@
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_822",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/mbao/MBA_1089"
-    }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_823",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_823",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -58746,10 +58783,6 @@
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_947",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/mbao/MBA_500"
-    }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_948",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_948",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
