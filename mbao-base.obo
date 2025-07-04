@@ -1,12 +1,12 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-06-30/mbao-base.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-07-04/mbao-base.owl
 ontology: https://purl.brain-bican.org/ontology/mbao/mbao-base.owl
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/description "An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon." xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
 property_value: IAO:0000700 MBA:997
-property_value: owl:versionInfo "2025-06-30" xsd:string
+property_value: owl:versionInfo "2025-07-04" xsd:string
 
 [Term]
 id: CL:0000000
@@ -17799,9 +17799,11 @@ synonym: "grey" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=8
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=8
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=8
+is_a: UBERON:0002616
+intersection_of: UBERON:0002616
+intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:997 ! part of brain
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
-relationship: BFO:0000050 UBERON:0002616 ! part of
 property_value: IAO:0000028 "grey" xsd:string
 property_value: IAO:0000589 "basic cell groups and regions" xsd:string
 property_value: prefLabel "Basic cell groups and regions  ( mouse )" xsd:string

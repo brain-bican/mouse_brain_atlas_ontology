@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-06-30/mbao-full.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-07-04/mbao-full.owl
 subsetdef: BDS_subset ""
 subsetdef: blood_and_immune_upper_slim ""
 subsetdef: cellxgene_subset ""
@@ -73,7 +73,7 @@ property_value: dcterms-license http://creativecommons.org/licenses/by/4.0/
 property_value: has_ontology_root_term MBA:997
 property_value: http://purl.org/dc/terms/description "An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon." xsd:string
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
-property_value: owl:versionInfo "2025-06-30" xsd:string
+property_value: owl:versionInfo "2025-07-04" xsd:string
 
 [Term]
 id: CL:0000000
@@ -3213,7 +3213,7 @@ synonym: "TMv" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0014594 ! tuberomammillary nucleus ventral part
 intersection_of: UBERON:0014594 ! tuberomammillary nucleus ventral part
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -3258,7 +3258,7 @@ synonym: "eps" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1000
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1000
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1000
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035803 ! extrapyramidal tract system
 intersection_of: UBERON:0035803 ! extrapyramidal tract system
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -3275,7 +3275,7 @@ synonym: "CUL5" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1001
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1001
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1001
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0004079 ! cerebellum vermis lobule V
 intersection_of: UBERON:0004079 ! cerebellum vermis lobule V
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -3361,7 +3361,7 @@ synonym: "SIM" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1007
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1007
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1007
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0005350 ! lobule simplex
 intersection_of: UBERON:0005350 ! lobule simplex
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -3440,7 +3440,7 @@ synonym: "AUDd" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1011
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1011
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1011
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035885 ! dorsal auditory area
 intersection_of: UBERON:0035885 ! dorsal auditory area
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -3507,7 +3507,7 @@ synonym: "AN" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1017
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1017
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1017
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0005348 ! ansiform lobule
 intersection_of: UBERON:0005348 ! ansiform lobule
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -3646,7 +3646,7 @@ synonym: "PRM" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1025
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1025
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1025
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0005349 ! paramedian lobule
 intersection_of: UBERON:0005349 ! paramedian lobule
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -3717,7 +3717,7 @@ synonym: "PVHpm" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=103
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=103
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=103
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0014601 ! paraventricular nucleus of the hypothalamus magnocellular division - posterior magnocellular part
 intersection_of: UBERON:0014601 ! paraventricular nucleus of the hypothalamus magnocellular division - posterior magnocellular part
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -3775,7 +3775,7 @@ synonym: "COPY" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1033
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1033
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1033
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0005347 ! copula pyramidis
 intersection_of: UBERON:0005347 ! copula pyramidis
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -3835,7 +3835,7 @@ synonym: "POST" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1037
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1037
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1037
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035971 ! postsubiculum
 intersection_of: UBERON:0035971 ! postsubiculum
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -3910,7 +3910,7 @@ synonym: "PFL" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1041
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1041
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1041
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0005351 ! paraflocculus
 intersection_of: UBERON:0005351 ! paraflocculus
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -4032,7 +4032,7 @@ synonym: "FL" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1049
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1049
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1049
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0001063 ! flocculus
 intersection_of: UBERON:0001063 ! flocculus
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -4169,7 +4169,7 @@ synonym: "GU" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1057
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1057
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1057
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:8440075 ! gustatory cortex
 intersection_of: UBERON:8440075 ! gustatory cortex
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -4306,7 +4306,7 @@ synonym: "HB" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1065
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1065
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1065
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002028 ! hindbrain
 intersection_of: UBERON:0002028 ! hindbrain
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -4353,7 +4353,7 @@ synonym: "ME" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=10671
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=10671
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=10671
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002197 ! median eminence of neurohypophysis
 intersection_of: UBERON:0002197 ! median eminence of neurohypophysis
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -4669,7 +4669,7 @@ synonym: "PPY" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1069
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1069
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1069
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:8440025 ! parapyramidal nucleus
 intersection_of: UBERON:8440025 ! parapyramidal nucleus
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -5358,7 +5358,7 @@ synonym: "HEM" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1073
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1073
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1073
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002245 ! cerebellar hemisphere
 intersection_of: UBERON:0002245 ! cerebellar hemisphere
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -5737,7 +5737,7 @@ synonym: "HPF" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1089
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1089
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1089
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002421 ! hippocampal formation
 intersection_of: UBERON:0002421 ! hippocampal formation
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -5866,7 +5866,7 @@ synonym: "HY" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1097
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1097
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1097
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0001898 ! hypothalamus
 intersection_of: UBERON:0001898 ! hypothalamus
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -6059,7 +6059,7 @@ synonym: "ccg" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1108
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1108
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1108
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0015599 ! genu of corpus callosum
 intersection_of: UBERON:0015599 ! genu of corpus callosum
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -6141,7 +6141,7 @@ synonym: "IAD" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1113
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1113
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1113
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035972 ! interanterodorsal nucleus of the thalamus
 intersection_of: UBERON:0035972 ! interanterodorsal nucleus of the thalamus
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -6305,7 +6305,7 @@ synonym: "TMd" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1126
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1126
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1126
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0014593 ! tuberomammillary nucleus dorsal part
 intersection_of: UBERON:0014593 ! tuberomammillary nucleus dorsal part
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -6352,7 +6352,7 @@ synonym: "IB" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=1129
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1129
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1129
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0001894 ! diencephalon
 intersection_of: UBERON:0001894 ! diencephalon
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -7172,7 +7172,7 @@ synonym: "LC" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=147
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=147
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=147
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002148 ! locus ceruleus
 intersection_of: UBERON:0002148 ! locus ceruleus
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -7251,7 +7251,7 @@ synonym: "AOB" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=151
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=151
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=151
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0004069 ! accessory olfactory bulb
 intersection_of: UBERON:0004069 ! accessory olfactory bulb
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -7492,7 +7492,7 @@ synonym: "RAmb" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=165
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=165
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=165
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0007412 ! midbrain raphe nuclei
 intersection_of: UBERON:0007412 ! midbrain raphe nuclei
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -7866,7 +7866,7 @@ synonym: "FRP" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=184
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=184
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=184
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002795 ! frontal pole
 intersection_of: UBERON:0002795 ! frontal pole
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -8044,7 +8044,7 @@ synonym: "LHA" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=194
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=194
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=194
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002430 ! lateral hypothalamic area
 intersection_of: UBERON:0002430 ! lateral hypothalamic area
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -8273,7 +8273,7 @@ synonym: "AP" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=207
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=207
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=207
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002162 ! area postrema
 intersection_of: UBERON:0002162 ! area postrema
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -8483,7 +8483,7 @@ synonym: "PTLp" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=22
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=22
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=22
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035886 ! posterior parietal association areas
 intersection_of: UBERON:0035886 ! posterior parietal association areas
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -8730,7 +8730,7 @@ synonym: "VISal5" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=233
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=233
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=233
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035908 ! anterolateral visual area, layer 5
 intersection_of: UBERON:0035908 ! anterolateral visual area, layer 5
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -8929,7 +8929,7 @@ synonym: "RR" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=246
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=246
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=246
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0011172 ! retrorubral area of midbrain reticular nucleus
 intersection_of: UBERON:0011172 ! retrorubral area of midbrain reticular nucleus
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -8946,7 +8946,7 @@ synonym: "AUD" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=247
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=247
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=247
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0001393 ! auditory cortex
 intersection_of: UBERON:0001393 ! auditory cortex
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -9053,7 +9053,7 @@ synonym: "RSP" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=254
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=254
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=254
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0013531 ! retrosplenial region
 intersection_of: UBERON:0013531 ! retrosplenial region
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -9100,7 +9100,7 @@ synonym: "VISpm6a" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=257
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=257
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=257
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035909 ! posteromedial visual area, layer 6a
 intersection_of: UBERON:0035909 ! posteromedial visual area, layer 6a
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -9287,7 +9287,7 @@ synonym: "IGL" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=27
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=27
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=27
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035975 ! intergeniculate leaflet of the lateral geniculate complex
 intersection_of: UBERON:0035975 ! intergeniculate leaflet of the lateral geniculate complex
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -9925,7 +9925,7 @@ synonym: "ACA" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=31
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=31
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=31
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0009835 ! anterior cingulate cortex
 intersection_of: UBERON:0009835 ! anterior cingulate cortex
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -10197,7 +10197,7 @@ synonym: "VISrl5" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=312782616
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=312782616
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=312782616
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035920 ! rostrolateral area, layer 5
 intersection_of: UBERON:0035920 ! rostrolateral area, layer 5
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -10248,7 +10248,7 @@ synonym: "VISpor" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=312782628
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=312782628
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=312782628
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035890 ! postrhinal area
 intersection_of: UBERON:0035890 ! postrhinal area
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -10299,7 +10299,7 @@ synonym: "VISpor4" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=312782640
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=312782640
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=312782640
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035911 ! postrhinal area, layer 4
 intersection_of: UBERON:0035911 ! postrhinal area, layer 4
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -10366,7 +10366,7 @@ synonym: "MB" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=313
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=313
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=313
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0001891 ! midbrain
 intersection_of: UBERON:0001891 ! midbrain
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -10396,7 +10396,7 @@ synonym: "Isocortex" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=315
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=315
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=315
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0001950 ! neocortex
 intersection_of: UBERON:0001950 ! neocortex
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -10598,7 +10598,7 @@ synonym: "SSp-bfd" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=329
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=329
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=329
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0010415 ! barrel cortex
 intersection_of: UBERON:0010415 ! barrel cortex
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -10615,7 +10615,7 @@ synonym: "VISp6a" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=33
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=33
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=33
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035892 ! primary visual area, layer 6a
 intersection_of: UBERON:0035892 ! primary visual area, layer 6a
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -10746,7 +10746,7 @@ synonym: "SFO" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=338
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=338
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=338
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002219 ! subfornical organ
 intersection_of: UBERON:0002219 ! subfornical organ
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -10832,7 +10832,7 @@ synonym: "BS" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=343
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=343
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=343
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002298 ! brainstem
 intersection_of: UBERON:0002298 ! brainstem
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -10888,7 +10888,7 @@ synonym: "SBPV" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=347
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=347
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=347
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0007626 ! subparaventricular zone
 intersection_of: UBERON:0007626 ! subparaventricular zone
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -11079,7 +11079,7 @@ synonym: "BSTa" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=359
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=359
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=359
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0011173 ! anterior division of bed nuclei of stria terminalis
 intersection_of: UBERON:0011173 ! anterior division of bed nuclei of stria terminalis
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -11215,7 +11215,7 @@ synonym: "BSTp" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=367
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=367
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=367
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0011177 ! posterior division of bed nuclei of stria terminalis
 intersection_of: UBERON:0011177 ! posterior division of bed nuclei of stria terminalis
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -11334,7 +11334,7 @@ synonym: "CA" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=375
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=375
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=375
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0001954 ! Ammon's horn
 intersection_of: UBERON:0001954 ! Ammon's horn
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -11458,7 +11458,7 @@ synonym: "CA1" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=382
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=382
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=382
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0003881 ! CA1 field of hippocampus
 intersection_of: UBERON:0003881 ! CA1 field of hippocampus
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -11505,7 +11505,7 @@ synonym: "VISp" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=385
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=385
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=385
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002436 ! primary visual cortex
 intersection_of: UBERON:0002436 ! primary visual cortex
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -11647,7 +11647,7 @@ synonym: "VISam" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=394
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=394
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=394
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035893 ! anteromedial visual area
 intersection_of: UBERON:0035893 ! anteromedial visual area
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -11749,7 +11749,7 @@ synonym: "IC" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=4
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=4
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=4
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0001946 ! inferior colliculus
 intersection_of: UBERON:0001946 ! inferior colliculus
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -11798,7 +11798,7 @@ synonym: "VISal" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=402
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=402
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=402
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035894 ! anterolateral visual area
 intersection_of: UBERON:0035894 ! anterolateral visual area
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -11909,7 +11909,7 @@ synonym: "VISl" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=409
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=409
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=409
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035895 ! lateral visual area
 intersection_of: UBERON:0035895 ! lateral visual area
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -12036,7 +12036,7 @@ synonym: "VISrl" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=417
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=417
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=417
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035912 ! rostrolateral visual area
 intersection_of: UBERON:0035912 ! rostrolateral visual area
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -12129,7 +12129,7 @@ synonym: "CA2" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=423
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=423
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=423
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0003882 ! CA2 field of hippocampus
 intersection_of: UBERON:0003882 ! CA2 field of hippocampus
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -12161,7 +12161,7 @@ synonym: "VISpl" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=425
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=425
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=425
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035897 ! posterolateral visual area
 intersection_of: UBERON:0035897 ! posterolateral visual area
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -12304,7 +12304,7 @@ synonym: "VISam5" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=433
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=433
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=433
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035913 ! anteromedial visual area, layer 5
 intersection_of: UBERON:0035913 ! anteromedial visual area, layer 5
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -12398,7 +12398,7 @@ synonym: "PVHdp" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=439
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=439
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=439
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0014596 ! paraventricular nucleus of the hypothalamus descending division - dorsal parvocellular part
 intersection_of: UBERON:0014596 ! paraventricular nucleus of the hypothalamus descending division - dorsal parvocellular part
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -12415,7 +12415,7 @@ synonym: "ILA" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=44
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=44
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=44
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:8440033 ! infralimbic area
 intersection_of: UBERON:8440033 ! infralimbic area
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -12533,7 +12533,7 @@ synonym: "PVHf" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=447
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=447
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=447
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0014598 ! paraventricular nucleus of the hypothalamus descending division - forniceal part
 intersection_of: UBERON:0014598 ! paraventricular nucleus of the hypothalamus descending division - forniceal part
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -12632,7 +12632,7 @@ synonym: "SS" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=453
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=453
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=453
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0008930 ! somatosensory cortex
 intersection_of: UBERON:0008930 ! somatosensory cortex
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -12666,7 +12666,7 @@ synonym: "PVHlp" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=455
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=455
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=455
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0014597 ! paraventricular nucleus of the hypothalamus descending division - lateral parvocellular part
 intersection_of: UBERON:0014597 ! paraventricular nucleus of the hypothalamus descending division - lateral parvocellular part
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -12791,7 +12791,7 @@ synonym: "CA3" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=463
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=463
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=463
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0003883 ! CA3 field of hippocampus
 intersection_of: UBERON:0003883 ! CA3 field of hippocampus
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -12808,7 +12808,7 @@ synonym: "PVHmpv" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=464
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=464
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=464
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0014595 ! paraventricular nucleus of the hypothalamus descending division - medial parvocellular part, ventral zone
 intersection_of: UBERON:0014595 ! paraventricular nucleus of the hypothalamus descending division - medial parvocellular part, ventral zone
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -12898,7 +12898,7 @@ synonym: "PVHam" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=47
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=47
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=47
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0014599 ! paraventricular nucleus of the hypothalamus magnocellular division - anterior magnocellular part
 intersection_of: UBERON:0014599 ! paraventricular nucleus of the hypothalamus magnocellular division - anterior magnocellular part
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -13761,7 +13761,7 @@ synonym: "islm" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=489
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=489
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=489
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0023868 ! isla magna of Calleja
 intersection_of: UBERON:0023868 ! isla magna of Calleja
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -13985,7 +13985,7 @@ synonym: "MO" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=500
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=500
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=500
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:8440076 ! somatomotor area
 intersection_of: UBERON:8440076 ! somatomotor area
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -14002,7 +14002,7 @@ synonym: "VISpm4" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=501
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=501
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=501
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035914 ! posteromedial visual area, layer 4
 intersection_of: UBERON:0035914 ! posteromedial visual area, layer 4
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -14019,7 +14019,7 @@ synonym: "SUB" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=502
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=502
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=502
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002191 ! subiculum
 intersection_of: UBERON:0002191 ! subiculum
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -14094,7 +14094,7 @@ synonym: "MOB" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=507
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=507
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=507
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0009951 ! main olfactory bulb
 intersection_of: UBERON:0009951 ! main olfactory bulb
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -14178,7 +14178,7 @@ synonym: "CB" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=512
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=512
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=512
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002037 ! cerebellum
 intersection_of: UBERON:0002037 ! cerebellum
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -14354,7 +14354,7 @@ synonym: "MPO" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=523
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=523
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=523
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0007769 ! medial preoptic region
 intersection_of: UBERON:0007769 ! medial preoptic region
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -14553,7 +14553,7 @@ synonym: "VISpm" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=533
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=533
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=533
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035900 ! posteromedial visual area
 intersection_of: UBERON:0035900 ! posteromedial visual area
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -14686,7 +14686,7 @@ synonym: "TEa" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=541
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=541
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=541
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035013 ! temporal cortex association area
 intersection_of: UBERON:0035013 ! temporal cortex association area
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -14798,7 +14798,7 @@ synonym: "TH" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=549
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=549
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=549
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0001897 ! dorsal plus ventral thalamus
 intersection_of: UBERON:0001897 ! dorsal plus ventral thalamus
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -15227,7 +15227,7 @@ synonym: "TR" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=566
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=566
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=566
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0034989 ! amygdalopiriform transition area
 intersection_of: UBERON:0034989 ! amygdalopiriform transition area
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -15244,7 +15244,7 @@ synonym: "CH" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=567
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=567
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=567
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0001893 ! telencephalon
 intersection_of: UBERON:0001893 ! telencephalon
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -15347,7 +15347,7 @@ synonym: "VISl4" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=573
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=573
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=573
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035915 ! lateral visual area, layer 4
 intersection_of: UBERON:0035915 ! lateral visual area, layer 4
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -15501,7 +15501,7 @@ synonym: "NB" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=580
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=580
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=580
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0036012 ! nucleus of the brachium of the inferior colliculus
 intersection_of: UBERON:0036012 ! nucleus of the brachium of the inferior colliculus
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -15841,7 +15841,7 @@ synonym: "SCO" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=599626923
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=599626923
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=599626923
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002139 ! subcommissural organ
 intersection_of: UBERON:0002139 ! subcommissural organ
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -16259,7 +16259,7 @@ synonym: "VISl5" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=613
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=613
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=613
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035916 ! lateral visual area, layer 5
 intersection_of: UBERON:0035916 ! lateral visual area, layer 5
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -16276,7 +16276,7 @@ synonym: "TU" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=614
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=614
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=614
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002620 ! tuber cinereum
 intersection_of: UBERON:0002620 ! tuber cinereum
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -16304,7 +16304,7 @@ synonym: "SNl" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=615
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=615
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=615
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002995 ! substantia nigra pars lateralis
 intersection_of: UBERON:0002995 ! substantia nigra pars lateralis
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -16547,7 +16547,7 @@ synonym: "PVHd" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=63
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=63
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=63
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0014602 ! paraventricular nucleus of the hypothalamus descending division
 intersection_of: UBERON:0014602 ! paraventricular nucleus of the hypothalamus descending division
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -16814,7 +16814,7 @@ synonym: "VERM" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=645
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=645
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=645
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0004720 ! cerebellar vermis
 intersection_of: UBERON:0004720 ! cerebellar vermis
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -17183,7 +17183,7 @@ synonym: "VIS" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=669
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=669
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=669
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0000411 ! visual cortex
 intersection_of: UBERON:0000411 ! visual cortex
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -17318,7 +17318,7 @@ synonym: "VISC" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=677
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=677
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=677
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:8440024 ! visceral area
 intersection_of: UBERON:8440024 ! visceral area
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -17335,7 +17335,7 @@ synonym: "AUDd4" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=678
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=678
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=678
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035917 ! dorsal auditory area, layer 4
 intersection_of: UBERON:0035917 ! dorsal auditory area, layer 4
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -17665,7 +17665,7 @@ synonym: "OLF" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=698
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=698
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=698
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002894 ! olfactory cortex
 intersection_of: UBERON:0002894 ! olfactory cortex
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -17723,7 +17723,7 @@ synonym: "AHNa" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=700
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=700
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=700
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0014589 ! anterior nucleus of hypothalamus anterior part
 intersection_of: UBERON:0014589 ! anterior nucleus of hypothalamus anterior part
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -17851,7 +17851,7 @@ synonym: "AHNc" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=708
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=708
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=708
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0014590 ! anterior nucleus of hypothalamus central part
 intersection_of: UBERON:0014590 ! anterior nucleus of hypothalamus central part
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -17885,7 +17885,7 @@ synonym: "PVHm" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=71
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=71
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=71
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0014603 ! paraventricular nucleus of the hypothalamus magnocellular division
 intersection_of: UBERON:0014603 ! paraventricular nucleus of the hypothalamus magnocellular division
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -17994,7 +17994,7 @@ synonym: "AHNd" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=716
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=716
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=716
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0014592 ! anterior nucleus of hypothalamus dorsal part
 intersection_of: UBERON:0014592 ! anterior nucleus of hypothalamus dorsal part
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -18086,7 +18086,7 @@ synonym: "VISp4" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=721
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=721
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=721
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035904 ! primary visual area, layer 4
 intersection_of: UBERON:0035904 ! primary visual area, layer 4
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -18127,7 +18127,7 @@ synonym: "AHNp" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=724
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=724
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=724
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0014591 ! anterior nucleus of hypothalamus posterior part
 intersection_of: UBERON:0014591 ! anterior nucleus of hypothalamus posterior part
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -18155,7 +18155,7 @@ synonym: "DG" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=726
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=726
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=726
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0001885 ! dentate gyrus of hippocampal formation
 intersection_of: UBERON:0001885 ! dentate gyrus of hippocampal formation
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -18224,7 +18224,7 @@ synonym: "PIS" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=730
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=730
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=730
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0011768 ! pineal gland stalk
 intersection_of: UBERON:0011768 ! pineal gland stalk
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -18372,7 +18372,7 @@ synonym: "VISl6a" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=74
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=74
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=74
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035918 ! lateral visual area, layer 6a
 intersection_of: UBERON:0035918 ! lateral visual area, layer 6a
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -18514,7 +18514,7 @@ synonym: "VTA" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=749
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=749
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=749
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002691 ! ventral tegmental area
 intersection_of: UBERON:0002691 ! ventral tegmental area
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -18746,7 +18746,7 @@ synonym: "OV" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=763
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=763
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=763
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0002689 ! supraoptic crest
 intersection_of: UBERON:0002689 ! supraoptic crest
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -18863,7 +18863,7 @@ synonym: "P" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=771
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=771
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=771
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0000988 ! pons
 intersection_of: UBERON:0000988 ! pons
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -18964,7 +18964,7 @@ synonym: "VISp5" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=778
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=778
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=778
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035906 ! primary visual area, layer 5
 intersection_of: UBERON:0035906 ! primary visual area, layer 5
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -19113,7 +19113,7 @@ synonym: "PAA" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=788
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=788
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=788
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:8440039 ! piriform-amygdalar area
 intersection_of: UBERON:8440039 ! piriform-amygdalar area
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -19141,7 +19141,7 @@ synonym: "PVHmm" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=79
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=79
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=79
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0014600 ! paraventricular nucleus of the hypothalamus magnocellular division - medial magnocellular part
 intersection_of: UBERON:0014600 ! paraventricular nucleus of the hypothalamus magnocellular division - medial magnocellular part
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -19244,7 +19244,7 @@ synonym: "A13" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=796
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=796
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=796
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0036007 ! A13 dopaminergic cell group
 intersection_of: UBERON:0036007 ! A13 dopaminergic cell group
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -19308,9 +19308,11 @@ synonym: "grey" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=8
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=8
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=8
+is_a: MBA:ENTITY
+is_a: UBERON:0002616 ! regional part of brain
+intersection_of: UBERON:0002616 ! regional part of brain
+intersection_of: part_of NCBITaxon:10090 ! Mus musculus
 relationship: part_of MBA:997 ! brain
-relationship: part_of NCBITaxon:10090 ! Mus musculus
-relationship: part_of UBERON:0002616 ! regional part of brain
 property_value: IAO:0000028 "grey" xsd:string
 property_value: IAO:0000589 "basic cell groups and regions" xsd:string
 property_value: prefLabel "Basic cell groups and regions  ( mouse )" xsd:string
@@ -19555,7 +19557,7 @@ synonym: "DP" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=814
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=814
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=814
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:8440040 ! dorsal peduncular area
 intersection_of: UBERON:8440040 ! dorsal peduncular area
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -19671,7 +19673,7 @@ synonym: "VISp2/3" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=821
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=821
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=821
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035907 ! primary visual area, layer 2/3
 intersection_of: UBERON:0035907 ! primary visual area, layer 2/3
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -19688,7 +19690,7 @@ synonym: "RHP" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=822
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=822
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=822
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0022230 ! retrohippocampal region
 intersection_of: UBERON:0022230 ! retrohippocampal region
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -20046,7 +20048,7 @@ synonym: "PAR" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=843
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=843
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=843
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0004683 ! parasubiculum
 intersection_of: UBERON:0004683 ! parasubiculum
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -20451,7 +20453,7 @@ synonym: "VISpl4" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=869
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=869
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=869
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0035919 ! posterolateral visual area, layer 4
 intersection_of: UBERON:0035919 ! posterolateral visual area, layer 4
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -21172,7 +21174,7 @@ synonym: "LING" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=912
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=912
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=912
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0004074 ! cerebellum vermis lobule I
 intersection_of: UBERON:0004074 ! cerebellum vermis lobule I
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -21301,7 +21303,7 @@ synonym: "CENT" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=920
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=920
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=920
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0003021 ! central lobule
 intersection_of: UBERON:0003021 ! central lobule
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -21331,7 +21333,7 @@ synonym: "PERI" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=922
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=922
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=922
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0006083 ! perirhinal cortex
 intersection_of: UBERON:0006083 ! perirhinal cortex
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -21417,7 +21419,7 @@ synonym: "CUL" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=928
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=928
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=928
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0007763 ! cerebellum vermis culmen
 intersection_of: UBERON:0007763 ! cerebellum vermis culmen
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -21552,7 +21554,7 @@ synonym: "DEC" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=936
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=936
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=936
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0004080 ! cerebellum vermis lobule VI
 intersection_of: UBERON:0004080 ! cerebellum vermis lobule VI
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -21612,7 +21614,7 @@ synonym: "PVHp" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=94
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=94
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=94
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0014604 ! paraventricular nucleus of the hypothalamus parvocellular division
 intersection_of: UBERON:0014604 ! paraventricular nucleus of the hypothalamus parvocellular division
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -21693,7 +21695,7 @@ synonym: "FOTU" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=944
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=944
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=944
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0004081 ! cerebellum vermis lobule VII
 intersection_of: UBERON:0004081 ! cerebellum vermis lobule VII
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -21782,7 +21784,7 @@ synonym: "AI" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=95
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=95
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=95
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0034893 ! agranular insular cortex
 intersection_of: UBERON:0034893 ! agranular insular cortex
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -21812,7 +21814,7 @@ synonym: "PYR" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=951
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=951
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=951
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0004082 ! cerebellum vermis lobule VIII
 intersection_of: UBERON:0004082 ! cerebellum vermis lobule VIII
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -21842,7 +21844,7 @@ synonym: "PIN" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=953
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=953
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=953
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0001905 ! pineal body
 intersection_of: UBERON:0001905 ! pineal body
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -21900,7 +21902,7 @@ synonym: "UVU" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=957
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=957
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=957
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0004078 ! cerebellum vermis lobule IX
 intersection_of: UBERON:0004078 ! cerebellum vermis lobule IX
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -21917,7 +21919,7 @@ synonym: "EPI" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=958
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=958
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=958
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0001899 ! epithalamus
 intersection_of: UBERON:0001899 ! epithalamus
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -22074,7 +22076,7 @@ synonym: "NOD" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=968
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=968
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=968
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0004083 ! cerebellum vermis lobule X
 intersection_of: UBERON:0004083 ! cerebellum vermis lobule X
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -22147,7 +22149,7 @@ synonym: "PL" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=972
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=972
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=972
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:8440032 ! prelimbic area
 intersection_of: UBERON:8440032 ! prelimbic area
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -22211,7 +22213,7 @@ synonym: "CENT2" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=976
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=976
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=976
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0004075 ! cerebellum vermis lobule II
 intersection_of: UBERON:0004075 ! cerebellum vermis lobule II
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -22352,7 +22354,7 @@ synonym: "CENT3" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=984
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=984
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=984
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0004076 ! cerebellum vermis lobule III
 intersection_of: UBERON:0004076 ! cerebellum vermis lobule III
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -22369,7 +22371,7 @@ synonym: "MOp" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=985
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=985
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=985
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0001384 ! primary motor cortex
 intersection_of: UBERON:0001384 ! primary motor cortex
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -22498,7 +22500,7 @@ synonym: "MOs" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=993
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=993
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=993
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0016634 ! premotor cortex
 intersection_of: UBERON:0016634 ! premotor cortex
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
@@ -22578,7 +22580,7 @@ synonym: "FS" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=998
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=998
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=998
-is_a: MBA:ENTITY
+is_a: MBA:8 ! Basic cell groups and regions
 is_a: UBERON:0014605 ! fundus striati
 intersection_of: UBERON:0014605 ! fundus striati
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus

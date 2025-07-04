@@ -1,11 +1,11 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-06-30/mbao-simple-non-classified.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-07-04/mbao-simple-non-classified.owl
 ontology: https://purl.brain-bican.org/ontology/mbao/mbao-simple-non-classified.owl
 property_value: http://purl.org/dc/terms/description "An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon." xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
 property_value: IAO:0000700 MBA:997
-property_value: owl:versionInfo "2025-06-30" xsd:string
+property_value: owl:versionInfo "2025-07-04" xsd:string
 
 [Term]
 id: MBA:1
@@ -13945,7 +13945,6 @@ xref: http://atlas.brain-map.org/atlas?atlas=2#structure=8
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=8
 relationship: BFO:0000050 MBA:997 ! part of
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
-relationship: BFO:0000050 UBERON:0002616 ! part of
 property_value: IAO:0000028 "grey" xsd:string
 property_value: IAO:0000589 "basic cell groups and regions" xsd:string
 property_value: prefLabel "Basic cell groups and regions  ( mouse )" xsd:string
@@ -16922,10 +16921,6 @@ property_value: prefLabel "medullary reticular formation" xsd:string
 [Term]
 id: UBERON:0002591
 property_value: prefLabel "oral part of spinal trigeminal nucleus" xsd:string
-
-[Term]
-id: UBERON:0002616
-property_value: prefLabel "regional part of brain" xsd:string
 
 [Term]
 id: UBERON:0002667

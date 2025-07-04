@@ -962,7 +962,7 @@ https://purl.brain-bican.org/ontology/mbao/MBA_797	zona incerta	equivalent		http
 https://purl.brain-bican.org/ontology/mbao/MBA_797	zona incerta	equivalent		http://purl.obolibrary.org/obo/UBERON_0001907		zona incerta 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_798	facial nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0004674		facial nerve root	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_799	dentate gyrus medial blade	subclass	http://purl.obolibrary.org/obo/UBERON_0001885			dentate gyrus of hippocampal formation 	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_8	basic cell groups and regions	subclass	http://purl.obolibrary.org/obo/UBERON_0002616			regional part of brain	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_8	basic cell groups and regions	equivalent		http://purl.obolibrary.org/obo/UBERON_0002616		regional part of brain	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_800	"agranular insular area, ventral part, layer 5"	subclass	http://purl.obolibrary.org/obo/UBERON_0034893			agranular insular cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_801	"visual areas, layer 1"	subclass	http://purl.obolibrary.org/obo/UBERON_0000411			visual cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_802	stria medullaris	equivalent		http://purl.obolibrary.org/obo/UBERON_0006086		stria medullaris	Verified	https://ror.org/03cpe7c52
