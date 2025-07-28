@@ -513,9 +513,9 @@ https://purl.brain-bican.org/ontology/mbao/MBA_409	lateral visual area	equivalen
 https://purl.brain-bican.org/ontology/mbao/MBA_41	"posteromedial visual area, layer 2/3"	subclass	http://purl.obolibrary.org/obo/UBERON_0035900			posteromedial visual area 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_411	"medial amygdalar nucleus, anterodorsal part"	subclass	http://purl.obolibrary.org/obo/UBERON_0002892			medial amygdaloid nucleus 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_412	"orbital area, lateral part, layer 2/3"	subclass	http://purl.obolibrary.org/obo/UBERON_0004167			orbitofrontal cortex 	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_413	vestibular nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0003723		vestibular nerve	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_413	vestibular nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0003723		vestibular nerve 	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_413	vestibular nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0003723		vestibular nerve 	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_413	vestibular nerve	subclass	http://purl.obolibrary.org/obo/UBERON_0002731			vestibular nerve	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_413	vestibular nerve	subclass	http://purl.obolibrary.org/obo/UBERON_0002731			vestibular nerve 	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_413	vestibular nerve	subclass	http://purl.obolibrary.org/obo/UBERON_0002731			vestibular nerve 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_415	"field CA1, stratum radiatum"	equivalent		http://purl.obolibrary.org/obo/UBERON_0014554		CA1 stratum radiatum	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_415	"field CA1, stratum radiatum"	equivalent		http://purl.obolibrary.org/obo/UBERON_0014554		CA1 stratum radiatum 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_416	"piriform-amygdalar area, pyramidal layer"	subclass	http://purl.obolibrary.org/obo/UBERON_0034989			amygdalopiriform transition area 	Verified	https://ror.org/03cpe7c52

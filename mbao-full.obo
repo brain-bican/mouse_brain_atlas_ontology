@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-07-04/mbao-full.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-07-28/mbao-full.owl
 subsetdef: BDS_subset ""
 subsetdef: blood_and_immune_upper_slim ""
 subsetdef: cellxgene_subset ""
@@ -73,7 +73,7 @@ property_value: dcterms-license http://creativecommons.org/licenses/by/4.0/
 property_value: has_ontology_root_term MBA:997
 property_value: http://purl.org/dc/terms/description "An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon." xsd:string
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
-property_value: owl:versionInfo "2025-07-04" xsd:string
+property_value: owl:versionInfo "2025-07-28" xsd:string
 
 [Term]
 id: CL:0000000
@@ -11976,10 +11976,6 @@ synonym: "vVIIIn" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=413
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=413
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=413
-is_a: MBA:1009 ! fiber tracts
-is_a: UBERON:0003723 ! vestibular nerve
-intersection_of: UBERON:0003723 ! vestibular nerve
-intersection_of: part_of NCBITaxon:10090 ! Mus musculus
 relationship: part_of MBA:933 ! vestibulocochlear nerve
 property_value: IAO:0000028 "vVIIIn" xsd:string
 property_value: IAO:0000589 "vestibular nerve" xsd:string
