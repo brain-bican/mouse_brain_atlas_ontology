@@ -12,13 +12,13 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://purl.brain-bican.org/ontology/mbao/mbao-base.owl">
-        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2025-07-28/mbao-base.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2025-10-29/mbao-base.owl"/>
         <obo:IAO_0000700 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_997"/>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <terms:description>An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon.</terms:description>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Mouse Brain Atlas Ontology</terms:title>
-        <owl:versionInfo>2025-07-28</owl:versionInfo>
+        <owl:versionInfo>2025-10-29</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -250,14 +250,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000052">
         <skos:prefLabel>totipotent stem cell</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_0000055 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000055">
-        <skos:prefLabel>non-terminally differentiated cell</skos:prefLabel>
     </owl:Class>
     
 
@@ -1982,14 +1974,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0062023 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0062023">
-        <skos:prefLabel>collagen-containing extracellular matrix</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0070013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0070013">
@@ -2049,7 +2033,7 @@
     <!-- http://purl.obolibrary.org/obo/GO_0098643 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098643">
-        <skos:prefLabel>banded collagen fibril</skos:prefLabel>
+        <skos:prefLabel>fibrillar collagen</skos:prefLabel>
     </owl:Class>
     
 
@@ -29769,6 +29753,38 @@
     <!-- https://purl.brain-bican.org/ontology/mbao/MBA_219 -->
 
     <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_219">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_8440000"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_8440076"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_8440000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_8440076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -29776,13 +29792,21 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>MO2/3</obo:IAO_0000028>
+        <obo:IAO_0000589>Somatomotor areas, Layer 2/3</obo:IAO_0000589>
         <oboInOwl:hasDbXref>http://atlas.brain-map.org/atlas?atlas=1#structure=219</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://atlas.brain-map.org/atlas?atlas=2#structure=219</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://atlas.brain-map.org/atlas?atlas=602630314#structure=219</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>MO2/3</oboInOwl:hasExactSynonym>
+        <oboInOwl:status>Verified</oboInOwl:status>
         <rdfs:label>Somatomotor areas, Layer 2/3</rdfs:label>
         <skos:prefLabel>Somatomotor areas, Layer 2/3  ( mouse )</skos:prefLabel>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_219"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#status"/>
+        <owl:annotatedTarget>Verified</owl:annotatedTarget>
+        <oboInOwl:source>https://orcid.org/0000-0001-7258-9596</oboInOwl:source>
+    </owl:Axiom>
     
 
 
@@ -33132,19 +33156,41 @@
 
     <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_296">
         <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009835"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_48"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>ACAv2/3</obo:IAO_0000028>
+        <obo:IAO_0000589>Anterior cingulate area, ventral part, layer 2/3</obo:IAO_0000589>
         <oboInOwl:hasDbXref>http://atlas.brain-map.org/atlas?atlas=1#structure=296</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://atlas.brain-map.org/atlas?atlas=2#structure=296</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://atlas.brain-map.org/atlas?atlas=602630314#structure=296</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>ACAv2/3</oboInOwl:hasExactSynonym>
+        <oboInOwl:status>Verified</oboInOwl:status>
         <rdfs:label>Anterior cingulate area, ventral part, layer 2/3</rdfs:label>
         <skos:prefLabel>Anterior cingulate area, ventral part, layer 2/3  ( mouse )</skos:prefLabel>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_296"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#status"/>
+        <owl:annotatedTarget>Verified</owl:annotatedTarget>
+        <oboInOwl:source>https://orcid.org/0000-0001-7258-9596</oboInOwl:source>
+    </owl:Axiom>
     
 
 
@@ -68182,82 +68228,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#status"/>
         <owl:annotatedTarget>Verified</owl:annotatedTarget>
         <oboInOwl:source>https://ror.org/03cpe7c52</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_219%20 -->
-
-    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_219%20">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_8440000"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_8440076"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_8440000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_8440076"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000589>Somatomotor areas, Layer 2/3</obo:IAO_0000589>
-        <oboInOwl:status>Verified</oboInOwl:status>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_219%20"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#status"/>
-        <owl:annotatedTarget>Verified</owl:annotatedTarget>
-        <oboInOwl:source>https://orcid.org/0000-0001-7258-9596</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_296%20 -->
-
-    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_296%20">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009835"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000589>Anterior cingulate area, ventral part, layer 2/3</obo:IAO_0000589>
-        <oboInOwl:status>Verified</oboInOwl:status>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_296%20"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#status"/>
-        <owl:annotatedTarget>Verified</owl:annotatedTarget>
-        <oboInOwl:source>https://orcid.org/0000-0001-7258-9596</oboInOwl:source>
     </owl:Axiom>
 </rdf:RDF>
 

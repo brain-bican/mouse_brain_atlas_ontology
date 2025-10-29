@@ -1,12 +1,12 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-07-28/mbao-base.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-10-29/mbao-base.owl
 ontology: https://purl.brain-bican.org/ontology/mbao/mbao-base.owl
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/description "An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon." xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
 property_value: IAO:0000700 MBA:997
-property_value: owl:versionInfo "2025-07-28" xsd:string
+property_value: owl:versionInfo "2025-10-29" xsd:string
 
 [Term]
 id: CL:0000000
@@ -63,10 +63,6 @@ property_value: prefLabel "megakaryocyte-erythroid progenitor cell" xsd:string
 [Term]
 id: CL:0000052
 property_value: prefLabel "totipotent stem cell" xsd:string
-
-[Term]
-id: CL:0000055
-property_value: prefLabel "non-terminally differentiated cell" xsd:string
 
 [Term]
 id: CL:0000056
@@ -929,10 +925,6 @@ id: GO:0044297
 property_value: prefLabel "cell body" xsd:string
 
 [Term]
-id: GO:0062023
-property_value: prefLabel "collagen-containing extracellular matrix" xsd:string
-
-[Term]
 id: GO:0070013
 property_value: prefLabel "intracellular organelle lumen" xsd:string
 
@@ -962,7 +954,7 @@ property_value: prefLabel "plasma membrane region" xsd:string
 
 [Term]
 id: GO:0098643
-property_value: prefLabel "banded collagen fibril" xsd:string
+property_value: prefLabel "fibrillar collagen" xsd:string
 
 [Term]
 id: GO:0098644
@@ -6525,18 +6517,15 @@ synonym: "MO2/3" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=219
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=219
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=219
-relationship: BFO:0000050 MBA:500 ! part of Somatomotor areas
-property_value: IAO:0000028 "MO2/3" xsd:string
-property_value: prefLabel "Somatomotor areas, Layer 2/3  ( mouse )" xsd:string
-
-[Term]
-id: MBA:219 
 is_a: UBERON:8440000
 intersection_of: BFO:0000050 NCBITaxon:10090 {all_some="true"} ! part of
 intersection_of: BFO:0000050 UBERON:8440076 ! part of
+relationship: BFO:0000050 MBA:500 ! part of Somatomotor areas
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 UBERON:8440076 ! part of
+property_value: IAO:0000028 "MO2/3" xsd:string
 property_value: IAO:0000589 "Somatomotor areas, Layer 2/3" xsd:string
+property_value: prefLabel "Somatomotor areas, Layer 2/3  ( mouse )" xsd:string
 property_value: status "Verified" xsd:string {source="https://orcid.org/0000-0001-7258-9596"}
 
 [Term]
@@ -7792,14 +7781,11 @@ xref: http://atlas.brain-map.org/atlas?atlas=1#structure=296
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=296
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=296
 relationship: BFO:0000050 MBA:48 ! part of Anterior cingulate area, ventral part
-property_value: IAO:0000028 "ACAv2/3" xsd:string
-property_value: prefLabel "Anterior cingulate area, ventral part, layer 2/3  ( mouse )" xsd:string
-
-[Term]
-id: MBA:296 
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 UBERON:0009835 ! part of
+property_value: IAO:0000028 "ACAv2/3" xsd:string
 property_value: IAO:0000589 "Anterior cingulate area, ventral part, layer 2/3" xsd:string
+property_value: prefLabel "Anterior cingulate area, ventral part, layer 2/3  ( mouse )" xsd:string
 property_value: status "Verified" xsd:string {source="https://orcid.org/0000-0001-7258-9596"}
 
 [Term]

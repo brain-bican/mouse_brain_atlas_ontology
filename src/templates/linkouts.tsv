@@ -14,7 +14,6 @@ http://purl.obolibrary.org/obo/CL_0000048		multi fate stem cell
 http://purl.obolibrary.org/obo/CL_0000049		common myeloid progenitor
 http://purl.obolibrary.org/obo/CL_0000050		megakaryocyte-erythroid progenitor cell
 http://purl.obolibrary.org/obo/CL_0000052		totipotent stem cell
-http://purl.obolibrary.org/obo/CL_0000055		non-terminally differentiated cell
 http://purl.obolibrary.org/obo/CL_0000056		myoblast
 http://purl.obolibrary.org/obo/CL_0000057		fibroblast
 http://purl.obolibrary.org/obo/CL_0000058		chondroblast
@@ -230,7 +229,6 @@ http://purl.obolibrary.org/obo/GO_0043292		contractile muscle fiber
 http://purl.obolibrary.org/obo/GO_0044292		dendrite terminus
 http://purl.obolibrary.org/obo/GO_0044293		dendriole
 http://purl.obolibrary.org/obo/GO_0044297		cell body
-http://purl.obolibrary.org/obo/GO_0062023		collagen-containing extracellular matrix
 http://purl.obolibrary.org/obo/GO_0070013		intracellular organelle lumen
 http://purl.obolibrary.org/obo/GO_0070161		anchoring junction
 http://purl.obolibrary.org/obo/GO_0071944		cell periphery
@@ -238,7 +236,7 @@ http://purl.obolibrary.org/obo/GO_0071953		elastic fiber
 http://purl.obolibrary.org/obo/GO_0097447		dendritic tree
 http://purl.obolibrary.org/obo/GO_0097457		hippocampal mossy fiber
 http://purl.obolibrary.org/obo/GO_0098590		plasma membrane region
-http://purl.obolibrary.org/obo/GO_0098643		banded collagen fibril
+http://purl.obolibrary.org/obo/GO_0098643		fibrillar collagen
 http://purl.obolibrary.org/obo/GO_0098644		complex of collagen trimers
 http://purl.obolibrary.org/obo/GO_0099080		supramolecular complex
 http://purl.obolibrary.org/obo/GO_0099081		supramolecular polymer

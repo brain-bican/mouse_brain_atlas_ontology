@@ -19,9 +19,9 @@
         "val" : "Mouse Brain Atlas Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-07-28"
+        "val" : "2025-10-29"
       } ],
-      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2025-07-28/mbao-base.json"
+      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2025-10-29/mbao-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -151,15 +151,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "totipotent stem cell"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0000055",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "non-terminally differentiated cell"
         } ]
       }
     }, {
@@ -2098,15 +2089,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0062023",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "collagen-containing extracellular matrix"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0070013",
       "type" : "CLASS",
       "meta" : {
@@ -2175,7 +2157,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "banded collagen fibril"
+          "val" : "fibrillar collagen"
         } ]
       }
     }, {
@@ -26132,6 +26114,12 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
           "val" : "MO2/3"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
+          "val" : "Somatomotor areas, Layer 2/3"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#status",
+          "val" : "Verified"
+        }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "Somatomotor areas, Layer 2/3  ( mouse )"
         } ]
@@ -28483,6 +28471,12 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
           "val" : "ACAv2/3"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
+          "val" : "Anterior cingulate area, ventral part, layer 2/3"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#status",
+          "val" : "Verified"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "Anterior cingulate area, ventral part, layer 2/3  ( mouse )"
@@ -54132,30 +54126,6 @@
           "val" : "Verified"
         } ]
       }
-    }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/MBA_219%20",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
-          "val" : "Somatomotor areas, Layer 2/3"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#status",
-          "val" : "Verified"
-        } ]
-      }
-    }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/MBA_296%20",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
-          "val" : "Anterior cingulate area, ventral part, layer 2/3"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#status",
-          "val" : "Verified"
-        } ]
-      }
     } ],
     "edges" : [ {
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_1",
@@ -57581,6 +57551,18 @@
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_218",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/mbao/MBA_138"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_219",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_8440000"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_219",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_219",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_8440076"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_219",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -65249,18 +65231,6 @@
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_ENTITY",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
-    }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_219%20",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_8440000"
-    }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_219%20",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
-    }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_219%20",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_8440076"
     } ],
     "logicalDefinitionAxioms" : [ {
       "definedClassId" : "https://purl.brain-bican.org/ontology/mbao/MBA_1",
