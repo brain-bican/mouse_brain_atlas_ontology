@@ -22,7 +22,7 @@ def read_structure_graph(graph_json):
 
 def tree_recurse(node, dl, namespace):
     d = dict()
-    d["id"] = namespace + str(node["id"])
+    d["id"] = namespace + str(node["id"]).strip()
     label = str(node["name"]).strip()
     if label == "root":
         label = "brain"

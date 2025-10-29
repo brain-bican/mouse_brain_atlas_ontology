@@ -26,7 +26,7 @@ def generate_robot_template(mapping_path: str, output_filepath: str):
     for mapping in records:
         if records[mapping]["Analysis"] == "OK" and any(ns in records[mapping]["subclass_iri"] for ns in ALLOWED_NS):
             d = dict()
-            d["ID"] = str(records[mapping]["subclass_iri"]).replace("<", "").replace(">", "")
+            d["ID"] = str(records[mapping]["subclass_iri"]).replace("<", "").replace(">", "").strip()
             d["Label"] = records[mapping]["subclass_name"]
             d["Subclass part of"] = str(records[mapping]["superclass_iri"]).replace("<", "").replace(">", "")
             d["Equivalent"] = ''

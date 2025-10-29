@@ -1,11 +1,11 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-07-28/mbao-simple-non-classified.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-10-29/mbao-simple-non-classified.owl
 ontology: https://purl.brain-bican.org/ontology/mbao/mbao-simple-non-classified.owl
 property_value: http://purl.org/dc/terms/description "An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon." xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
 property_value: IAO:0000700 MBA:997
-property_value: owl:versionInfo "2025-07-28" xsd:string
+property_value: owl:versionInfo "2025-10-29" xsd:string
 
 [Term]
 id: MBA:1
@@ -4473,14 +4473,10 @@ xref: http://atlas.brain-map.org/atlas?atlas=1#structure=219
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=219
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=219
 relationship: BFO:0000050 MBA:500 ! part of
-property_value: IAO:0000028 "MO2/3" xsd:string
-property_value: prefLabel "Somatomotor areas, Layer 2/3  ( mouse )" xsd:string
-
-[Term]
-id: MBA:219 
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
-relationship: BFO:0000050 UBERON:8440076 ! part of
+property_value: IAO:0000028 "MO2/3" xsd:string
 property_value: IAO:0000589 "Somatomotor areas, Layer 2/3" xsd:string
+property_value: prefLabel "Somatomotor areas, Layer 2/3  ( mouse )" xsd:string
 property_value: status "Verified" xsd:string {source="https://orcid.org/0000-0001-7258-9596"}
 
 [Term]
@@ -5518,14 +5514,11 @@ xref: http://atlas.brain-map.org/atlas?atlas=1#structure=296
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=296
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=296
 relationship: BFO:0000050 MBA:48 ! part of
-property_value: IAO:0000028 "ACAv2/3" xsd:string
-property_value: prefLabel "Anterior cingulate area, ventral part, layer 2/3  ( mouse )" xsd:string
-
-[Term]
-id: MBA:296 
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 UBERON:0009835 ! part of
+property_value: IAO:0000028 "ACAv2/3" xsd:string
 property_value: IAO:0000589 "Anterior cingulate area, ventral part, layer 2/3" xsd:string
+property_value: prefLabel "Anterior cingulate area, ventral part, layer 2/3  ( mouse )" xsd:string
 property_value: status "Verified" xsd:string {source="https://orcid.org/0000-0001-7258-9596"}
 
 [Term]
@@ -17138,10 +17131,6 @@ property_value: prefLabel "posteromedial visual area" xsd:string
 [Term]
 id: UBERON:0035971
 property_value: prefLabel "postsubiculum" xsd:string
-
-[Term]
-id: UBERON:8440076
-property_value: prefLabel "somatomotor area" xsd:string
 
 [Typedef]
 id: BFO:0000050
