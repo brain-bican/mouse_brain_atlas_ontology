@@ -42,3 +42,10 @@ src/patterns/data/**/*.ofn
 src/patterns/data/**/*.txt
 src/patterns/pattern_owl_seed.txt
 src/patterns/all_pattern_terms.txt
+
+# Release build intermediates (#16)
+/patterns/
+src/ontology/components/linkouts.owl
+src/ontology/components/sources_merged.owl
+src/ontology/sources/uberon-bridge-to-mba.owl
+__pycache__/
