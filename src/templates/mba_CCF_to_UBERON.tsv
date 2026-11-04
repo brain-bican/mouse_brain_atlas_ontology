@@ -93,7 +93,7 @@ https://purl.brain-bican.org/ontology/mbao/MBA_1072	"medial geniculate complex, 
 https://purl.brain-bican.org/ontology/mbao/MBA_1073	hemispheric regions	equivalent		http://purl.obolibrary.org/obo/UBERON_0002245		cerebellar hemisphere	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_1074	"anterolateral visual area, layer 1"	subclass	http://purl.obolibrary.org/obo/UBERON_0035894			anterolateral visual area 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_1075	"taenia tecta, ventral part, layer 2"	subclass	http://purl.obolibrary.org/obo/UBERON_0015800			taenia tectum of brain 	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_1076	efferent cochleovestibular bundle	subclass	http://purl.obolibrary.org/obo/UBERON_0001648			vestibulocochlear nerve 	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_1076	efferent cochleovestibular bundle	subclass	http://purl.obolibrary.org/obo/UBERON_0002731			vestibulocochlear nerve root	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_1079	"medial geniculate complex, ventral part"	equivalent		http://purl.obolibrary.org/obo/UBERON_0002985		ventral nucleus of medial geniculate body	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_1079	"medial geniculate complex, ventral part"	equivalent		http://purl.obolibrary.org/obo/UBERON_0002985		ventral nucleus of medial geniculate body 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_108	choroid plexus	equivalent		http://purl.obolibrary.org/obo/UBERON_0001886		choroid plexus	Verified	https://ror.org/03cpe7c52
@@ -872,7 +872,7 @@ https://purl.brain-bican.org/ontology/mbao/MBA_708	"anterior hypothalamic nucleu
 https://purl.brain-bican.org/ontology/mbao/MBA_709	ventral posterior complex of the thalamus	equivalent		http://purl.obolibrary.org/obo/UBERON_0002596		ventral posterior nucleus of thalamus	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_709	ventral posterior complex of the thalamus	equivalent		http://purl.obolibrary.org/obo/UBERON_0002596		ventral posterior nucleus of thalamus 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_71	"paraventricular hypothalamic nucleus, magnocellular division"	equivalent		http://purl.obolibrary.org/obo/UBERON_0014603		paraventricular nucleus of the hypothalamus magnocellular division	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_710	abducens nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0001646		abducens nerve	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_710	abducens nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0002786		root of abducens nerve	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_711	cuneate nucleus	equivalent		http://purl.obolibrary.org/obo/UBERON_0002045		cuneate nucleus	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_712	"entorhinal area, medial part, dorsal zone, layer 4"	subclass	http://purl.obolibrary.org/obo/UBERON_0007224			medial entorhinal cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_713	perforant path	equivalent		http://purl.obolibrary.org/obo/UBERON_0034931		perforant path	Verified	https://ror.org/03cpe7c52
@@ -1066,8 +1066,8 @@ https://purl.brain-bican.org/ontology/mbao/MBA_880	dorsal tegmental nucleus	equi
 https://purl.brain-bican.org/ontology/mbao/MBA_881	"parabrachial nucleus, lateral division"	equivalent		http://purl.obolibrary.org/obo/UBERON_0003007		lateral parabrachial nucleus	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_882	"primary motor area, Layer 6b"	subclass	http://purl.obolibrary.org/obo/UBERON_0001384			primary motor cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_883	"parabrachial nucleus, lateral division, superior lateral part"	subclass	http://purl.obolibrary.org/obo/UBERON_0003007			lateral parabrachial nucleus 	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_885	terminal nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0002924		terminal nerve	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_885	terminal nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0002924		terminal nerve 	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_885	terminal nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0014641		terminal nerve root	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_885	terminal nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_0014641		terminal nerve root	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_888	"perirhinal area, layer 2/3"	subclass	http://purl.obolibrary.org/obo/UBERON_0006083			perirhinal cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_889	"primary somatosensory area, nose, layer 6a"	subclass	http://purl.obolibrary.org/obo/UBERON_0008933			primary somatosensory cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_890	"parabrachial nucleus, medial division"	equivalent		http://purl.obolibrary.org/obo/UBERON_0002918		medial parabrachial nucleus	Verified	https://ror.org/03cpe7c52
