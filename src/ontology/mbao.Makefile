@@ -210,4 +210,4 @@ reason_test_uberon: $(EDIT_PREPROCESSED) | $(TMPDIR)
 	if [ -n "$$fixed" ]; then echo "No longer unsatisfiable (remove from $(UBERON_QC_KNOWN)):"; echo "$$fixed"; fi; \
 	if [ -n "$$new" ]; then echo "NEW unsatisfiable classes with full Uberon:"; echo "$$new"; \
 		echo "Explain with: robot merge -i mbao-edit.owl -I $(UBERON_QC) explain -M unsatisfiability ..."; exit 1; fi; \
-	echo "No new unsatisfiable classes ($$(wc -l < $(TMPDIR)/$@.txt) known, listed in $(UBERON_QC_KNOWN))"
+	echo "No new unsatisfiable classes ($$(wc -l < $(TMPDIR)/$@.txt) still unsatisfiable, all listed in $(UBERON_QC_KNOWN))"
