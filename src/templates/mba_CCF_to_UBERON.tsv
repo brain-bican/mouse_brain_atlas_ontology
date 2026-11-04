@@ -1133,7 +1133,7 @@ https://purl.brain-bican.org/ontology/mbao/MBA_944	folium-tuber vermis (VII)	equ
 https://purl.brain-bican.org/ontology/mbao/MBA_944	folium-tuber vermis (VII)	equivalent		http://purl.obolibrary.org/obo/UBERON_0004081		cerebellum vermis lobule VII 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_945	"primary somatosensory area, upper limb, layer 6a"	subclass	http://purl.obolibrary.org/obo/UBERON_0008933			primary somatosensory cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_946	posterior hypothalamic nucleus	equivalent		http://purl.obolibrary.org/obo/UBERON_0002706		posterior nucleus of hypothalamus	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_946	posterior hyfpothalamic nucleus	equivalent		http://purl.obolibrary.org/obo/UBERON_0002706		posterior nucleus of hypothalamus 	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_946	posterior hypothalamic nucleus	equivalent		http://purl.obolibrary.org/obo/UBERON_0002706		posterior nucleus of hypothalamus 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_948	cochlear nerve	subclass	http://purl.obolibrary.org/obo/UBERON_0002731			vestibulocochlear nerve root	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_948	cochlear nerve	subclass	http://purl.obolibrary.org/obo/UBERON_0002731			vestibulocochlear nerve root	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_948	cochlear nerve	subclass	http://purl.obolibrary.org/obo/UBERON_0002731			vestibulocochlear nerve root	Verified	https://ror.org/03cpe7c52
@@ -1186,7 +1186,7 @@ https://purl.brain-bican.org/ontology/mbao/MBA_994	corticobulbar tract	equivalen
 https://purl.brain-bican.org/ontology/mbao/MBA_995	paramedian reticular nucleus	equivalent		http://purl.obolibrary.org/obo/UBERON_0007764		paramedian reticular nucleus	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_995	paramedian reticular nucleus	equivalent		http://purl.obolibrary.org/obo/UBERON_0007764		paramedian reticular nucleus 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_996	"agranular insular area, dorsal part, layer 1"	subclass	http://purl.obolibrary.org/obo/UBERON_0034893			agranular insular cortex 	Verified	https://ror.org/03cpe7c52
-https://purl.brain-bican.org/ontology/mbao/MBA_997	root	equivalent		http://purl.obolibrary.org/obo/UBERON_0000955		brain	Verified	https://ror.org/03cpe7c52
+https://purl.brain-bican.org/ontology/mbao/MBA_997	brain	equivalent		http://purl.obolibrary.org/obo/UBERON_0000955		brain	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_998	fundus of striatum	equivalent		http://purl.obolibrary.org/obo/UBERON_0014605		fundus striati	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_999	"entorhinal area, lateral part, layer 2/3"	subclass	http://purl.obolibrary.org/obo/UBERON_0007225			lateral entorhinal cortex 	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_1001	lobule V	equivalent		http://purl.obolibrary.org/obo/UBERON_0004079		cerebellum vermis lobule V	Verified	https://orcid.org/0000-0001-7258-9596

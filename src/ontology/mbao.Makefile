@@ -30,10 +30,14 @@ SOURCE_TEMPLATES = $(patsubst %, ../templates/%_CCF_to_UBERON_source.tsv, $(TARG
 NEW_BRIDGES = $(patsubst %, new-bridges/new-uberon-bridge-to-%.owl, $(TARGETS))
 
 
+# Rebuilt on every run unless COMP=false (as in QC: `make test COMP=false`), which uses
+# the committed component. strip: `COMP=true # comment` in the Makefile leaves a space.
+ifeq ($(strip $(COMP)),true)
 .PHONY: $(COMPONENTSDIR)/all_templates.owl
 $(COMPONENTSDIR)/all_templates.owl: clean_files dependencies $(COMPONENTSDIR)/linkouts.owl $(COMPONENTSDIR)/sources_merged.owl
 	$(ROBOT) merge -i $(COMPONENTSDIR)/linkouts.owl -i $(COMPONENTSDIR)/sources_merged.owl annotate --ontology-iri $(URIBASE)/$@ convert -f ofn -o $@
 	# $(ROBOT) query --input $@ --update $(SPARQLDIR)/declare_mba_disjoint_classes.ru --output $@
+endif
 .PRECIOUS: $(COMPONENTSDIR)/all_templates.owl
 
 # Installing depedencies so it can run in ODK container
@@ -179,3 +183,31 @@ $(ONT).json: $(ONT).owl
 	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		convert --check false -f json -o $@.tmp.json &&\
 		mv $@.tmp.json $@
+# QC: reason over MBA with a full Uberon release, including the disjointness axioms that
+# mirror-uberon strips from the import. This is what CL's release sees: it catches e.g. MBA
+# classes that end up part of both the PNS and the CNS (MBA_710, #13). Some classes are already
+# unsatisfiable this way (#12 and others), so this fails only on classes not listed in
+# UBERON_QC_KNOWN, and reports listed ones that are no longer unsatisfiable. Run in CI.
+# Uberon is pinned so that a new Uberon release can't fail a PR; update both together:
+#   make reason_test_uberon UBERON_QC_UPDATE=true   (rewrites UBERON_QC_KNOWN)
+UBERON_QC = http://purl.obolibrary.org/obo/uberon/releases/2026-10-01/uberon.owl
+UBERON_QC_KNOWN = qc_known_unsat_full_uberon.txt
+UBERON_QC_UPDATE = false
+
+.PHONY: reason_test_uberon
+reason_test_uberon: $(EDIT_PREPROCESSED) | $(TMPDIR)
+	$(ROBOT) merge -i $< -I $(UBERON_QC) reason --reasoner ELK --equivalent-classes-allowed all \
+		-o $(TMPDIR)/$@.owl > $(TMPDIR)/$@.log 2>&1; status=$$?; \
+	grep -oE 'unsatisfiable: [^ ]+' $(TMPDIR)/$@.log | cut -d' ' -f2 | LC_ALL=C sort -u > $(TMPDIR)/$@.txt; \
+	if [ $$status -ne 0 ] && [ ! -s $(TMPDIR)/$@.txt ]; then cat $(TMPDIR)/$@.log; exit 1; fi; \
+	if [ $(UBERON_QC_UPDATE) = true ]; then \
+		{ echo "# MBA classes unsatisfiable with $(UBERON_QC) (see mbao.Makefile reason_test_uberon)"; \
+		  cat $(TMPDIR)/$@.txt; } > $(UBERON_QC_KNOWN); \
+		echo "Wrote $$(wc -l < $(TMPDIR)/$@.txt) classes to $(UBERON_QC_KNOWN)"; exit 0; fi; \
+	grep -v '^#' $(UBERON_QC_KNOWN) | LC_ALL=C sort -u > $(TMPDIR)/$@.known; \
+	fixed=$$(LC_ALL=C comm -23 $(TMPDIR)/$@.known $(TMPDIR)/$@.txt); \
+	new=$$(LC_ALL=C comm -13 $(TMPDIR)/$@.known $(TMPDIR)/$@.txt); \
+	if [ -n "$$fixed" ]; then echo "No longer unsatisfiable (remove from $(UBERON_QC_KNOWN)):"; echo "$$fixed"; fi; \
+	if [ -n "$$new" ]; then echo "NEW unsatisfiable classes with full Uberon:"; echo "$$new"; \
+		echo "Explain with: robot merge -i mbao-edit.owl -I $(UBERON_QC) explain -M unsatisfiability ..."; exit 1; fi; \
+	echo "No new unsatisfiable classes ($$(wc -l < $(TMPDIR)/$@.txt) known, listed in $(UBERON_QC_KNOWN))"

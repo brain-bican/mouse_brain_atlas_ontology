@@ -1,0 +1,28 @@
+# Standard ODK QC: reasoning (ELK; no unsatisfiable classes or inferred equivalences),
+# SPARQL checks, ROBOT report and OWL 2 DL profile on the edit file and the committed
+# imports/components. COMP=false: check the committed all_templates.owl, don't rebuild it.
+# Then reason with the full Uberon release, disjointness axioms included (as CL's release does).
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  ontology_qc:
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:v1.4
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run ontology QC checks
+        env:
+          DEFAULT_BRANCH: main
+          ROBOT_JAVA_ARGS: -Xmx6G
+        run: cd src/ontology && make test IMP=false PAT=false MIR=false COMP=false
+      - name: Reason with full Uberon
+        env:
+          ROBOT_JAVA_ARGS: -Xmx12G
+        run: cd src/ontology && make reason_test_uberon IMP=false PAT=false MIR=false COMP=false

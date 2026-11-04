@@ -3,7 +3,7 @@ name: Validate Mappings
 # Controls when the action will run.
 on:
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
     paths:
       - 'src/templates/mba_CCF_to_UBERON.tsv'
       - '.github/workflows/mapping_check.yaml'
