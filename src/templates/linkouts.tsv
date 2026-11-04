@@ -70,7 +70,6 @@ http://purl.obolibrary.org/obo/CL_0000228		multinucleate cell
 http://purl.obolibrary.org/obo/CL_0000232		erythrocyte
 http://purl.obolibrary.org/obo/CL_0000255		eukaryotic cell
 http://purl.obolibrary.org/obo/CL_0000287		eye photoreceptor cell
-http://purl.obolibrary.org/obo/CL_0000293		structural cell
 http://purl.obolibrary.org/obo/CL_0000295		somatotropin secreting cell
 http://purl.obolibrary.org/obo/CL_0000325		stuff accumulating cell
 http://purl.obolibrary.org/obo/CL_0000327		extracellular matrix secreting cell
@@ -191,9 +190,12 @@ http://purl.obolibrary.org/obo/CL_4023062		dentate gyrus neuron
 http://purl.obolibrary.org/obo/CL_4023161		unipolar brush cell
 http://purl.obolibrary.org/obo/CL_4033050		catecholaminergic neuron
 http://purl.obolibrary.org/obo/CL_4052002		syncytial cell
+http://purl.obolibrary.org/obo/COB_0000022		organism
 http://purl.obolibrary.org/obo/GO_0000785		chromatin
 http://purl.obolibrary.org/obo/GO_0000792		heterochromatin
+http://purl.obolibrary.org/obo/GO_0005576		extracellular region
 http://purl.obolibrary.org/obo/GO_0005604		basement membrane
+http://purl.obolibrary.org/obo/GO_0005614		interstitial matrix
 http://purl.obolibrary.org/obo/GO_0005622		intracellular anatomical structure
 http://purl.obolibrary.org/obo/GO_0005634		nucleus
 http://purl.obolibrary.org/obo/GO_0005694		chromosome
@@ -236,13 +238,16 @@ http://purl.obolibrary.org/obo/GO_0071953		elastic fiber
 http://purl.obolibrary.org/obo/GO_0097447		dendritic tree
 http://purl.obolibrary.org/obo/GO_0097457		hippocampal mossy fiber
 http://purl.obolibrary.org/obo/GO_0098590		plasma membrane region
-http://purl.obolibrary.org/obo/GO_0098643		fibrillar collagen
+http://purl.obolibrary.org/obo/GO_0098643		fibrillar collagen complex
 http://purl.obolibrary.org/obo/GO_0098644		complex of collagen trimers
 http://purl.obolibrary.org/obo/GO_0099080		supramolecular complex
 http://purl.obolibrary.org/obo/GO_0099081		supramolecular polymer
 http://purl.obolibrary.org/obo/GO_0099512		supramolecular fiber
 http://purl.obolibrary.org/obo/GO_0110165		cellular anatomical structure
 http://purl.obolibrary.org/obo/GO_0120025		plasma membrane bounded cell projection
+http://purl.obolibrary.org/obo/GO_0140149		non-collagenous component of interstitial matrix
+http://purl.obolibrary.org/obo/GO_0140151		solid phase of interstitial matrix
+http://purl.obolibrary.org/obo/GO_0140152		collagenous component of interstitial matrix
 http://purl.obolibrary.org/obo/NCBITaxon_1		root
 http://purl.obolibrary.org/obo/NCBITaxon_10066		Muridae
 http://purl.obolibrary.org/obo/NCBITaxon_10088		Mus <genus>
@@ -275,7 +280,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_862507		Mus <subgenus>
 http://purl.obolibrary.org/obo/NCBITaxon_89593		Craniata <chordates>
 http://purl.obolibrary.org/obo/NCBITaxon_9347		Eutheria
 http://purl.obolibrary.org/obo/NCBITaxon_9989		Rodentia
-http://purl.obolibrary.org/obo/UBERON_0000000		processual entity
+http://purl.obolibrary.org/obo/UBERON_0000001		gross anatomical part
 http://purl.obolibrary.org/obo/UBERON_0000004		nose
 http://purl.obolibrary.org/obo/UBERON_0000005		chemosensory organ
 http://purl.obolibrary.org/obo/UBERON_0000007		pituitary gland
@@ -285,6 +290,7 @@ http://purl.obolibrary.org/obo/UBERON_0000014		zone of skin
 http://purl.obolibrary.org/obo/UBERON_0000019		camera-type eye
 http://purl.obolibrary.org/obo/UBERON_0000020		sense organ
 http://purl.obolibrary.org/obo/UBERON_0000025		tube
+http://purl.obolibrary.org/obo/UBERON_0000026		appendage
 http://purl.obolibrary.org/obo/UBERON_0000033		head
 http://purl.obolibrary.org/obo/UBERON_0000043		tendon
 http://purl.obolibrary.org/obo/UBERON_0000045		ganglion
@@ -297,24 +303,12 @@ http://purl.obolibrary.org/obo/UBERON_0000062		organ
 http://purl.obolibrary.org/obo/UBERON_0000063		organ subunit
 http://purl.obolibrary.org/obo/UBERON_0000064		organ part
 http://purl.obolibrary.org/obo/UBERON_0000065		respiratory tract
-http://purl.obolibrary.org/obo/UBERON_0000066		fully formed stage
-http://purl.obolibrary.org/obo/UBERON_0000068		embryo stage
-http://purl.obolibrary.org/obo/UBERON_0000071		death stage
 http://purl.obolibrary.org/obo/UBERON_0000072		proximo-distal subdivision of respiratory tract
 http://purl.obolibrary.org/obo/UBERON_0000073		regional part of nervous system
 http://purl.obolibrary.org/obo/UBERON_0000075		subdivision of skeletal system
 http://purl.obolibrary.org/obo/UBERON_0000076		external ectoderm
-http://purl.obolibrary.org/obo/UBERON_0000092		post-embryonic stage
 http://purl.obolibrary.org/obo/UBERON_0000093		sulcus
 http://purl.obolibrary.org/obo/UBERON_0000094		membrane organ
-http://purl.obolibrary.org/obo/UBERON_0000104		life cycle
-http://purl.obolibrary.org/obo/UBERON_0000105		life cycle stage
-http://purl.obolibrary.org/obo/UBERON_0000106		zygote stage
-http://purl.obolibrary.org/obo/UBERON_0000107		cleavage stage
-http://purl.obolibrary.org/obo/UBERON_0000108		blastula stage
-http://purl.obolibrary.org/obo/UBERON_0000109		gastrula stage
-http://purl.obolibrary.org/obo/UBERON_0000110		neurula stage
-http://purl.obolibrary.org/obo/UBERON_0000111		organogenesis stage
 http://purl.obolibrary.org/obo/UBERON_0000119		cell layer
 http://purl.obolibrary.org/obo/UBERON_0000120		blood brain barrier
 http://purl.obolibrary.org/obo/UBERON_0000122		neuron projection bundle
@@ -339,7 +333,6 @@ http://purl.obolibrary.org/obo/UBERON_0000344		mucosa
 http://purl.obolibrary.org/obo/UBERON_0000349		limbic system
 http://purl.obolibrary.org/obo/UBERON_0000369		corpus striatum
 http://purl.obolibrary.org/obo/UBERON_0000378		tongue muscle
-http://purl.obolibrary.org/obo/UBERON_0000379		tracheal mucosa
 http://purl.obolibrary.org/obo/UBERON_0000383		musculature of body
 http://purl.obolibrary.org/obo/UBERON_0000391		leptomeninx
 http://purl.obolibrary.org/obo/UBERON_0000411		visual cortex
@@ -368,6 +361,7 @@ http://purl.obolibrary.org/obo/UBERON_0000489		cavitated compound organ
 http://purl.obolibrary.org/obo/UBERON_0000490		unilaminar epithelium
 http://purl.obolibrary.org/obo/UBERON_0000908		hippocampal commissure
 http://purl.obolibrary.org/obo/UBERON_0000915		thoracic segment of trunk
+http://purl.obolibrary.org/obo/UBERON_0000916		abdomen
 http://purl.obolibrary.org/obo/UBERON_0000922		embryo
 http://purl.obolibrary.org/obo/UBERON_0000923		germ layer
 http://purl.obolibrary.org/obo/UBERON_0000924		ectoderm
@@ -387,6 +381,7 @@ http://purl.obolibrary.org/obo/UBERON_0000964		cornea
 http://purl.obolibrary.org/obo/UBERON_0000965		lens of camera-type eye
 http://purl.obolibrary.org/obo/UBERON_0000966		retina
 http://purl.obolibrary.org/obo/UBERON_0000970		eye
+http://purl.obolibrary.org/obo/UBERON_0000974		neck
 http://purl.obolibrary.org/obo/UBERON_0000982		skeletal joint
 http://purl.obolibrary.org/obo/UBERON_0000988		pons
 http://purl.obolibrary.org/obo/UBERON_0000990		reproductive system
@@ -578,6 +573,7 @@ http://purl.obolibrary.org/obo/UBERON_0002067		dermis
 http://purl.obolibrary.org/obo/UBERON_0002072		hypodermis
 http://purl.obolibrary.org/obo/UBERON_0002075		viscus
 http://purl.obolibrary.org/obo/UBERON_0002090		postcranial axial skeleton
+http://purl.obolibrary.org/obo/UBERON_0002091		appendicular skeleton
 http://purl.obolibrary.org/obo/UBERON_0002097		skin of body
 http://purl.obolibrary.org/obo/UBERON_0002100		trunk
 http://purl.obolibrary.org/obo/UBERON_0002104		visual system
@@ -667,7 +663,7 @@ http://purl.obolibrary.org/obo/UBERON_0002328		notochord
 http://purl.obolibrary.org/obo/UBERON_0002329		somite
 http://purl.obolibrary.org/obo/UBERON_0002336		corpus callosum
 http://purl.obolibrary.org/obo/UBERON_0002342		neural crest
-http://purl.obolibrary.org/obo/UBERON_0002346		neurectoderm
+http://purl.obolibrary.org/obo/UBERON_0002346		neuroectoderm
 http://purl.obolibrary.org/obo/UBERON_0002360		meninx
 http://purl.obolibrary.org/obo/UBERON_0002361		pia mater
 http://purl.obolibrary.org/obo/UBERON_0002362		arachnoid mater
@@ -678,6 +674,7 @@ http://purl.obolibrary.org/obo/UBERON_0002385		muscle tissue
 http://purl.obolibrary.org/obo/UBERON_0002390		hematopoietic system
 http://purl.obolibrary.org/obo/UBERON_0002410		autonomic nervous system
 http://purl.obolibrary.org/obo/UBERON_0002416		integumental system
+http://purl.obolibrary.org/obo/UBERON_0002417		abdominal segment of trunk
 http://purl.obolibrary.org/obo/UBERON_0002418		cartilage tissue
 http://purl.obolibrary.org/obo/UBERON_0002420		basal ganglion
 http://purl.obolibrary.org/obo/UBERON_0002421		hippocampal formation
@@ -795,6 +792,7 @@ http://purl.obolibrary.org/obo/UBERON_0002776		ventral nuclear group
 http://purl.obolibrary.org/obo/UBERON_0002778		ventral pallidum
 http://purl.obolibrary.org/obo/UBERON_0002779		lateral superior olivary nucleus
 http://purl.obolibrary.org/obo/UBERON_0002782		medial superior olivary nucleus
+http://purl.obolibrary.org/obo/UBERON_0002786		root of abducens nerve
 http://purl.obolibrary.org/obo/UBERON_0002787		decussation of trochlear nerve
 http://purl.obolibrary.org/obo/UBERON_0002788		anterior nuclear group
 http://purl.obolibrary.org/obo/UBERON_0002790		dorsal acoustic stria
@@ -1004,6 +1002,7 @@ http://purl.obolibrary.org/obo/UBERON_0004082		cerebellum vermis lobule VIII
 http://purl.obolibrary.org/obo/UBERON_0004083		cerebellum vermis lobule X
 http://purl.obolibrary.org/obo/UBERON_0004086		brain ventricle
 http://purl.obolibrary.org/obo/UBERON_0004088		orbital region
+http://purl.obolibrary.org/obo/UBERON_0004089		midface
 http://purl.obolibrary.org/obo/UBERON_0004111		anatomical conduit
 http://purl.obolibrary.org/obo/UBERON_0004119		endoderm-derived structure
 http://purl.obolibrary.org/obo/UBERON_0004120		mesoderm-derived structure
@@ -1101,6 +1100,7 @@ http://purl.obolibrary.org/obo/UBERON_0005348		ansiform lobule
 http://purl.obolibrary.org/obo/UBERON_0005349		paramedian lobule
 http://purl.obolibrary.org/obo/UBERON_0005350		lobule simplex
 http://purl.obolibrary.org/obo/UBERON_0005351		paraflocculus
+http://purl.obolibrary.org/obo/UBERON_0005356		Rathke's pouch
 http://purl.obolibrary.org/obo/UBERON_0005358		ventricle of nervous system
 http://purl.obolibrary.org/obo/UBERON_0005366		olfactory lobe
 http://purl.obolibrary.org/obo/UBERON_0005368		hippocampus molecular layer
@@ -1272,7 +1272,6 @@ http://purl.obolibrary.org/obo/UBERON_0007524		dense mesenchyme tissue
 http://purl.obolibrary.org/obo/UBERON_0007530		migrating mesenchyme population
 http://purl.obolibrary.org/obo/UBERON_0007592		ciliated columnar epithelium
 http://purl.obolibrary.org/obo/UBERON_0007601		ciliated epithelium
-http://purl.obolibrary.org/obo/UBERON_0007625		pigment epithelium of eye
 http://purl.obolibrary.org/obo/UBERON_0007626		subparaventricular zone
 http://purl.obolibrary.org/obo/UBERON_0007627		magnocellular nucleus of stria terminalis
 http://purl.obolibrary.org/obo/UBERON_0007628		lateral septal complex
@@ -1438,6 +1437,7 @@ http://purl.obolibrary.org/obo/UBERON_0011215		central nervous system cell part 
 http://purl.obolibrary.org/obo/UBERON_0011216		organ system subdivision
 http://purl.obolibrary.org/obo/UBERON_0011222		intra-ocular muscle
 http://purl.obolibrary.org/obo/UBERON_0011241		ethmoid region
+http://purl.obolibrary.org/obo/UBERON_0011249		appendicular skeletal system
 http://purl.obolibrary.org/obo/UBERON_0011272		embryonic skin basal layer
 http://purl.obolibrary.org/obo/UBERON_0011299		white matter of telencephalon
 http://purl.obolibrary.org/obo/UBERON_0011300		gray matter of telencephalon
@@ -1540,6 +1540,7 @@ http://purl.obolibrary.org/obo/UBERON_0014603		paraventricular nucleus of the hy
 http://purl.obolibrary.org/obo/UBERON_0014604		paraventricular nucleus of the hypothalamus parvocellular division
 http://purl.obolibrary.org/obo/UBERON_0014605		fundus striati
 http://purl.obolibrary.org/obo/UBERON_0014615		accessory nerve root
+http://purl.obolibrary.org/obo/UBERON_0014641		terminal nerve root
 http://purl.obolibrary.org/obo/UBERON_0014642		vestibulocerebellum
 http://purl.obolibrary.org/obo/UBERON_0014648		hemisphere part of cerebellar posterior lobe
 http://purl.obolibrary.org/obo/UBERON_0014649		white matter of medulla oblongata
@@ -1659,6 +1660,7 @@ http://purl.obolibrary.org/obo/UBERON_0034896		ansa peduncularis
 http://purl.obolibrary.org/obo/UBERON_0034921		multi organ part structure
 http://purl.obolibrary.org/obo/UBERON_0034923		disconnected anatomical group
 http://purl.obolibrary.org/obo/UBERON_0034925		anatomical collection
+http://purl.obolibrary.org/obo/UBERON_0034929		external soft tissue zone
 http://purl.obolibrary.org/obo/UBERON_0034931		perforant path
 http://purl.obolibrary.org/obo/UBERON_0034944		zone of organ
 http://purl.obolibrary.org/obo/UBERON_0034947		gas in respiratory system

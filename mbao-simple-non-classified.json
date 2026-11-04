@@ -16,9 +16,9 @@
         "val" : "Mouse Brain Atlas Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-10-29"
+        "val" : "2026-11-04"
       } ],
-      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2025-10-29/mbao-simple-non-classified.json"
+      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2026-11-04/mbao-simple-non-classified.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -582,14 +582,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "eye photoreceptor cell"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0000293",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "structural cell"
         } ]
       }
     }, {
@@ -1553,6 +1545,14 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/COB_0000022",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "organism"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0000785",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -1569,11 +1569,27 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005576",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "extracellular region"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0005604",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "basement membrane"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005614",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "interstitial matrix"
         } ]
       }
     }, {
@@ -1917,7 +1933,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "fibrillar collagen"
+          "val" : "fibrillar collagen complex"
         } ]
       }
     }, {
@@ -1966,6 +1982,30 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "plasma membrane bounded cell projection"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0140149",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "non-collagenous component of interstitial matrix"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0140151",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "solid phase of interstitial matrix"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0140152",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "collagenous component of interstitial matrix"
         } ]
       }
     }, {
@@ -2226,11 +2266,11 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0000000",
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0000001",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "processual entity"
+          "val" : "gross anatomical part"
         } ]
       }
     }, {
@@ -2303,6 +2343,14 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "tube"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0000026",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "appendage"
         } ]
       }
     }, {
@@ -2402,30 +2450,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0000066",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "fully formed stage"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0000068",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "embryo stage"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0000071",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "death stage"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0000072",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -2458,14 +2482,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0000092",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "post-embryonic stage"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0000093",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -2479,70 +2495,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "membrane organ"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0000104",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "life cycle"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0000105",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "life cycle stage"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0000106",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "zygote stage"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0000107",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "cleavage stage"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0000108",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "blastula stage"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0000109",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "gastrula stage"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0000110",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "neurula stage"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0000111",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "organogenesis stage"
         } ]
       }
     }, {
@@ -2735,14 +2687,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "tongue muscle"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0000379",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "tracheal mucosa"
         } ]
       }
     }, {
@@ -2972,6 +2916,14 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0000916",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "abdomen"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0000922",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -3122,6 +3074,14 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "eye"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0000974",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "neck"
         } ]
       }
     }, {
@@ -3545,7 +3505,6 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0001648",
-      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -4665,6 +4624,14 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0002091",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "appendicular skeleton"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0002097",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -5385,7 +5352,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "neurectoderm"
+          "val" : "neuroectoderm"
         } ]
       }
     }, {
@@ -5466,6 +5433,14 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "integumental system"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0002417",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "abdominal segment of trunk"
         } ]
       }
     }, {
@@ -6411,6 +6386,14 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "medial superior olivary nucleus"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0002786",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "root of abducens nerve"
         } ]
       }
     }, {
@@ -8099,6 +8082,14 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0004089",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "midface"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0004111",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -8878,6 +8869,14 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "paraflocculus"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0005356",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Rathke's pouch"
         } ]
       }
     }, {
@@ -10255,14 +10254,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0007625",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "pigment epithelium of eye"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0007626",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -11588,6 +11579,14 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0011249",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "appendicular skeletal system"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0011272",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -12404,6 +12403,14 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "accessory nerve root"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0014641",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "terminal nerve root"
         } ]
       }
     }, {
@@ -13365,6 +13372,14 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "anatomical collection"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0034929",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "external soft tissue zone"
         } ]
       }
     }, {

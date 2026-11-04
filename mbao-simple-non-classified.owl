@@ -11,12 +11,12 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://purl.brain-bican.org/ontology/mbao/mbao-simple-non-classified.owl">
-        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2025-10-29/mbao-simple-non-classified.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2026-11-04/mbao-simple-non-classified.owl"/>
         <obo:IAO_0000700 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_997"/>
         <terms:description>An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon.</terms:description>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Mouse Brain Atlas Ontology</terms:title>
-        <owl:versionInfo>2025-10-29</owl:versionInfo>
+        <owl:versionInfo>2026-11-04</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -186,14 +186,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001393">
         <skos:prefLabel>auditory cortex</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0001648 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001648">
-        <skos:prefLabel>vestibulocochlear nerve</skos:prefLabel>
     </owl:Class>
     
 
@@ -5754,7 +5746,7 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001648"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002731"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -43993,9 +43985,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000287">
         <skos:prefLabel>eye photoreceptor cell</skos:prefLabel>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000293">
-        <skos:prefLabel>structural cell</skos:prefLabel>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000295">
         <skos:prefLabel>somatotropin secreting cell</skos:prefLabel>
     </rdf:Description>
@@ -44356,14 +44345,23 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_4052002">
         <skos:prefLabel>syncytial cell</skos:prefLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/COB_0000022">
+        <skos:prefLabel>organism</skos:prefLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0000785">
         <skos:prefLabel>chromatin</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0000792">
         <skos:prefLabel>heterochromatin</skos:prefLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005576">
+        <skos:prefLabel>extracellular region</skos:prefLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005604">
         <skos:prefLabel>basement membrane</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005614">
+        <skos:prefLabel>interstitial matrix</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005622">
         <skos:prefLabel>intracellular anatomical structure</skos:prefLabel>
@@ -44492,7 +44490,7 @@
         <skos:prefLabel>plasma membrane region</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0098643">
-        <skos:prefLabel>fibrillar collagen</skos:prefLabel>
+        <skos:prefLabel>fibrillar collagen complex</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0098644">
         <skos:prefLabel>complex of collagen trimers</skos:prefLabel>
@@ -44511,6 +44509,15 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0120025">
         <skos:prefLabel>plasma membrane bounded cell projection</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0140149">
+        <skos:prefLabel>non-collagenous component of interstitial matrix</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0140151">
+        <skos:prefLabel>solid phase of interstitial matrix</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0140152">
+        <skos:prefLabel>collagenous component of interstitial matrix</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1">
         <skos:prefLabel>root</skos:prefLabel>
@@ -44605,8 +44612,8 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9989">
         <skos:prefLabel>Rodentia</skos:prefLabel>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000000">
-        <skos:prefLabel>processual entity</skos:prefLabel>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000001">
+        <skos:prefLabel>gross anatomical part</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000004">
         <skos:prefLabel>nose</skos:prefLabel>
@@ -44634,6 +44641,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000025">
         <skos:prefLabel>tube</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000026">
+        <skos:prefLabel>appendage</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000033">
         <skos:prefLabel>head</skos:prefLabel>
@@ -44671,15 +44681,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000065">
         <skos:prefLabel>respiratory tract</skos:prefLabel>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000066">
-        <skos:prefLabel>fully formed stage</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000068">
-        <skos:prefLabel>embryo stage</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000071">
-        <skos:prefLabel>death stage</skos:prefLabel>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000072">
         <skos:prefLabel>proximo-distal subdivision of respiratory tract</skos:prefLabel>
     </rdf:Description>
@@ -44692,38 +44693,11 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000076">
         <skos:prefLabel>external ectoderm</skos:prefLabel>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000092">
-        <skos:prefLabel>post-embryonic stage</skos:prefLabel>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000093">
         <skos:prefLabel>sulcus</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000094">
         <skos:prefLabel>membrane organ</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000104">
-        <skos:prefLabel>life cycle</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000105">
-        <skos:prefLabel>life cycle stage</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000106">
-        <skos:prefLabel>zygote stage</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000107">
-        <skos:prefLabel>cleavage stage</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000108">
-        <skos:prefLabel>blastula stage</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000109">
-        <skos:prefLabel>gastrula stage</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000110">
-        <skos:prefLabel>neurula stage</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000111">
-        <skos:prefLabel>organogenesis stage</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000119">
         <skos:prefLabel>cell layer</skos:prefLabel>
@@ -44796,9 +44770,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000378">
         <skos:prefLabel>tongue muscle</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000379">
-        <skos:prefLabel>tracheal mucosa</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000383">
         <skos:prefLabel>musculature of body</skos:prefLabel>
@@ -44878,6 +44849,9 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000915">
         <skos:prefLabel>thoracic segment of trunk</skos:prefLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000916">
+        <skos:prefLabel>abdomen</skos:prefLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000922">
         <skos:prefLabel>embryo</skos:prefLabel>
     </rdf:Description>
@@ -44931,6 +44905,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000970">
         <skos:prefLabel>eye</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000974">
+        <skos:prefLabel>neck</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000982">
         <skos:prefLabel>skeletal joint</skos:prefLabel>
@@ -45078,6 +45055,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001647">
         <skos:prefLabel>facial nerve</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001648">
+        <skos:prefLabel>vestibulocochlear nerve</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001649">
         <skos:prefLabel>glossopharyngeal nerve</skos:prefLabel>
@@ -45469,6 +45449,9 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002090">
         <skos:prefLabel>postcranial axial skeleton</skos:prefLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002091">
+        <skos:prefLabel>appendicular skeleton</skos:prefLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097">
         <skos:prefLabel>skin of body</skos:prefLabel>
     </rdf:Description>
@@ -45725,7 +45708,7 @@
         <skos:prefLabel>neural crest</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002346">
-        <skos:prefLabel>neurectoderm</skos:prefLabel>
+        <skos:prefLabel>neuroectoderm</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002360">
         <skos:prefLabel>meninx</skos:prefLabel>
@@ -45756,6 +45739,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002416">
         <skos:prefLabel>integumental system</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002417">
+        <skos:prefLabel>abdominal segment of trunk</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002418">
         <skos:prefLabel>cartilage tissue</skos:prefLabel>
@@ -46080,6 +46066,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002782">
         <skos:prefLabel>medial superior olivary nucleus</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002786">
+        <skos:prefLabel>root of abducens nerve</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002787">
         <skos:prefLabel>decussation of trochlear nerve</skos:prefLabel>
@@ -46669,6 +46658,9 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004088">
         <skos:prefLabel>orbital region</skos:prefLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004089">
+        <skos:prefLabel>midface</skos:prefLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004111">
         <skos:prefLabel>anatomical conduit</skos:prefLabel>
     </rdf:Description>
@@ -46941,6 +46933,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005351">
         <skos:prefLabel>paraflocculus</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005356">
+        <skos:prefLabel>Rathke&apos;s pouch</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005358">
         <skos:prefLabel>ventricle of nervous system</skos:prefLabel>
@@ -47437,9 +47432,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0007601">
         <skos:prefLabel>ciliated epithelium</skos:prefLabel>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0007625">
-        <skos:prefLabel>pigment epithelium of eye</skos:prefLabel>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0007626">
         <skos:prefLabel>subparaventricular zone</skos:prefLabel>
     </rdf:Description>
@@ -47920,6 +47912,9 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0011241">
         <skos:prefLabel>ethmoid region</skos:prefLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0011249">
+        <skos:prefLabel>appendicular skeletal system</skos:prefLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0011272">
         <skos:prefLabel>embryonic skin basal layer</skos:prefLabel>
     </rdf:Description>
@@ -48216,6 +48211,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014615">
         <skos:prefLabel>accessory nerve root</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014641">
+        <skos:prefLabel>terminal nerve root</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014642">
         <skos:prefLabel>vestibulocerebellum</skos:prefLabel>
@@ -48546,6 +48544,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0034925">
         <skos:prefLabel>anatomical collection</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0034929">
+        <skos:prefLabel>external soft tissue zone</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0034931">
         <skos:prefLabel>perforant path</skos:prefLabel>

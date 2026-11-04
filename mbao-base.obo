@@ -1,12 +1,12 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2025-10-29/mbao-base.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2026-11-04/mbao-base.owl
 ontology: https://purl.brain-bican.org/ontology/mbao/mbao-base.owl
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/description "An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon." xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
 property_value: IAO:0000700 MBA:997
-property_value: owl:versionInfo "2025-10-29" xsd:string
+property_value: owl:versionInfo "2026-11-04" xsd:string
 
 [Term]
 id: CL:0000000
@@ -287,10 +287,6 @@ property_value: prefLabel "eukaryotic cell" xsd:string
 [Term]
 id: CL:0000287
 property_value: prefLabel "eye photoreceptor cell" xsd:string
-
-[Term]
-id: CL:0000293
-property_value: prefLabel "structural cell" xsd:string
 
 [Term]
 id: CL:0000295
@@ -773,6 +769,10 @@ id: CL:4052002
 property_value: prefLabel "syncytial cell" xsd:string
 
 [Term]
+id: COB:0000022
+property_value: prefLabel "organism" xsd:string
+
+[Term]
 id: GO:0000785
 property_value: prefLabel "chromatin" xsd:string
 
@@ -781,8 +781,16 @@ id: GO:0000792
 property_value: prefLabel "heterochromatin" xsd:string
 
 [Term]
+id: GO:0005576
+property_value: prefLabel "extracellular region" xsd:string
+
+[Term]
 id: GO:0005604
 property_value: prefLabel "basement membrane" xsd:string
+
+[Term]
+id: GO:0005614
+property_value: prefLabel "interstitial matrix" xsd:string
 
 [Term]
 id: GO:0005622
@@ -954,7 +962,7 @@ property_value: prefLabel "plasma membrane region" xsd:string
 
 [Term]
 id: GO:0098643
-property_value: prefLabel "fibrillar collagen" xsd:string
+property_value: prefLabel "fibrillar collagen complex" xsd:string
 
 [Term]
 id: GO:0098644
@@ -979,6 +987,18 @@ property_value: prefLabel "cellular anatomical structure" xsd:string
 [Term]
 id: GO:0120025
 property_value: prefLabel "plasma membrane bounded cell projection" xsd:string
+
+[Term]
+id: GO:0140149
+property_value: prefLabel "non-collagenous component of interstitial matrix" xsd:string
+
+[Term]
+id: GO:0140151
+property_value: prefLabel "solid phase of interstitial matrix" xsd:string
+
+[Term]
+id: GO:0140152
+property_value: prefLabel "collagenous component of interstitial matrix" xsd:string
 
 [Term]
 id: MBA:1
@@ -3461,7 +3481,7 @@ xref: http://atlas.brain-map.org/atlas?atlas=2#structure=1076
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=1076
 relationship: BFO:0000050 MBA:933 ! part of vestibulocochlear nerve
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
-relationship: BFO:0000050 UBERON:0001648 ! part of
+relationship: BFO:0000050 UBERON:0002731 ! part of
 property_value: IAO:0000028 "cvb" xsd:string
 property_value: IAO:0000589 "efferent cochleovestibular bundle" xsd:string
 property_value: prefLabel "efferent cochleovestibular bundle  ( mouse )" xsd:string
@@ -16327,8 +16347,8 @@ synonym: "VIn" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=710
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=710
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=710
-is_a: UBERON:0001646
-intersection_of: UBERON:0001646
+is_a: UBERON:0002786
+intersection_of: UBERON:0002786
 intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:967 ! part of cranial nerves
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
@@ -19260,8 +19280,8 @@ synonym: "tn" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=885
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=885
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=885
-is_a: UBERON:0002924
-intersection_of: UBERON:0002924
+is_a: UBERON:0014641
+intersection_of: UBERON:0014641
 intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:967 ! part of cranial nerves
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
@@ -21364,8 +21384,8 @@ id: NCBITaxon:9989
 property_value: prefLabel "Rodentia" xsd:string
 
 [Term]
-id: UBERON:0000000
-property_value: prefLabel "processual entity" xsd:string
+id: UBERON:0000001
+property_value: prefLabel "gross anatomical part" xsd:string
 
 [Term]
 id: UBERON:0000004
@@ -21402,6 +21422,10 @@ property_value: prefLabel "sense organ" xsd:string
 [Term]
 id: UBERON:0000025
 property_value: prefLabel "tube" xsd:string
+
+[Term]
+id: UBERON:0000026
+property_value: prefLabel "appendage" xsd:string
 
 [Term]
 id: UBERON:0000033
@@ -21452,18 +21476,6 @@ id: UBERON:0000065
 property_value: prefLabel "respiratory tract" xsd:string
 
 [Term]
-id: UBERON:0000066
-property_value: prefLabel "fully formed stage" xsd:string
-
-[Term]
-id: UBERON:0000068
-property_value: prefLabel "embryo stage" xsd:string
-
-[Term]
-id: UBERON:0000071
-property_value: prefLabel "death stage" xsd:string
-
-[Term]
 id: UBERON:0000072
 property_value: prefLabel "proximo-distal subdivision of respiratory tract" xsd:string
 
@@ -21480,48 +21492,12 @@ id: UBERON:0000076
 property_value: prefLabel "external ectoderm" xsd:string
 
 [Term]
-id: UBERON:0000092
-property_value: prefLabel "post-embryonic stage" xsd:string
-
-[Term]
 id: UBERON:0000093
 property_value: prefLabel "sulcus" xsd:string
 
 [Term]
 id: UBERON:0000094
 property_value: prefLabel "membrane organ" xsd:string
-
-[Term]
-id: UBERON:0000104
-property_value: prefLabel "life cycle" xsd:string
-
-[Term]
-id: UBERON:0000105
-property_value: prefLabel "life cycle stage" xsd:string
-
-[Term]
-id: UBERON:0000106
-property_value: prefLabel "zygote stage" xsd:string
-
-[Term]
-id: UBERON:0000107
-property_value: prefLabel "cleavage stage" xsd:string
-
-[Term]
-id: UBERON:0000108
-property_value: prefLabel "blastula stage" xsd:string
-
-[Term]
-id: UBERON:0000109
-property_value: prefLabel "gastrula stage" xsd:string
-
-[Term]
-id: UBERON:0000110
-property_value: prefLabel "neurula stage" xsd:string
-
-[Term]
-id: UBERON:0000111
-property_value: prefLabel "organogenesis stage" xsd:string
 
 [Term]
 id: UBERON:0000119
@@ -21618,10 +21594,6 @@ property_value: prefLabel "corpus striatum" xsd:string
 [Term]
 id: UBERON:0000378
 property_value: prefLabel "tongue muscle" xsd:string
-
-[Term]
-id: UBERON:0000379
-property_value: prefLabel "tracheal mucosa" xsd:string
 
 [Term]
 id: UBERON:0000383
@@ -21736,6 +21708,10 @@ id: UBERON:0000915
 property_value: prefLabel "thoracic segment of trunk" xsd:string
 
 [Term]
+id: UBERON:0000916
+property_value: prefLabel "abdomen" xsd:string
+
+[Term]
 id: UBERON:0000922
 property_value: prefLabel "embryo" xsd:string
 
@@ -21810,6 +21786,10 @@ property_value: prefLabel "retina" xsd:string
 [Term]
 id: UBERON:0000970
 property_value: prefLabel "eye" xsd:string
+
+[Term]
+id: UBERON:0000974
+property_value: prefLabel "neck" xsd:string
 
 [Term]
 id: UBERON:0000982
@@ -22576,6 +22556,10 @@ id: UBERON:0002090
 property_value: prefLabel "postcranial axial skeleton" xsd:string
 
 [Term]
+id: UBERON:0002091
+property_value: prefLabel "appendicular skeleton" xsd:string
+
+[Term]
 id: UBERON:0002097
 property_value: prefLabel "skin of body" xsd:string
 
@@ -22933,7 +22917,7 @@ property_value: prefLabel "neural crest" xsd:string
 
 [Term]
 id: UBERON:0002346
-property_value: prefLabel "neurectoderm" xsd:string
+property_value: prefLabel "neuroectoderm" xsd:string
 
 [Term]
 id: UBERON:0002360
@@ -22974,6 +22958,10 @@ property_value: prefLabel "autonomic nervous system" xsd:string
 [Term]
 id: UBERON:0002416
 property_value: prefLabel "integumental system" xsd:string
+
+[Term]
+id: UBERON:0002417
+property_value: prefLabel "abdominal segment of trunk" xsd:string
 
 [Term]
 id: UBERON:0002418
@@ -23442,6 +23430,10 @@ property_value: prefLabel "lateral superior olivary nucleus" xsd:string
 [Term]
 id: UBERON:0002782
 property_value: prefLabel "medial superior olivary nucleus" xsd:string
+
+[Term]
+id: UBERON:0002786
+property_value: prefLabel "root of abducens nerve" xsd:string
 
 [Term]
 id: UBERON:0002787
@@ -24280,6 +24272,10 @@ id: UBERON:0004088
 property_value: prefLabel "orbital region" xsd:string
 
 [Term]
+id: UBERON:0004089
+property_value: prefLabel "midface" xsd:string
+
+[Term]
 id: UBERON:0004111
 property_value: prefLabel "anatomical conduit" xsd:string
 
@@ -24666,6 +24662,10 @@ property_value: prefLabel "lobule simplex" xsd:string
 [Term]
 id: UBERON:0005351
 property_value: prefLabel "paraflocculus" xsd:string
+
+[Term]
+id: UBERON:0005356
+property_value: prefLabel "Rathke's pouch" xsd:string
 
 [Term]
 id: UBERON:0005358
@@ -25352,10 +25352,6 @@ id: UBERON:0007601
 property_value: prefLabel "ciliated epithelium" xsd:string
 
 [Term]
-id: UBERON:0007625
-property_value: prefLabel "pigment epithelium of eye" xsd:string
-
-[Term]
 id: UBERON:0007626
 property_value: prefLabel "subparaventricular zone" xsd:string
 
@@ -26016,6 +26012,10 @@ id: UBERON:0011241
 property_value: prefLabel "ethmoid region" xsd:string
 
 [Term]
+id: UBERON:0011249
+property_value: prefLabel "appendicular skeletal system" xsd:string
+
+[Term]
 id: UBERON:0011272
 property_value: prefLabel "embryonic skin basal layer" xsd:string
 
@@ -26422,6 +26422,10 @@ property_value: prefLabel "fundus striati" xsd:string
 [Term]
 id: UBERON:0014615
 property_value: prefLabel "accessory nerve root" xsd:string
+
+[Term]
+id: UBERON:0014641
+property_value: prefLabel "terminal nerve root" xsd:string
 
 [Term]
 id: UBERON:0014642
@@ -26898,6 +26902,10 @@ property_value: prefLabel "disconnected anatomical group" xsd:string
 [Term]
 id: UBERON:0034925
 property_value: prefLabel "anatomical collection" xsd:string
+
+[Term]
+id: UBERON:0034929
+property_value: prefLabel "external soft tissue zone" xsd:string
 
 [Term]
 id: UBERON:0034931

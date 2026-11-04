@@ -12,13 +12,13 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://purl.brain-bican.org/ontology/mbao/mbao-base.owl">
-        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2025-10-29/mbao-base.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2026-11-04/mbao-base.owl"/>
         <obo:IAO_0000700 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_997"/>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <terms:description>An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon.</terms:description>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Mouse Brain Atlas Ontology</terms:title>
-        <owl:versionInfo>2025-10-29</owl:versionInfo>
+        <owl:versionInfo>2026-11-04</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -698,14 +698,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000287">
         <skos:prefLabel>eye photoreceptor cell</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_0000293 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000293">
-        <skos:prefLabel>structural cell</skos:prefLabel>
     </owl:Class>
     
 
@@ -1670,6 +1662,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/COB_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COB_0000022">
+        <skos:prefLabel>organism</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0000785 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000785">
@@ -1686,10 +1686,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0005576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005576">
+        <skos:prefLabel>extracellular region</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0005604 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005604">
         <skos:prefLabel>basement membrane</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005614 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005614">
+        <skos:prefLabel>interstitial matrix</skos:prefLabel>
     </owl:Class>
     
 
@@ -2033,7 +2049,7 @@
     <!-- http://purl.obolibrary.org/obo/GO_0098643 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098643">
-        <skos:prefLabel>fibrillar collagen</skos:prefLabel>
+        <skos:prefLabel>fibrillar collagen complex</skos:prefLabel>
     </owl:Class>
     
 
@@ -2082,6 +2098,30 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0120025">
         <skos:prefLabel>plasma membrane bounded cell projection</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0140149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0140149">
+        <skos:prefLabel>non-collagenous component of interstitial matrix</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0140151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0140151">
+        <skos:prefLabel>solid phase of interstitial matrix</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0140152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0140152">
+        <skos:prefLabel>collagenous component of interstitial matrix</skos:prefLabel>
     </owl:Class>
     
 
@@ -2342,10 +2382,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000000 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000000">
-        <skos:prefLabel>processual entity</skos:prefLabel>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000001">
+        <skos:prefLabel>gross anatomical part</skos:prefLabel>
     </owl:Class>
     
 
@@ -2418,6 +2458,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000025">
         <skos:prefLabel>tube</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000026">
+        <skos:prefLabel>appendage</skos:prefLabel>
     </owl:Class>
     
 
@@ -2518,30 +2566,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000066 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000066">
-        <skos:prefLabel>fully formed stage</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000068 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000068">
-        <skos:prefLabel>embryo stage</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000071 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000071">
-        <skos:prefLabel>death stage</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0000072 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000072">
@@ -2574,14 +2598,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000092 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000092">
-        <skos:prefLabel>post-embryonic stage</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0000093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000093">
@@ -2594,70 +2610,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000094">
         <skos:prefLabel>membrane organ</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000104 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000104">
-        <skos:prefLabel>life cycle</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000105 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000105">
-        <skos:prefLabel>life cycle stage</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000106 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000106">
-        <skos:prefLabel>zygote stage</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000107 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000107">
-        <skos:prefLabel>cleavage stage</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000108 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000108">
-        <skos:prefLabel>blastula stage</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000109 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000109">
-        <skos:prefLabel>gastrula stage</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000110 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000110">
-        <skos:prefLabel>neurula stage</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000111 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000111">
-        <skos:prefLabel>organogenesis stage</skos:prefLabel>
     </owl:Class>
     
 
@@ -2850,14 +2802,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000378">
         <skos:prefLabel>tongue muscle</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000379 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000379">
-        <skos:prefLabel>tracheal mucosa</skos:prefLabel>
     </owl:Class>
     
 
@@ -3086,6 +3030,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000916 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000916">
+        <skos:prefLabel>abdomen</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000922 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000922">
@@ -3234,6 +3186,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000970">
         <skos:prefLabel>eye</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000974 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000974">
+        <skos:prefLabel>neck</skos:prefLabel>
     </owl:Class>
     
 
@@ -4766,6 +4726,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002091">
+        <skos:prefLabel>appendicular skeleton</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0002097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097">
@@ -5481,7 +5449,7 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0002346 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002346">
-        <skos:prefLabel>neurectoderm</skos:prefLabel>
+        <skos:prefLabel>neuroectoderm</skos:prefLabel>
     </owl:Class>
     
 
@@ -5562,6 +5530,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002416">
         <skos:prefLabel>integumental system</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002417">
+        <skos:prefLabel>abdominal segment of trunk</skos:prefLabel>
     </owl:Class>
     
 
@@ -6498,6 +6474,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002782">
         <skos:prefLabel>medial superior olivary nucleus</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002786 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002786">
+        <skos:prefLabel>root of abducens nerve</skos:prefLabel>
     </owl:Class>
     
 
@@ -8174,6 +8158,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004089">
+        <skos:prefLabel>midface</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0004111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004111">
@@ -8946,6 +8938,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005351">
         <skos:prefLabel>paraflocculus</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005356">
+        <skos:prefLabel>Rathke&apos;s pouch</skos:prefLabel>
     </owl:Class>
     
 
@@ -10318,14 +10318,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0007625 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007625">
-        <skos:prefLabel>pigment epithelium of eye</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0007626 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007626">
@@ -11646,6 +11638,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0011249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0011249">
+        <skos:prefLabel>appendicular skeletal system</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0011272 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0011272">
@@ -12458,6 +12458,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014615">
         <skos:prefLabel>accessory nerve root</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014641 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014641">
+        <skos:prefLabel>terminal nerve root</skos:prefLabel>
     </owl:Class>
     
 
@@ -13410,6 +13418,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0034925">
         <skos:prefLabel>anatomical collection</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0034929 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0034929">
+        <skos:prefLabel>external soft tissue zone</skos:prefLabel>
     </owl:Class>
     
 
@@ -21480,7 +21496,7 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001648"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002731"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -55204,7 +55220,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001646"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002786"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -55212,7 +55228,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001646"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002786"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -62926,7 +62942,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002924"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014641"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -62934,7 +62950,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002924"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0014641"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
