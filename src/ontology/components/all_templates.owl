@@ -1066,6 +1066,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004755>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004756>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004761>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004765>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004766>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004768>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004770>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004785>))
@@ -1432,6 +1433,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0011138>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0011156>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0011158>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0011159>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0011164>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0011172>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0011173>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0011175>))
@@ -7354,6 +7356,10 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <http://purl
 
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <http://purl.obolibrary.org/obo/UBERON_0004765> "skeletal element")
 
+# Class: <http://purl.obolibrary.org/obo/UBERON_0004766> (<http://purl.obolibrary.org/obo/UBERON_0004766>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <http://purl.obolibrary.org/obo/UBERON_0004766> "cranial bone")
+
 # Class: <http://purl.obolibrary.org/obo/UBERON_0004768> (<http://purl.obolibrary.org/obo/UBERON_0004768>)
 
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <http://purl.obolibrary.org/obo/UBERON_0004768> "bone of lower jaw")
@@ -8817,6 +8823,10 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <http://purl
 # Class: <http://purl.obolibrary.org/obo/UBERON_0011159> (<http://purl.obolibrary.org/obo/UBERON_0011159>)
 
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <http://purl.obolibrary.org/obo/UBERON_0011159> "primary subdivision of cranial skeletal system")
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0011164> (<http://purl.obolibrary.org/obo/UBERON_0011164>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> <http://purl.obolibrary.org/obo/UBERON_0011164> "neurocranium bone")
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0011172> (<http://purl.obolibrary.org/obo/UBERON_0011172>)
 

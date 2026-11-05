@@ -11,12 +11,12 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://purl.brain-bican.org/ontology/mbao/mbao-simple-non-classified.owl">
-        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2026-11-04/mbao-simple-non-classified.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2026-11-05/mbao-simple-non-classified.owl"/>
         <obo:IAO_0000700 rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_997"/>
         <terms:description>An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon.</terms:description>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Mouse Brain Atlas Ontology</terms:title>
-        <owl:versionInfo>2026-11-04</owl:versionInfo>
+        <owl:versionInfo>2026-11-05</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -17470,30 +17470,16 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_8"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>BS</obo:IAO_0000028>
-        <obo:IAO_0000589>brain stem</obo:IAO_0000589>
         <oboInOwl:hasDbXref>http://atlas.brain-map.org/atlas?atlas=1#structure=343</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://atlas.brain-map.org/atlas?atlas=2#structure=343</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://atlas.brain-map.org/atlas?atlas=602630314#structure=343</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>BS</oboInOwl:hasExactSynonym>
-        <oboInOwl:status>Verified</oboInOwl:status>
         <skos:prefLabel>Brain stem  ( mouse )</skos:prefLabel>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_343"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#status"/>
-        <owl:annotatedTarget>Verified</owl:annotatedTarget>
-        <oboInOwl:source>https://ror.org/03cpe7c52</oboInOwl:source>
-    </owl:Axiom>
     
 
 
@@ -41720,7 +41706,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>PH</obo:IAO_0000028>
-        <obo:IAO_0000589>posterior hyfpothalamic nucleus</obo:IAO_0000589>
         <obo:IAO_0000589>posterior hypothalamic nucleus</obo:IAO_0000589>
         <oboInOwl:hasDbXref>http://atlas.brain-map.org/atlas?atlas=1#structure=946</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://atlas.brain-map.org/atlas?atlas=2#structure=946</oboInOwl:hasDbXref>
@@ -43655,7 +43640,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>root</obo:IAO_0000028>
-        <obo:IAO_0000589>root</obo:IAO_0000589>
+        <obo:IAO_0000589>brain</obo:IAO_0000589>
         <oboInOwl:hasDbXref>http://atlas.brain-map.org/atlas?atlas=1#structure=997</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://atlas.brain-map.org/atlas?atlas=2#structure=997</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://atlas.brain-map.org/atlas?atlas=602630314#structure=997</oboInOwl:hasDbXref>
@@ -46814,6 +46799,9 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004765">
         <skos:prefLabel>skeletal element</skos:prefLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004766">
+        <skos:prefLabel>cranial bone</skos:prefLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004768">
         <skos:prefLabel>bone of lower jaw</skos:prefLabel>
     </rdf:Description>
@@ -47872,6 +47860,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0011159">
         <skos:prefLabel>primary subdivision of cranial skeletal system</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0011164">
+        <skos:prefLabel>neurocranium bone</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0011172">
         <skos:prefLabel>retrorubral area of midbrain reticular nucleus</skos:prefLabel>

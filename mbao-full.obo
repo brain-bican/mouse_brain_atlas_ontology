@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2026-11-04/mbao-full.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2026-11-05/mbao-full.owl
 subsetdef: added_by_HRA ""
 subsetdef: BDS_subset ""
 subsetdef: blood_and_immune_upper_slim ""
@@ -73,7 +73,7 @@ property_value: dcterms-license http://creativecommons.org/licenses/by/4.0/
 property_value: has_ontology_root_term MBA:997
 property_value: http://purl.org/dc/terms/description "An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon." xsd:string
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
-property_value: owl:versionInfo "2026-11-04" xsd:string
+property_value: owl:versionInfo "2026-11-05" xsd:string
 
 [Term]
 id: CL:0000000
@@ -10998,15 +10998,9 @@ synonym: "BS" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=343
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=343
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=343
-is_a: MBA:8 ! Basic cell groups and regions
-is_a: UBERON:0002298 ! brainstem
-intersection_of: UBERON:0002298 ! brainstem
-intersection_of: part_of NCBITaxon:10090 ! Mus musculus
 relationship: part_of MBA:8 ! Basic cell groups and regions
 property_value: IAO:0000028 "BS" xsd:string
-property_value: IAO:0000589 "brain stem" xsd:string
 property_value: prefLabel "Brain stem  ( mouse )" xsd:string
-property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
 
 [Term]
 id: MBA:344
@@ -21893,7 +21887,6 @@ intersection_of: UBERON:0002706 ! posterior nucleus of hypothalamus
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
 relationship: part_of MBA:467 ! Hypothalamic medial zone
 property_value: IAO:0000028 "PH" xsd:string
-property_value: IAO:0000589 "posterior hyfpothalamic nucleus" xsd:string
 property_value: IAO:0000589 "posterior hypothalamic nucleus" xsd:string
 property_value: prefLabel "Posterior hypothalamic nucleus  ( mouse )" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
@@ -22731,7 +22724,7 @@ is_a: UBERON:0000955 ! brain
 intersection_of: UBERON:0000955 ! brain
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
 property_value: IAO:0000028 "root" xsd:string
-property_value: IAO:0000589 "root" xsd:string
+property_value: IAO:0000589 "brain" xsd:string
 property_value: prefLabel "brain  ( mouse )" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
 
@@ -28669,10 +28662,12 @@ xref: UMLS:C0039484 {source="ncithesaurus:Temporal_Bone"}
 xref: VHOG:0000800
 xref: Wikipedia:Temporal_bone
 is_a: UBERON:0008193 {source="FMA"} ! pneumatized bone
+is_a: UBERON:0011164 ! neurocranium bone
 relationship: overlaps UBERON:0002241 {notes="petrosal"} ! chondrocranium
 relationship: overlaps UBERON:0003113 {notes="squamosal plus angular", notes="temporal series"} ! dermatocranium
 relationship: overlaps UBERON:0008895 {notes="styloid process"} ! splanchnocranium
 property_value: http://xmlns.com/foaf/0.1/depiction "http://upload.wikimedia.org/wikipedia/commons/6/66/Illu_cranial_bones2.jpg" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/obophenotype/uberon/issues/3791" xsd:anyURI
 property_value: prefLabel "temporal bone" xsd:string
 property_value: UBPROP:0000008 "fusion of squamosal + angular (tympanic annulus) [derm.] + petrosal (prootic + opisthotic)" xsd:string {source="chond."}
 property_value: UBPROP:0000008 "In many mammals, as in humans, the petrosal, ectotympanic and squamosal bones synostose to form the temporal bone + styloid process" xsd:string
@@ -35150,7 +35145,6 @@ synonym: "tegmental reticular nucleus, pontine gray" EXACT []
 xref: BAMS:RtTg
 xref: BAMS:TRN
 xref: BIRNLEX:882
-xref: DHBA:12414
 xref: DHBA:12497
 xref: EMAPA:35736
 xref: FMA:72471
@@ -36971,7 +36965,6 @@ xref: BAMS:AQ
 xref: BAMS:Aq
 xref: BIRNLEX:1261
 xref: BM:MB-AQ
-xref: DHBA:10651
 xref: DHBA:12369
 xref: DMBA:126651722
 xref: EFO:0003501
@@ -43002,6 +42995,7 @@ xref: BAMS:ACOP
 xref: BAMS:PCo
 xref: BIRNLEX:2700
 xref: BTO:0002703
+xref: DHBA:10373
 xref: EMAPA:35254
 xref: EV:0100193
 xref: FMA:61862
@@ -48574,7 +48568,6 @@ synonym: "fornix body" EXACT [FMA:61968]
 xref: BAMS:bfx
 xref: BAMS:fx
 xref: BIRNLEX:739
-xref: DHBA:10577
 xref: DHBA:10578
 xref: FMA:61968
 xref: HBA:9252
@@ -49027,6 +49020,18 @@ relationship: part_of UBERON:0001434 {source="VSAO"} ! skeletal system
 property_value: prefLabel "skeletal element" xsd:string
 property_value: UBPROP:0000001 "Organ entity that is typically involved in mechanical support and may have different skeletal tissue compositions at different stages.[VSAO]" xsd:string {date_retrieved="2012-08-14", external_class="VSAO:0000128", ontology="VSAO", source="PSPUB:0000170"}
 property_value: UBPROP:0000001 "Organ entity that may have different tissue compositions at different stages and is typically involved in mechanical support.[TAO]" xsd:string {date_retrieved="2012-08-14", external_class="TAO:0001890", ontology="TAO", source="TAO:VSAO_workshop"}
+
+[Term]
+id: UBERON:0004766
+name: cranial bone
+def: "A bone that is part of a cranium." [UBERON:automatic]
+subset: human_reference_atlas
+synonym: "cranium bone" EXACT [UBERON:automatic]
+xref: SCTID:181792001
+is_a: UBERON:0001474 ! bone element
+relationship: part_of UBERON:0003128 ! cranium
+property_value: IAO:0000232 "here cranium = skull - mandible" xsd:string
+property_value: prefLabel "cranial bone" xsd:string
 
 [Term]
 id: UBERON:0004768
@@ -55684,6 +55689,19 @@ relationship: part_of UBERON:0010323 ! cranial skeletal system
 property_value: prefLabel "primary subdivision of cranial skeletal system" xsd:string
 
 [Term]
+id: UBERON:0011164
+name: neurocranium bone
+def: "A bone that is part of a neurocranium [Automatically generated definition]." [OBOL:automatic]
+synonym: "chondrocranium bone" EXACT [MA:0001478]
+xref: EMAPA:35238
+xref: MA:0001478
+xref: SCTID:120229002
+is_a: UBERON:0003457 ! head bone
+is_a: UBERON:0004766 ! cranial bone
+relationship: part_of UBERON:0001703 ! neurocranium
+property_value: prefLabel "neurocranium bone" xsd:string
+
+[Term]
 id: UBERON:0011172
 name: retrorubral area of midbrain reticular nucleus
 def: "The term retrorubral area of the midbrain reticular nucleus refers to a region of the rat brain caudal and dorsal to the ventral tegmental area. It is one of three parts of the midbrain reticular nucleus; the other two are the magnocellular part of the midbrain reticular nucleus and the parvicellular part of the midbrain reticular nucleus (Swanson-2004). BrainInfo distinguishes between the Retrorubral area of the midbrain reticular formation and the retrorubral nucleus." [NLXANAT:20090301]
@@ -56490,7 +56508,6 @@ synonym: "retrosplenial cortex" RELATED [BTO:0003977, Wikipedia:Retrosplenial_re
 xref: BAMS:RSP
 xref: BTO:0003977
 xref: DHBA:10324
-xref: DHBA:266441669
 xref: DMBA:16093
 xref: MBA:254
 xref: neuronames:2436
@@ -59218,12 +59235,10 @@ def: "Agranular region of the insular cortex." [http://orcid.org/0000-0002-6601-
 synonym: "cortex insularis dysgranularis" RELATED OMO:0003011 [NeuroNames:1780]
 synonym: "dysgranular insula" RELATED [NeuroNames:1780]
 synonym: "dysgranular insular area" RELATED [NeuroNames:1780]
-synonym: "dysgranular insular cortex" EXACT [DHBA:10289]
 synonym: "dysgranular insular cortex" RELATED [NeuroNames:1780]
 synonym: "gustatory area" RELATED [NeuroNames:1780]
 synonym: "gustatory cortex" RELATED [NeuroNames:1780]
 xref: BTO:0004342
-xref: DHBA:10289
 xref: DHBA:10328
 xref: neuronames:1780
 is_a: UBERON:0002616 ! regional part of brain
