@@ -843,12 +843,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0002298 -->
-
-    <Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002298"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0002309 -->
 
     <Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002309"/>
@@ -15823,32 +15817,6 @@
     </Class>
     <Axiom>
         <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_342"/>
-        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#status"/>
-        <annotatedTarget>Verified</annotatedTarget>
-        <oboInOwl:source>https://ror.org/03cpe7c52</oboInOwl:source>
-    </Axiom>
-    
-
-
-    <!-- https://purl.brain-bican.org/ontology/mbao/MBA_343 -->
-
-    <Class rdf:about="https://purl.brain-bican.org/ontology/mbao/MBA_343">
-        <equivalentClass>
-            <Class>
-                <intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002298"/>
-                    <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-                    </Restriction>
-                </intersectionOf>
-            </Class>
-        </equivalentClass>
-        <obo:IAO_0000589>brain stem</obo:IAO_0000589>
-        <oboInOwl:status>Verified</oboInOwl:status>
-    </Class>
-    <Axiom>
-        <annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_343"/>
         <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#status"/>
         <annotatedTarget>Verified</annotatedTarget>
         <oboInOwl:source>https://ror.org/03cpe7c52</oboInOwl:source>
@@ -31473,7 +31441,6 @@
                 </intersectionOf>
             </Class>
         </equivalentClass>
-        <obo:IAO_0000589>posterior hyfpothalamic nucleus</obo:IAO_0000589>
         <obo:IAO_0000589>posterior hypothalamic nucleus</obo:IAO_0000589>
         <oboInOwl:status>Verified</oboInOwl:status>
     </Class>
@@ -32856,7 +32823,7 @@
                 </intersectionOf>
             </Class>
         </equivalentClass>
-        <obo:IAO_0000589>root</obo:IAO_0000589>
+        <obo:IAO_0000589>brain</obo:IAO_0000589>
         <oboInOwl:status>Verified</oboInOwl:status>
     </Class>
     <Axiom>

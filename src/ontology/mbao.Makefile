@@ -137,7 +137,7 @@ $(COMPONENTSDIR)/linkouts.owl: $(TMPDIR)/tmp.owl $(TEMPLATEDIR)/linkouts.tsv
 # QC (reason_test_uberon). Pinned so that a new Uberon release can't change the import or fail
 # a PR on its own. Bump it before `make refresh-imports`, then regenerate UBERON_QC_KNOWN with
 # `make reason_test_uberon UBERON_QC_UPDATE=true`. See docs/uberon-qc.md.
-UBERON_RELEASE = 2026-10-01
+UBERON_RELEASE = 2026-11-05
 UBERON_RELEASE_URL = https://github.com/obophenotype/uberon/releases/download/v$(UBERON_RELEASE)
 
 ## ONTOLOGY: uberon (remove disjoint classes and properties, they are causing inconsistencies when merged with mba bridge)
