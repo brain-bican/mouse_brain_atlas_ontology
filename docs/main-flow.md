@@ -9,3 +9,5 @@ Project build process works as follows:
 5. A 'sources' ROBOT template is generated to annotate if the mapping derived from the old bride or the new one.
 6. Using the [ROBOT](http://robot.obolibrary.org/) ontology templating tool, external links to the related atlas web pages are generated (linkouts.owl). Such as, [http://atlas.brain-map.org/atlas?atlas=138322605#structure=10499](http://atlas.brain-map.org/atlas?atlas=138322605#structure=10499)
 7. Finally all ontologies (linkouts.owl, structure graph ontology and the new bridges) are merged and the uberon import module added to the output ontology.
+
+The Uberon import uses a pinned Uberon release (`UBERON_RELEASE` in `src/ontology/mbao.Makefile`). The same release is used by the full-Uberon QC check. See [Uberon pin and full-Uberon QC](uberon-qc.md) for how to bump it before refreshing imports or making a release.
