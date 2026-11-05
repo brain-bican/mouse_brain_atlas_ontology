@@ -16,9 +16,9 @@
         "val" : "Mouse Brain Atlas Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2026-11-04"
+        "val" : "2026-11-05"
       } ],
-      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2026-11-04/mbao-full.json"
+      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2026-11-05/mbao-full.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -20702,6 +20702,9 @@
           "val" : "Wikipedia:Temporal_bone"
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
+          "val" : "https://github.com/obophenotype/uberon/issues/3791"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000008",
           "val" : "In many mammals, as in humans, the petrosal, ectotympanic and squamosal bones synostose to form the temporal bone + styloid process"
         }, {
@@ -35201,8 +35204,6 @@
         }, {
           "val" : "BIRNLEX:882"
         }, {
-          "val" : "DHBA:12414"
-        }, {
           "val" : "DHBA:12497"
         }, {
           "val" : "EMAPA:35736"
@@ -39419,8 +39420,6 @@
           "val" : "BIRNLEX:1261"
         }, {
           "val" : "BM:MB-AQ"
-        }, {
-          "val" : "DHBA:10651"
         }, {
           "val" : "DHBA:12369"
         }, {
@@ -54610,6 +54609,8 @@
         }, {
           "val" : "BTO:0002703"
         }, {
+          "val" : "DHBA:10373"
+        }, {
           "val" : "EMAPA:35254"
         }, {
           "val" : "EV:0100193"
@@ -67707,8 +67708,6 @@
         }, {
           "val" : "BIRNLEX:739"
         }, {
-          "val" : "DHBA:10577"
-        }, {
           "val" : "DHBA:10578"
         }, {
           "val" : "FMA:61968"
@@ -68745,6 +68744,32 @@
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "skeletal element"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0004766",
+      "lbl" : "cranial bone",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A bone that is part of a cranium.",
+          "xrefs" : [ "UBERON:automatic" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "cranium bone",
+          "xrefs" : [ "UBERON:automatic" ]
+        } ],
+        "xrefs" : [ {
+          "val" : "SCTID:181792001"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
+          "val" : "here cranium = skull - mandible"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "cranial bone"
         } ]
       }
     }, {
@@ -83682,6 +83707,32 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0011164",
+      "lbl" : "neurocranium bone",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A bone that is part of a neurocranium [Automatically generated definition].",
+          "xrefs" : [ "OBOL:automatic" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "chondrocranium bone",
+          "xrefs" : [ "MA:0001478" ]
+        } ],
+        "xrefs" : [ {
+          "val" : "EMAPA:35238"
+        }, {
+          "val" : "MA:0001478"
+        }, {
+          "val" : "SCTID:120229002"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "neurocranium bone"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0011172",
       "lbl" : "retrorubral area of midbrain reticular nucleus",
       "type" : "CLASS",
@@ -85491,8 +85542,6 @@
           "val" : "BTO:0003977"
         }, {
           "val" : "DHBA:10324"
-        }, {
-          "val" : "DHBA:266441669"
         }, {
           "val" : "DMBA:16093"
         }, {
@@ -91918,10 +91967,6 @@
           "xrefs" : [ "http://orcid.org/0000-0002-6601-2165" ]
         },
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "dysgranular insular cortex",
-          "xrefs" : [ "DHBA:10289" ]
-        }, {
           "synonymType" : "http://purl.obolibrary.org/obo/OMO_0003011",
           "pred" : "hasRelatedSynonym",
           "val" : "cortex insularis dysgranularis",
@@ -91949,8 +91994,6 @@
         } ],
         "xrefs" : [ {
           "val" : "BTO:0004342"
-        }, {
-          "val" : "DHBA:10289"
         }, {
           "val" : "DHBA:10328"
         }, {
@@ -109877,12 +109920,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
           "val" : "BS"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
-          "val" : "brain stem"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#status",
-          "val" : "Verified"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "Brain stem  ( mouse )"
@@ -131527,9 +131564,6 @@
           "val" : "PH"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
-          "val" : "posterior hyfpothalamic nucleus"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
           "val" : "posterior hypothalamic nucleus"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#status",
@@ -133174,7 +133208,7 @@
           "val" : "root"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
-          "val" : "root"
+          "val" : "brain"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#status",
           "val" : "Verified"
@@ -138504,6 +138538,10 @@
           "val" : "FMA"
         } ]
       }
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0001678",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0011164"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0001678",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
@@ -149893,6 +149931,14 @@
         } ]
       }
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0004766",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001474"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0004766",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0003128"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0004768",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0010313"
@@ -155277,6 +155323,18 @@
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0011159",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0010323"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0011164",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0003457"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0011164",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0004766"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0011164",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001703"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0011172",
       "pred" : "is_a",
@@ -163660,14 +163718,6 @@
       "obj" : "https://purl.brain-bican.org/ontology/mbao/MBA_835"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_343",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0002298"
-    }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_343",
-      "pred" : "is_a",
-      "obj" : "https://purl.brain-bican.org/ontology/mbao/MBA_8"
-    }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_343",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/mbao/MBA_8"
     }, {
@@ -171798,13 +171848,6 @@
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/mbao/MBA_342",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0003017" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
-      } ]
-    }, {
-      "definedClassId" : "https://purl.brain-bican.org/ontology/mbao/MBA_343",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002298" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"

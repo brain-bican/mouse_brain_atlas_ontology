@@ -1058,6 +1058,7 @@ http://purl.obolibrary.org/obo/UBERON_0004755		skeletal tissue
 http://purl.obolibrary.org/obo/UBERON_0004756		dermal skeletal element
 http://purl.obolibrary.org/obo/UBERON_0004761		cartilaginous neurocranium
 http://purl.obolibrary.org/obo/UBERON_0004765		skeletal element
+http://purl.obolibrary.org/obo/UBERON_0004766		cranial bone
 http://purl.obolibrary.org/obo/UBERON_0004768		bone of lower jaw
 http://purl.obolibrary.org/obo/UBERON_0004770		articular system
 http://purl.obolibrary.org/obo/UBERON_0004785		respiratory system mucosa
@@ -1424,6 +1425,7 @@ http://purl.obolibrary.org/obo/UBERON_0011138		postcranial axial skeletal system
 http://purl.obolibrary.org/obo/UBERON_0011156		facial skeleton
 http://purl.obolibrary.org/obo/UBERON_0011158		primary subdivision of skull
 http://purl.obolibrary.org/obo/UBERON_0011159		primary subdivision of cranial skeletal system
+http://purl.obolibrary.org/obo/UBERON_0011164		neurocranium bone
 http://purl.obolibrary.org/obo/UBERON_0011172		retrorubral area of midbrain reticular nucleus
 http://purl.obolibrary.org/obo/UBERON_0011173		anterior division of bed nuclei of stria terminalis
 http://purl.obolibrary.org/obo/UBERON_0011175		fusiform nucleus of stria terminalis

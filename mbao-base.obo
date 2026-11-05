@@ -1,12 +1,12 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2026-11-04/mbao-base.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2026-11-05/mbao-base.owl
 ontology: https://purl.brain-bican.org/ontology/mbao/mbao-base.owl
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/description "An application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon." xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
 property_value: IAO:0000700 MBA:997
-property_value: owl:versionInfo "2026-11-04" xsd:string
+property_value: owl:versionInfo "2026-11-05" xsd:string
 
 [Term]
 id: CL:0000000
@@ -9003,15 +9003,9 @@ synonym: "BS" EXACT []
 xref: http://atlas.brain-map.org/atlas?atlas=1#structure=343
 xref: http://atlas.brain-map.org/atlas?atlas=2#structure=343
 xref: http://atlas.brain-map.org/atlas?atlas=602630314#structure=343
-is_a: UBERON:0002298
-intersection_of: UBERON:0002298
-intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:8 ! part of Basic cell groups and regions
-relationship: BFO:0000050 NCBITaxon:10090 ! part of
 property_value: IAO:0000028 "BS" xsd:string
-property_value: IAO:0000589 "brain stem" xsd:string
 property_value: prefLabel "Brain stem  ( mouse )" xsd:string
-property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
 
 [Term]
 id: MBA:344
@@ -20336,7 +20330,6 @@ intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 MBA:467 ! part of Hypothalamic medial zone
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
 property_value: IAO:0000028 "PH" xsd:string
-property_value: IAO:0000589 "posterior hyfpothalamic nucleus" xsd:string
 property_value: IAO:0000589 "posterior hypothalamic nucleus" xsd:string
 property_value: prefLabel "Posterior hypothalamic nucleus  ( mouse )" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
@@ -21210,7 +21203,7 @@ intersection_of: UBERON:0000955
 intersection_of: BFO:0000050 NCBITaxon:10090 ! part of
 relationship: BFO:0000050 NCBITaxon:10090 ! part of
 property_value: IAO:0000028 "root" xsd:string
-property_value: IAO:0000589 "root" xsd:string
+property_value: IAO:0000589 "brain" xsd:string
 property_value: prefLabel "brain  ( mouse )" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
 
@@ -24496,6 +24489,10 @@ id: UBERON:0004765
 property_value: prefLabel "skeletal element" xsd:string
 
 [Term]
+id: UBERON:0004766
+property_value: prefLabel "cranial bone" xsd:string
+
+[Term]
 id: UBERON:0004768
 property_value: prefLabel "bone of lower jaw" xsd:string
 
@@ -25958,6 +25955,10 @@ property_value: prefLabel "primary subdivision of skull" xsd:string
 [Term]
 id: UBERON:0011159
 property_value: prefLabel "primary subdivision of cranial skeletal system" xsd:string
+
+[Term]
+id: UBERON:0011164
+property_value: prefLabel "neurocranium bone" xsd:string
 
 [Term]
 id: UBERON:0011172

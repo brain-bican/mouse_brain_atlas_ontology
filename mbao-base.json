@@ -19,9 +19,9 @@
         "val" : "Mouse Brain Atlas Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2026-11-04"
+        "val" : "2026-11-05"
       } ],
-      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2026-11-04/mbao-base.json"
+      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2026-11-05/mbao-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -9550,6 +9550,15 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0004766",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "cranial bone"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0004768",
       "type" : "CLASS",
       "meta" : {
@@ -12841,6 +12850,15 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "primary subdivision of cranial skeletal system"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0011164",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "neurocranium bone"
         } ]
       }
     }, {
@@ -30766,12 +30784,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
           "val" : "BS"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
-          "val" : "brain stem"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#status",
-          "val" : "Verified"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "Brain stem  ( mouse )"
@@ -52416,9 +52428,6 @@
           "val" : "PH"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
-          "val" : "posterior hyfpothalamic nucleus"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
           "val" : "posterior hypothalamic nucleus"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#status",
@@ -54063,7 +54072,7 @@
           "val" : "root"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
-          "val" : "root"
+          "val" : "brain"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#status",
           "val" : "Verified"
@@ -58941,14 +58950,6 @@
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_342",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/mbao/MBA_835"
-    }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_343",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0002298"
-    }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_343",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/mbao/MBA_343",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -66709,13 +66710,6 @@
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/mbao/MBA_342",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0003017" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
-      } ]
-    }, {
-      "definedClassId" : "https://purl.brain-bican.org/ontology/mbao/MBA_343",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002298" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
