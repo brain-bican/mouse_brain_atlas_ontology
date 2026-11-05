@@ -17,6 +17,8 @@ Preparation:
 3. Locally make sure you have the latest changes from main (`git pull`)
 4. Checkout a new branch (e.g. `git checkout -b release-2021-01-01`)
 5. You may or may not want to refresh your imports as part of your release strategy (see [here](UpdateImports.md))
+
+    **MBAO:** the Uberon import is pinned to `UBERON_RELEASE` in `src/ontology/mbao.Makefile`, so refreshing imports doesn't pick up a newer Uberon on its own. To use a newer Uberon in this release, first bump `UBERON_RELEASE`, then refresh the imports, then regenerate `qc_known_unsat_full_uberon.txt`. Merge all of that as its own PR before running the release. See [Uberon pin and full-Uberon QC](../uberon-qc.md#bumping-the-uberon-release-before-refresh-imports-and-every-release).
 6. Make sure you have the latest ODK installed by running `docker pull obolibrary/odkfull`
 
 To actually run the release, you:

@@ -22,6 +22,14 @@ jobs:
           DEFAULT_BRANCH: main
           ROBOT_JAVA_ARGS: -Xmx6G
         run: cd src/ontology && make test IMP=false PAT=false MIR=false COMP=false
+      - name: Get pinned Uberon release
+        id: uberon
+        run: echo "release=$(sed -n 's/^UBERON_RELEASE *= *//p' src/ontology/mbao.Makefile)" >> "$GITHUB_OUTPUT"
+      - name: Cache pinned Uberon
+        uses: actions/cache@v4
+        with:
+          path: src/ontology/tmp/uberon-${{ steps.uberon.outputs.release }}.owl
+          key: uberon-full-${{ steps.uberon.outputs.release }}
       - name: Reason with full Uberon
         env:
           ROBOT_JAVA_ARGS: -Xmx12G
